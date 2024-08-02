@@ -10,6 +10,15 @@
       </categories>
   </entry>
   <entry>
+    <title>网站美化思路和想法</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。〒_〒<br>毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，或许用来写回忆录也不错。<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
     <title>hexo指令以及markdown使用方法</title>
     <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
@@ -83,14 +92,5 @@
       <tags>
         <tag>hexo框架博客搭建/markdown使用</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>网站美化思路和想法</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。〒_〒<br>毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，或许用来写回忆录也不错。<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-]]></content>
-      <categories>
-        <category>日志</category>
-      </categories>
   </entry>
 </search>
