@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>启程</title>
+    <url>/dusk-wind/dusk-wind.github.io.git/2024/08/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>hexo指令以及markdown使用方法</title>
+    <url>/dusk-wind/dusk-wind.github.io.git/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
+<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
+<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
+<html> *这是斜体*</html>
+
+<p><em>这是斜体</em></p>
+<html> **这是粗体**</html>
+
+<p><strong>这是粗体</strong></p>
+<html> ***这是粗斜体***</html>
+
+<p><em><strong>这是粗斜体</strong></em></p>
+<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
+<p>插入图片：<br><img src="/dusk-wind/dusk-wind.github.io.git/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
+<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
+<p>\ 可以显示符号本身</p>
+<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
+<ul>
+<li>无序列表</li>
+</ul>
+<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
+<ol>
+<li>一级层级<ol start="2">
+<li>二级层级<ol start="3">
+<li>三级层级</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
+<p>星露谷种子售价及收益</p>
+<table>
+<thead>
+<tr>
+<th align="left">作物</th>
+<th align="left">种子价($)</th>
+<th align="left">生长时间(天)</th>
+<th align="left">普通品质售价($)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">土豆</td>
+<td align="left">50</td>
+<td align="left">6</td>
+<td align="left">80</td>
+</tr>
+<tr>
+<td align="left">郁金香</td>
+<td align="left">20</td>
+<td align="left">6</td>
+<td align="left">30</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo框架博客搭建/markdown使用</tag>
+      </tags>
+  </entry>
+</search>
