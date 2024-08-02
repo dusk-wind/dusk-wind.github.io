@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>启程</title>
+    <url>/2024/08/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
     <title>hexo指令以及markdown使用方法</title>
-    <url>/dusk-wind/dusk-wind.github.io.git/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
 <p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
 <h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
@@ -21,7 +30,7 @@
 <p>这是一个引用</p>
 </blockquote>
 <p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
-<p>插入图片：<br><img src="/dusk-wind/dusk-wind.github.io.git/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
+<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
 <h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
 <p>\ 可以显示符号本身</p>
 <h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
@@ -77,17 +86,8 @@
   </entry>
   <entry>
     <title>网站美化思路和想法</title>
-    <url>/dusk-wind/dusk-wind.github.io.git/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。〒_〒<br>毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，或许用来写回忆录也不错。<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-]]></content>
-      <categories>
-        <category>日志</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>启程</title>
-    <url>/dusk-wind/dusk-wind.github.io.git/2024/08/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
 ]]></content>
       <categories>
         <category>日志</category>
