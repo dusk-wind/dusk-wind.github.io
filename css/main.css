@@ -1233,7 +1233,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #4a491b;
+    background: #62cc22;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2789,6 +2789,19 @@ header.header {
     padding: 10px 12px;
   }
 }
+.main {
+  opacity: 0.85;
+}
+.popup {
+  opacity: 0.99;
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 @media (min-width: 992px) and (max-width: 991px) {
   .sidebar {
     display: none;
@@ -2809,10 +2822,4 @@ header.header {
   border-bottom: none;
   padding: 1px 5px;
   background: var(--content-bg-color);
-}
-body {
-  background: url("/images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 100% 100%;
 }
