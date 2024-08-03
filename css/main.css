@@ -1233,7 +1233,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #4eff3c;
+    background: #ffa1da;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2822,4 +2822,7 @@ body {
   border-bottom: none;
   padding: 1px 5px;
   background: var(--content-bg-color);
+}
+.music-player-container {
+  margin-top: 20px;
 }
