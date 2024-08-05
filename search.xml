@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo指令以及markdown使用方法</title>
     <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
@@ -73,71 +123,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>古月方源---大爱仙尊语录</title>
     <url>/2024/08/03/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<p style="text-align: center;">
+    <content><![CDATA[<p>看了本小说，蛊真人。可惜，可叹。</p>
+<hr>
+<p style="text-align: center;">
     <img src="\images\gy1.jpg" alt="gy" >
 </p>
-
 
 <p>落魄谷中寒风吹，春秋蝉鸣少年归。<br>荡魂山处石人泪，定仙游走魔向北。<br>逆流河上万仙退，爱情不敌坚持泪。<br>宿命天成命中败，仙尊悔而我不悔。</p>
 <p style="text-align: center;">
     <img src="\images\gy2.jpg" alt="gy" >
 </p>
 
-<p>心胸浅薄之人常会因为咒骂而愤怒，因为夸赞而喜悦，其实都不过是旁人对你的看法罢了，人生匆匆百年如梦幻泡影，人活在这个世界上是为了什么，无非是走上一遭见证精彩罢了。我虽然不想死，但却不畏惧死亡，我已走在路上，纵死不悔。俗话说善泳者溺水，善战者阵亡。一味的依赖自己的长处，其实是一件相当危险的事。因为一旦有依赖，久而久之，人就会走进一个舒适区，形成思维定势，遇到事情，几乎都用自己的这一个长处去处理。久而久之，其他的手段和思想都会消失，最终走入人生的困境乃至绝境。</p>
+<p>心胸浅薄之人常会因为咒骂而愤怒，因为夸赞而喜悦，其实都不过是旁人对你的看法罢了，人生匆匆百年如梦幻泡影，人活在这个世界上是为了什么，无非是走上一遭见证精彩罢了。我虽然不想死，但却不畏惧死亡，我已走在路上，纵死不悔。</p>
 <p style="text-align: center;">
     <img src="\images\gy3.jpg" alt="gy" >
+</p>
+
+
+<p>俗话说善泳者溺水，善战者阵亡。一味的依赖自己的长处，其实是一件相当危险的事。因为一旦有依赖，久而久之，人就会走进一个舒适区，形成思维定势，遇到事情，几乎都用自己的这一个长处去处理。久而久之，其他的手段和思想都会消失，最终走入人生的困境乃至绝境。</p>
+<p style="text-align: center;">
+    <img src="\images\gy5.jpg" alt="gy" >
 </p>
 
 <p>荣耀，守护，梦想不过是一种虚荣的大饼，是上位者未来让你更加心甘情愿地服从他们而套上的思想枷锁。孤独，寂寞，枯燥从来不是方源修行的障碍。如果心性都浅薄到忍受不了这些，怎么能够一路成功的走下去。</p>
@@ -145,30 +152,53 @@
     <img src="\images\gy4.jpg" alt="gy" >
 </p>
 我们永远不要在自己所看重的事情上投入不切实际的期待。
-<p style="text-align: center;">
-    <img src="\images\gy5.jpg" alt="gy" >
-</p>
+
 <p style="text-align: center;">
     <img src="\images\gy6.jpg" alt="gy" >
 </p>
+
+<p>每个人他生来就是孤独！人就像是一座座的浮冰孤岛，在命运的海洋中漂浮流荡。人和人的相遇，就像是浮冰孤岛之间的相互碰撞，只要是碰撞，就必有影响。有时候，浮冰孤岛相互粘在了一起，以“利益”、“亲情”、“友情”、“爱情”、“仇恨”之名。但是最终，它们都将分开。孤独地走向毁灭。这就是人生的真相。</p>
 <p style="text-align: center;">
     <img src="\images\gy7.jpg" alt="gy" >
 </p>
+
+<p>我曾经呐喊过，渐渐的我不发出声音。我曾经哭泣过，渐渐的我不再流泪。我曾经悲伤过，渐渐的我能承受一切。我曾经喜悦过，渐渐的我看淡世间。而如今！我只剩下面无表情，我的目光如磐石般坚硬，我的心中剩下坚持。这就是我，一个小人物，我的——坚持！</p>
 <p style="text-align: center;">
     <img src="\images\gy8.jpg" alt="gy" >
 </p>
+
+<p>人们总是害怕孤独，总要贪恋热闹的人群，总不愿无所事事。因为当他们面对孤独，往往就会面对痛苦。但是一旦能直面这种痛苦，人就往往有了才华和勇气。所以。有句俗语——杰出者必孤独。</p>
 <p style="text-align: center;">
     <img src="\images\gy9.jpg" alt="gy" >
 </p>
+
+<p>千万不要低估旁人的智慧，往往只有蠢才才会认为别人愚蠢。</p>
 <p style="text-align: center;">
     <img src="\images\gy10.jpg" alt="gy" >
 </p>
+
+<p>这个世界其实是灰色的。有时候黑的能转成白的，白的能转成黑的。有的黑的未必比白的阴险，有的白的可能罪孽更深。</p>
 <p style="text-align: center;">
     <img src="\images\gy11.jpg" alt="gy" >
 </p>
+
+<p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+<p>一路寒风身如絮，命海沉浮客独行。</p>
+<p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+<p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
 ]]></content>
       <tags>
         <tag>古月方源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -229,25 +259,6 @@
       </tags>
   </entry>
   <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于网站建设的一些想法和遇见的问题</title>
     <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
@@ -265,6 +276,15 @@
 </ol>
 <p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
 <h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
