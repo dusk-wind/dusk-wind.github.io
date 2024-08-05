@@ -150,13 +150,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -185,6 +185,127 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://dusk-wind.github.io/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="天凉">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天凉の小站">
+      <meta itemprop="description" content="明月出天山，濸茫雲海間">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 天凉の小站">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="post-title-link" itemprop="url">算法与数据结构</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-08-05 14:36:55 / 修改时间：17:16:42" itemprop="dateCreated datePublished" datetime="2024-08-05T14:36:55+08:00">2024-08-05</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
+<h5 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h5><p>a<em>N^2+b</em>N+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">selectionsort(int[] arr)&#123;</span><br><span class="line">     if(arr == NULL || arr.length&lt;2 ) &#123;return ;&#125;</span><br><span class="line">     for(int i=0; i &lt; arr.length - 1;i++)&#123;</span><br><span class="line">     int minindex =i;</span><br><span class="line">     for(j=i+1;j &lt; arr.length; j++)</span><br><span class="line">     &#123;</span><br><span class="line">        minindex = arr[j] &lt; arr[minindex] ? j : minindex ;</span><br><span class="line">     &#125;</span><br><span class="line">     swap(arr,i,minindex);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>先看时间复杂度指标,时间复杂度一致时,需实际跑代码比较优劣。</p>
+<p>额外空间复杂度O(1)</p>
+<h5 id="冒泡排序-大的数依次向右移动-O-N-2"><a href="#冒泡排序-大的数依次向右移动-O-N-2" class="headerlink" title="冒泡排序: 大的数依次向右移动 O(N^2)"></a>冒泡排序: 大的数依次向右移动 O(N^2)</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">bubblesort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == NULL || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for (int e = arr.lemgth-1 ; e&gt;0 ; e-- )</span><br><span class="line">    &#123;</span><br><span class="line">        for(int i=0; i &lt; e; i++ )</span><br><span class="line">        &#123;</span><br><span class="line">            if(arr[i]&gt;arr[i+1])</span><br><span class="line">                swap(arr,i,i+1);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加"><a href="#异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加" class="headerlink" title="异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)"></a>异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</h5><ul>
+<li>0 ^ N &#x3D; N ;  N ^ N &#x3D; 0</li>
+<li>满足交换律和结合律 a^b&#x3D;b^a ; (a^b)^c &#x3D; a^(b^c)</li>
+<li>同一组数据，异或结果与顺序无关。</li>
+</ul>
+<p>Q1：在一个数组中，已知只有一种数出现奇数次，其他数出现偶数次，如何找到？<br>Q2：在一个数组中，已知只有两种数出现奇数次，其他数出现偶数次，如何找到？<br>要求时间复杂度为O(N)<br>A1: int eor&#x3D;0 ; 提取数组的所有数，进行异或：arr[0]^arr[1]^……arr[n]&#x3D;结果<br>A2: 先所有数组进行异或 eor&#x3D;a^b，接着依次取出一个数与该结果异或，得到结果。</p>
+<p> 位运算操作(二进制)：一个数取反加1，可以都到最右侧的数。</p>
+<h5 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h5><p>0-0有序-&gt;0-1有序-&gt;0-2有序…………<br>4,5,6,7,3,2,1 -&gt; O(N^2)<br>1,2,3,4,5,6,7 -&gt; 0(N)<br>时间复杂度由算法最差情况的表现决定。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">insertsort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr==null || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for(int i=1; i &lt; arr.length ; i++ )</span><br><span class="line">    &#123;</span><br><span class="line">        for (int j=i-1;j &gt;= 0 &amp;&amp; arr[j]&gt;arr[j+1]; j-- )</span><br><span class="line">        &#123; swap(arr,j,j+1); &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="二分法的详解与扩展"><a href="#二分法的详解与扩展" class="headerlink" title="二分法的详解与扩展"></a>二分法的详解与扩展</h5><ul>
+<li><ol>
+<li>在一个有序数组中，找到某个数的存在<br>  (1)遍历 O（N）<br>  (2)二分 O(log2(N))</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>在一个有序数组中，找到&gt;&#x3D;某个数最左侧的位置<br>  ex: 1 2 2 2 2 3 3 3 3 4 4 4 4 4 4 4</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>局部最小值问题<br>  在一个无序数组中，任何两个相邻的数不相等，求一个局部最小的过程 在时间复杂度上好于O(N)<br>  A：  1 3 5 7 4 9 6 3 2<br>  先看0位置和n-1位置是否存在局部最小，若不，则中间必有局部最小。<br>  接下来继续比较运用二分法。</li>
+</ol>
+</li>
+</ul>
+<h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
+<p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
+<p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -886,14 +1007,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">6k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4 分钟</span>
+    <span title="站点阅读时长">5 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
