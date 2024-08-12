@@ -27,7 +27,7 @@
 <meta property="og:description" content="时间复杂度数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）链表结构：遍历-&gt;O(n) 选择排序aN^2+bN+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限） 1234567891011selectionsort(int[] arr)&#123;     if(arr &#x3D;&#x3D; NULL || arr.length&lt;2 ) &#123;return">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-05T06:36:55.000Z">
-<meta property="article:modified_time" content="2024-08-05T09:16:42.016Z">
+<meta property="article:modified_time" content="2024-08-09T01:22:14.245Z">
 <meta property="article:author" content="天凉">
 <meta property="article:tag" content="算法与数据结构">
 <meta name="twitter:card" content="summary">
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="nav-number">1.</span> <span class="nav-text">时间复杂度</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F"><span class="nav-number">2.</span> <span class="nav-text">选择排序</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F-%E5%A4%A7%E7%9A%84%E6%95%B0%E4%BE%9D%E6%AC%A1%E5%90%91%E5%8F%B3%E7%A7%BB%E5%8A%A8-O-N-2"><span class="nav-number">3.</span> <span class="nav-text">冒泡排序: 大的数依次向右移动 O(N^2)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%82%E6%88%96%E8%BF%90%E7%AE%97%EF%BC%9A%E5%AF%B90-1%E4%B8%A4%E4%B8%AA%E6%95%B0%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C%EF%BC%9B%E7%9B%B8%E5%90%8C%E4%B8%BA0%EF%BC%9B%E4%B8%8D%E5%90%8C%E4%B8%BA1%EF%BC%9B-%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E6%97%A0%E8%BF%9B%E4%BD%8D%E7%9B%B8%E5%8A%A0"><span class="nav-number">4.</span> <span class="nav-text">异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="nav-number">5.</span> <span class="nav-text">插入排序</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95%E7%9A%84%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%89%A9%E5%B1%95"><span class="nav-number">6.</span> <span class="nav-text">二分法的详解与扩展</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AF%B9%E6%95%B0%E5%99%A8"><span class="nav-number">7.</span> <span class="nav-text">对数器</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="nav-number">1.</span> <span class="nav-text">时间复杂度</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F"><span class="nav-number">2.</span> <span class="nav-text">选择排序</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F-%E5%A4%A7%E7%9A%84%E6%95%B0%E4%BE%9D%E6%AC%A1%E5%90%91%E5%8F%B3%E7%A7%BB%E5%8A%A8-O-N-2"><span class="nav-number">3.</span> <span class="nav-text">冒泡排序: 大的数依次向右移动 O(N^2)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%82%E6%88%96%E8%BF%90%E7%AE%97%EF%BC%9A%E5%AF%B90-1%E4%B8%A4%E4%B8%AA%E6%95%B0%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C%EF%BC%9B%E7%9B%B8%E5%90%8C%E4%B8%BA0%EF%BC%9B%E4%B8%8D%E5%90%8C%E4%B8%BA1%EF%BC%9B-%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E6%97%A0%E8%BF%9B%E4%BD%8D%E7%9B%B8%E5%8A%A0"><span class="nav-number">4.</span> <span class="nav-text">异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="nav-number">5.</span> <span class="nav-text">插入排序</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95%E7%9A%84%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%89%A9%E5%B1%95"><span class="nav-number">6.</span> <span class="nav-text">二分法的详解与扩展</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AF%B9%E6%95%B0%E5%99%A8"><span class="nav-number">7.</span> <span class="nav-text">对数器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%89%96%E6%9E%90%E9%80%92%E5%BD%92%E8%A1%8C%E4%B8%BA%E5%8F%8A%E5%85%B6%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%9A%84%E4%BC%B0%E7%AE%97"><span class="nav-number">8.</span> <span class="nav-text">剖析递归行为及其时间复杂度的估算</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="nav-number">9.</span> <span class="nav-text">归并排序</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -154,13 +154,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -227,9 +227,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2024-08-05 14:36:55 / 修改时间：17:16:42" itemprop="dateCreated datePublished" datetime="2024-08-05T14:36:55+08:00">2024-08-05</time>
+      <time title="创建时间：2024-08-05 14:36:55" itemprop="dateCreated datePublished" datetime="2024-08-05T14:36:55+08:00">2024-08-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-08-09 09:22:14" itemprop="dateModified" datetime="2024-08-09T09:22:14+08:00">2024-08-09</time>
     </span>
 
   
@@ -246,14 +252,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.6k</span>
+      <span>3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -300,6 +306,29 @@
 <h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
 <p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
 <p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
+<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
+</ul>
+<ol>
+<li>logb(a)&lt;d -&gt; O(N^d)</li>
+<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
+<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
+</ol>
+<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
+<ul>
+<li>扩展问题：小和问题和逆序对问题</li>
+</ul>
+<ol>
+<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
+</li>
+<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
+</li>
+</ol>
+<p> b</p>
 
     </div>
 
@@ -364,14 +393,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">6k</span>
+    <span title="站点总字数">8k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">6 分钟</span>
+    <span title="站点阅读时长">7 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

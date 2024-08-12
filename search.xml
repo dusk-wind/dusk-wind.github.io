@@ -1,6 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo指令以及markdown使用方法</title>
+    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
+<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
+<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
+<html> *这是斜体*</html>
+
+<p><em>这是斜体</em></p>
+<html> **这是粗体**</html>
+
+<p><strong>这是粗体</strong></p>
+<html> ***这是粗斜体***</html>
+
+<p><em><strong>这是粗斜体</strong></em></p>
+<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
+<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
+<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
+<p>\ 可以显示符号本身</p>
+<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
+<ul>
+<li>无序列表</li>
+</ul>
+<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
+<ol>
+<li>一级层级<ol start="2">
+<li>二级层级<ol start="3">
+<li>三级层级</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
+<p>星露谷种子售价及收益</p>
+<table>
+<thead>
+<tr>
+<th align="left">作物</th>
+<th align="left">种子价($)</th>
+<th align="left">生长时间(天)</th>
+<th align="left">普通品质售价($)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">土豆</td>
+<td align="left">50</td>
+<td align="left">6</td>
+<td align="left">80</td>
+</tr>
+<tr>
+<td align="left">郁金香</td>
+<td align="left">20</td>
+<td align="left">6</td>
+<td align="left">30</td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>hexo框架博客搭建/markdown使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>代码问题与解决方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
+]]></content>
+      <tags>
+        <tag>古月方源/蛊真人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>next主题美化</title>
     <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
@@ -108,55 +242,14 @@
       </tags>
   </entry>
   <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>闲聊</title>
+    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
+    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
+<p style="text-align: center;">
+    <img src="\images\我的世界1.png" alt="minecraft">
+</p>]]></content>
       <tags>
-        <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
-      <tags>
-        <tag>古月方源/蛊真人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
+        <tag>闲聊</tag>
       </tags>
   </entry>
   <entry>
@@ -199,91 +292,32 @@
 <h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
 <p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
 <p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
+<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
+</ul>
+<ol>
+<li>logb(a)&lt;d -&gt; O(N^d)</li>
+<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
+<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
+</ol>
+<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
+<ul>
+<li>扩展问题：小和问题和逆序对问题</li>
+</ul>
+<ol>
+<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
+</li>
+<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
+</li>
+</ol>
+<p> b</p>
 ]]></content>
       <tags>
         <tag>算法与数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo指令以及markdown使用方法</title>
-    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
-<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
-<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
-<html> *这是斜体*</html>
-
-<p><em>这是斜体</em></p>
-<html> **这是粗体**</html>
-
-<p><strong>这是粗体</strong></p>
-<html> ***这是粗斜体***</html>
-
-<p><em><strong>这是粗斜体</strong></em></p>
-<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
-<blockquote>
-<p>这是一个引用</p>
-</blockquote>
-<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
-<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
-<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
-<p>\ 可以显示符号本身</p>
-<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
-<ul>
-<li>无序列表</li>
-</ul>
-<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
-<ol>
-<li>一级层级<ol start="2">
-<li>二级层级<ol start="3">
-<li>三级层级</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
-<p>星露谷种子售价及收益</p>
-<table>
-<thead>
-<tr>
-<th align="left">作物</th>
-<th align="left">种子价($)</th>
-<th align="left">生长时间(天)</th>
-<th align="left">普通品质售价($)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">土豆</td>
-<td align="left">50</td>
-<td align="left">6</td>
-<td align="left">80</td>
-</tr>
-<tr>
-<td align="left">郁金香</td>
-<td align="left">20</td>
-<td align="left">6</td>
-<td align="left">30</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>hexo框架博客搭建/markdown使用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
