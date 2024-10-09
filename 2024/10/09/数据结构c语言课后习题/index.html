@@ -19,28 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"dusk-wind.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一些想法无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，或许用来写回忆录也不错。 未来我想实现以下的功能：  给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。 网页背景">
+    <meta name="description" content="第一章第二章第三章1.栈和队列的主要区别是限定插入和删除的位置不同。2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。五种:ABC,ACB,BAC,BCA,CBA3.阐述栈和队列的特点，并说明他们的作用。堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于网站建设的一些想法和遇见的问题">
-<meta property="og:url" content="https://dusk-wind.github.io/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/index.html">
+<meta property="og:title" content="数据结构c语言课后习题">
+<meta property="og:url" content="https://dusk-wind.github.io/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/index.html">
 <meta property="og:site_name" content="天凉の小站">
-<meta property="og:description" content="一些想法无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，或许用来写回忆录也不错。 未来我想实现以下的功能：  给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。 网页背景">
+<meta property="og:description" content="第一章第二章第三章1.栈和队列的主要区别是限定插入和删除的位置不同。2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。五种:ABC,ACB,BAC,BCA,CBA3.阐述栈和队列的特点，并说明他们的作用。堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-08-02T07:40:11.000Z">
-<meta property="article:modified_time" content="2024-08-03T04:11:06.844Z">
+<meta property="article:published_time" content="2024-10-09T02:59:17.000Z">
+<meta property="article:modified_time" content="2024-10-09T07:29:47.079Z">
 <meta property="article:author" content="天凉">
 <meta property="article:tag" content="日志">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://dusk-wind.github.io/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/">
+<link rel="canonical" href="https://dusk-wind.github.io/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://dusk-wind.github.io/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/","path":"2024/08/02/美化思路和想法/","title":"关于网站建设的一些想法和遇见的问题"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://dusk-wind.github.io/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/","path":"2024/10/09/数据结构c语言课后习题/","title":"数据结构c语言课后习题"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>关于网站建设的一些想法和遇见的问题 | 天凉の小站</title>
+<title>数据结构c语言课后习题 | 天凉の小站</title>
   
 
 
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">一些想法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%BE%85%E8%A7%A3%E5%86%B3%E7%BD%91%E9%A1%B5%E7%9A%84%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">关于待解决网页的访问问题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%9A%84%EF%BC%8C%E7%9B%AE%E5%89%8D%E5%B0%B1%E6%9B%B4%E6%96%B0%E5%88%B0%E8%BF%99%E8%BE%B9%E5%90%A7%E3%80%82"><span class="nav-number"></span> <span class="nav-text">好的，目前就更新到这边吧。</span></a></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">第一章</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">第二章</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0"><span class="nav-number">3.</span> <span class="nav-text">第三章</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -199,7 +199,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://dusk-wind.github.io/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/">
+    <link itemprop="mainEntityOfPage" href="https://dusk-wind.github.io/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -212,12 +212,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="关于网站建设的一些想法和遇见的问题 | 天凉の小站">
+      <meta itemprop="name" content="数据结构c语言课后习题 | 天凉の小站">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          关于网站建设的一些想法和遇见的问题
+          数据结构c语言课后习题
         </h1>
 
         <div class="post-meta-container">
@@ -227,15 +227,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2024-08-02 15:40:11" itemprop="dateCreated datePublished" datetime="2024-08-02T15:40:11+08:00">2024-08-02</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-08-03 12:11:06" itemprop="dateModified" datetime="2024-08-03T12:11:06+08:00">2024-08-03</time>
+      <time title="创建时间：2024-10-09 10:59:17 / 修改时间：15:29:47" itemprop="dateCreated datePublished" datetime="2024-10-09T10:59:17+08:00">2024-10-09</time>
     </span>
 
   
@@ -252,7 +246,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>605</span>
+      <span>440</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -269,21 +263,8 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>
+    <div class="post-body" itemprop="articleBody"><h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>1.栈和队列的主要区别是限定插入和删除的位置不同。<br>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA<br>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。<br>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front<br>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +                       ((3+(2<em>3))&#x2F;3)+5&#x3D;8        3<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +          2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5   5<br>6.</p>
+
     </div>
 
     
@@ -308,13 +289,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" rel="prev" title="hexo指令以及markdown使用方法">
-                  <i class="fa fa-angle-left"></i> hexo指令以及markdown使用方法
+                <a href="/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" rel="prev" title="vscode安装python的第三方库">
+                  <i class="fa fa-angle-left"></i> vscode安装python的第三方库
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" rel="next" title="next主题美化">
-                  next主题美化 <i class="fa fa-angle-right"></i>
+                <a href="/2024/10/09/%E6%84%9F%E6%83%B3/" rel="next" title="感想">
+                  感想 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
