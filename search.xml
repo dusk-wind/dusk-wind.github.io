@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br>[(群星Stellaris)“在正义里有回答不了的问题”]<br>(<a href="https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e">https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e</a>)</p>
-]]></content>
-  </entry>
-  <entry>
     <title>hexo指令以及markdown使用方法</title>
     <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
@@ -77,6 +71,21 @@
       <tags>
         <tag>hexo框架博客搭建/markdown使用</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br>[(群星Stellaris)“在正义里有回答不了的问题”]<br>(<a href="https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e">https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e</a>)</p>
+]]></content>
   </entry>
   <entry>
     <title>Mincraft启动器及mod安装</title>
@@ -186,12 +195,14 @@
       </tags>
   </entry>
   <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
-]]></content>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>Mincraft</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -217,34 +228,6 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
-      <tags>
-        <tag>古月方源/蛊真人</tag>
       </tags>
   </entry>
   <entry>
@@ -290,14 +273,41 @@
       </tags>
   </entry>
   <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
+]]></content>
       <tags>
-        <tag>python</tag>
+        <tag>古月方源/蛊真人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -310,14 +320,36 @@
       </tags>
   </entry>
   <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+    <title>开学纪要</title>
+    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
+    <content><![CDATA[<p>开学了，大二又要学了。</p>
+<p>新学期好像没啥规划。</p>
+<p>学就是了。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
   </entry>
   <entry>
     <title>数据结构c语言课后习题</title>
@@ -354,27 +386,6 @@
       <tags>
         <tag>日志</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
   </entry>
   <entry>
     <title>离散数学笔记</title>
@@ -514,17 +525,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开学纪要</title>
-    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
-    <content><![CDATA[<p>开学了，大二又要学了。</p>
-<p>新学期好像没啥规划。</p>
-<p>学就是了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>综测杂谈</title>
     <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
     <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
@@ -537,7 +537,7 @@
   <entry>
     <title>网易云音乐python爬取</title>
     <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
-    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，网页上的播放器能不能放，这样岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
+    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
 <p>说说我对爬虫的理解吧。</p>
 <p>之前学过一段时间前端,基本代码都认识,所看见的前端页面里肯定有存放的音乐url(链接网址)。<br>所以我们只要找到这个网址就可以了，俗称抓包。</p>
 <p>先看看网易云音乐页面，不难发现每个歌曲都有自己的id。</p>
@@ -557,13 +557,14 @@
 <p style="text-align: center;">
     <img src="\images\mu.png" alt="minecraft">
 </p>
-这里提一下我以前经常用的网站[MyfreeMP3](https://www.myfreemp3.com.cn/)
-现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了
+
+<p>这里提一下我以前经常用的网站:<br><a href="https://www.myfreemp3.com.cn/">MyfreeMp3</a></p>
+<p>现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了</p>
 <p style="text-align: center;">
     <img src="\images\mu4.png" alt="minecraft">
 </p>
 
-<p>发现csdn好多爬虫代码没用了，去GitHub上找找看吧。</p>
+<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
 ]]></content>
       <tags>
         <tag>网易云</tag>
