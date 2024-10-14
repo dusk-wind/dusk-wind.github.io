@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GitHub项目-python</title>
+    <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
+<p>我决定尝试一下，每天在此记录。</p>
+<h5 id="day1"><a href="#day1" class="headerlink" title="day1"></a>day1</h5><p>简单介绍了下python,交互,库,安装方法。</p>
+<h5 id="day2"><a href="#day2" class="headerlink" title="day2"></a>day2</h5><p>介绍了下变量类型,运算符。写几个应用的<br>1.华氏度转摄氏度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f=float(input(&quot;华氏度:&quot;))</span><br><span class="line">c=(f-32)/1.8</span><br><span class="line">print(&quot;摄氏度:&#123;&#125;&quot;.format(c))</span><br></pre></td></tr></table></figure>
+<p>2.计算圆的周长面积</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pi=3.14</span><br><span class="line">r=float(input(&quot;r:&quot;))</span><br><span class="line">print(&quot;length:&#123;&#125;&quot;.format(2*pi*r))</span><br><span class="line">print(&quot;area:&#123;&#125;&quot;.format(pi*r**2))</span><br></pre></td></tr></table></figure>
+<h5 id="day3-分支结构-if的用法"><a href="#day3-分支结构-if的用法" class="headerlink" title="day3 分支结构:if的用法"></a>day3 分支结构:if的用法</h5><p><strong>注意缩进</strong><br>if ；elif ；else</p>
+<h5 id="day4-循环结构-for的用法，while的用法"><a href="#day4-循环结构-for的用法，while的用法" class="headerlink" title="day4 循环结构:for的用法，while的用法"></a>day4 循环结构:for的用法，while的用法</h5><p><strong>range用法</strong>：<br>range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。<br>range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。<br>range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。<br>range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。</p>
+<p>break只能终止它所在的那个循环;continue用来放弃本次循环后续的代码直接让循环进入下一轮。</p>
+<h5 id="day5-构造程序逻辑"><a href="#day5-构造程序逻辑" class="headerlink" title="day5 构造程序逻辑"></a>day5 构造程序逻辑</h5><p>写个三个算法，找素数，完美数，斐波那契数列。<br>不知道是不是vscode有问题，前几次明明代码逻辑没错都不出结果。</p>
+<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><p>‘’’<br>def fac(num):<br>    “””求阶乘”””<br>    result &#x3D; 1<br>    for n in range(1, num + 1):<br>        result *&#x3D; n<br>    return result<br>‘’’</p>
+<p>‘’’<br>函数定义：<br>def 函数命(参数)：<br>    ···<br>    ···<br>    return ···<br>‘’’</p>
+<p>python函数无需重载,支持可变参数(变得是参数的数量)。</p>
+<p>‘’’<br>在参数名前面的*表示args是一个可变参数<br>def add(*args):<br>    total &#x3D; 0<br>    for val in args:<br>        total +&#x3D; val<br>    return total</p>
+<p> 在调用add函数时可以传入0个或多个参数<br>print(add())<br>print(add(1))<br>print(add(1, 2))<br>print(add(1, 2, 3))<br>print(add(1, 3, 5, 7, 9))<br>‘’’<br>可以用模块管理函数,模块就是一个python文件</p>
+<p>在vscode上实践了一下。</p>
+<p>原理就是,一个python文件是一个模块,里面有定义的函数,<br>‘’’<br>引用方法： from 模块名 import 函数名<br>‘’’</p>
+<p>函数可以嵌套，全局变量:global<br>Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索,前三者我们在上面的代码中已经看到了,<br>所谓的“内置作用域”就是Python内置的那些标识,我们之前用过的input、print、int等都属于内置作用域。</p>
+<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><p>‘’’<br>s1 &#x3D; ‘hello, world!’<br>s2 &#x3D; “hello, world!”<br>以三个双引号或单引号开头的字符串可以折行<br>s3 &#x3D; “””<br>hello,<br>world!<br>“””<br>print(s1, s2, s3, end&#x3D;’’)<br>‘’’</p>
+<p>\ 后面:二进制,八进制,十六进制<br>\n 换行 ; \t 制符<br>可以使用*运算符来重复一个字符串的内容,可以使用in和not in来判断一个字符串是否包含另外一个字符串(成员运算),<br>我们也可以用[]和[:]运算符从字符串取出某个字符或某些字符(切片运算),代码如下所示。</p>
+<p>常用输出字符串：<br>‘’’<br>print(“{}”.format(a))<br>‘’’</p>
+<p>列表，元组，集合。。。</p>
+<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧</strong></p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Mincraft启动器及mod安装</title>
     <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
@@ -49,22 +87,6 @@
       <tags>
         <tag>Mincraft</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>GitHub项目</title>
-    <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习：从零开始学习人工智能，挑战100天学习python<br><a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
-<p>我决定尝试一下，每天在此记录。</p>
-]]></content>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br>[(群星Stellaris)“在正义里有回答不了的问题”]<br>(<a href="https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e">https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e</a>)</p>
-]]></content>
   </entry>
   <entry>
     <title>hexo指令以及markdown使用方法</title>
@@ -139,6 +161,15 @@
       </tags>
   </entry>
   <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>next主题美化</title>
     <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
@@ -196,15 +227,6 @@
       </tags>
   </entry>
   <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vscode安装python的第三方库</title>
     <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
     <content><![CDATA[<p>cmd安装pip:</p>
@@ -216,13 +238,18 @@
       </tags>
   </entry>
   <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
-]]></content>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>计算机二级c语言</tag>
+        <tag>代码问题与解决方法</tag>
       </tags>
   </entry>
   <entry>
@@ -268,6 +295,16 @@
       </tags>
   </entry>
   <entry>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+]]></content>
+      <tags>
+        <tag>计算机二级c语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>诗</title>
     <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
     <content><![CDATA[<ul>
@@ -300,15 +337,6 @@
     <url>/2024/08/01/%E5%BA%8F/</url>
     <content><![CDATA[<hr>
 <p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -383,18 +411,90 @@
       </tags>
   </entry>
   <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>离散数学笔记</title>
+    <url>/2024/09/03/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>无聊写的，懒得动笔。</p>
+<p>我了个o((⊙﹏⊙))o. 老师连PPT都没发</p>
+<h2 id="常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O"><a href="#常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O" class="headerlink" title="常见的离散数学符号：联结词： ¬ ∧ ∨ → ↔推出：⇒等值：⇔△ × ≁量词：∃ ∀数学：≠ ≥ ≤集合关系∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø"></a>常见的离散数学符号：<br>联结词： ¬ ∧ ∨ → ↔<br>推出：⇒<br>等值：⇔<br>△ × ≁<br>量词：∃ ∀<br>数学：<br>≠ ≥ ≤<br>集合关系<br>∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø</h2><h3 id="第1章-命题逻辑的基本概念"><a href="#第1章-命题逻辑的基本概念" class="headerlink" title="第1章 命题逻辑的基本概念"></a>第1章 命题逻辑的基本概念</h3><h4 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h4><p>命题是非真即假的陈述句,简单命题是最小的基本单位,其构成复合命题,悖论不是命题。</p>
+<p>命题符号化，联结词也符号化。<br>¬：否定联结词</p>
+<p>∧：合取联结词.规定p∧q为真当且仅当p与q同时为真</p>
+<p>∨：析取联结词.规定p∨q为假当且仅当p与q同时为假<br>(或有两种：排斥或 相容或)</p>
+<p>→：蕴涵联结词.p→q为假当且仅当p为真q为假。p为前件，q为后件。<br>注意点：<br>1.p→q：表示q是p的必要条件。<br>2.当p为假时，p→q必然为真<br>3.p→q为真仅表示p与q的取值关系为真，与其内在联系无关。</p>
+<p>↔：等价联结词.规定p↔q为真当且仅当p与q同时为真或同时为假。</p>
+<table>
+<thead>
+<tr>
+<th align="left">p</th>
+<th align="left">q</th>
+<th align="left">¬p</th>
+<th align="left">p∧q</th>
+<th align="left">p∨q</th>
+<th align="left">p→q</th>
+<th align="left">p↔q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+</tbody></table>
+<p>ex：<br>p：北京比天津的人口多<br>q: 2+2&#x3D;4<br>r：乌鸦是白色的<br>求下列符合命题的真值<br>先算简单命题真值：p:1 q:1 r:0<br>(1) ((¬p∧q)∨(p∧¬q))→r   左0右0  A：1<br>(2) (q∨r)→(p→¬r)          左1右1  A：1<br>(3) (¬p∨r)↔(p∧¬r)        左0右1  A：0                           </p>
+<h4 id="1-2-命题公式及其赋值"><a href="#1-2-命题公式及其赋值" class="headerlink" title="1.2 命题公式及其赋值"></a>1.2 命题公式及其赋值</h4><p>命题常项真值确定，命题变项是取值1或0的变元。<br>将命题变项用联结词和圆括号按照一定逻辑顺序联结起来的符号串称作合式公式<br>(1)单个命题变项是合式公式，并称为原子命题公式<br>(2)若A为合式公式，则¬A也为合式公式<br>(3)若A,B是合式公式，则 A∧B A∨B A→B A↔B 是合式公式<br>(4)有限次地应用(1)-(3)形成的符号串是合式公式</p>
+<p>设A为任一命题公式<br>(1)若A在各种赋值下取值均为真，则称A为重言式或永真式<br>(2)若A在各种赋值下取值均为假，则称A为矛盾式或永假式<br>(3)若A不是矛盾式，则称A为可满式</p>
+]]></content>
       <tags>
-        <tag>代码问题与解决方法</tag>
+        <tag>离散数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -467,106 +567,6 @@
       </tags>
   </entry>
   <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>离散数学笔记</title>
-    <url>/2024/09/03/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>无聊写的，懒得动笔。</p>
-<p>我了个o((⊙﹏⊙))o. 老师连PPT都没发</p>
-<h2 id="常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O"><a href="#常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O" class="headerlink" title="常见的离散数学符号：联结词： ¬ ∧ ∨ → ↔推出：⇒等值：⇔△ × ≁量词：∃ ∀数学：≠ ≥ ≤集合关系∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø"></a>常见的离散数学符号：<br>联结词： ¬ ∧ ∨ → ↔<br>推出：⇒<br>等值：⇔<br>△ × ≁<br>量词：∃ ∀<br>数学：<br>≠ ≥ ≤<br>集合关系<br>∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø</h2><h3 id="第1章-命题逻辑的基本概念"><a href="#第1章-命题逻辑的基本概念" class="headerlink" title="第1章 命题逻辑的基本概念"></a>第1章 命题逻辑的基本概念</h3><h4 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h4><p>命题是非真即假的陈述句,简单命题是最小的基本单位,其构成复合命题,悖论不是命题。</p>
-<p>命题符号化，联结词也符号化。<br>¬：否定联结词</p>
-<p>∧：合取联结词.规定p∧q为真当且仅当p与q同时为真</p>
-<p>∨：析取联结词.规定p∨q为假当且仅当p与q同时为假<br>(或有两种：排斥或 相容或)</p>
-<p>→：蕴涵联结词.p→q为假当且仅当p为真q为假。p为前件，q为后件。<br>注意点：<br>1.p→q：表示q是p的必要条件。<br>2.当p为假时，p→q必然为真<br>3.p→q为真仅表示p与q的取值关系为真，与其内在联系无关。</p>
-<p>↔：等价联结词.规定p↔q为真当且仅当p与q同时为真或同时为假。</p>
-<table>
-<thead>
-<tr>
-<th align="left">p</th>
-<th align="left">q</th>
-<th align="left">¬p</th>
-<th align="left">p∧q</th>
-<th align="left">p∨q</th>
-<th align="left">p→q</th>
-<th align="left">p↔q</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-</tr>
-<tr>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1</td>
-</tr>
-</tbody></table>
-<p>ex：<br>p：北京比天津的人口多<br>q: 2+2&#x3D;4<br>r：乌鸦是白色的<br>求下列符合命题的真值<br>先算简单命题真值：p:1 q:1 r:0<br>(1) ((¬p∧q)∨(p∧¬q))→r   左0右0  A：1<br>(2) (q∨r)→(p→¬r)          左1右1  A：1<br>(3) (¬p∨r)↔(p∧¬r)        左0右1  A：0                           </p>
-<h4 id="1-2-命题公式及其赋值"><a href="#1-2-命题公式及其赋值" class="headerlink" title="1.2 命题公式及其赋值"></a>1.2 命题公式及其赋值</h4><p>命题常项真值确定，命题变项是取值1或0的变元。<br>将命题变项用联结词和圆括号按照一定逻辑顺序联结起来的符号串称作合式公式<br>(1)单个命题变项是合式公式，并称为原子命题公式<br>(2)若A为合式公式，则¬A也为合式公式<br>(3)若A,B是合式公式，则 A∧B A∨B A→B A↔B 是合式公式<br>(4)有限次地应用(1)-(3)形成的符号串是合式公式</p>
-<p>设A为任一命题公式<br>(1)若A在各种赋值下取值均为真，则称A为重言式或永真式<br>(2)若A在各种赋值下取值均为假，则称A为矛盾式或永假式<br>(3)若A不是矛盾式，则称A为可满式</p>
-]]></content>
-      <tags>
-        <tag>离散数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网易云音乐python爬取</title>
     <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
     <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
@@ -618,6 +618,39 @@
 </p>]]></content>
       <tags>
         <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<p>不知道为什么,学习永远是孤独的。</p>
+<p>以前是这样,现在也是这样。</p>
+<p>或许我早该认识到。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
 </search>

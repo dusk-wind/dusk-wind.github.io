@@ -19,15 +19,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"dusk-wind.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。于是在Github上找到一个项目学习：从零开始学习人工智能，挑战100天学习python链接 我决定尝试一下，每天在此记录。">
+    <meta name="description" content="上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python链接 我决定尝试一下，每天在此记录。 day1简单介绍了下python,交互,库,安装方法。 day2介绍了下变量类型,运算符。写几个应用的1.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GitHub项目">
+<meta property="og:title" content="GitHub项目-python">
 <meta property="og:url" content="https://dusk-wind.github.io/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/index.html">
 <meta property="og:site_name" content="天凉の小站">
-<meta property="og:description" content="上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。于是在Github上找到一个项目学习：从零开始学习人工智能，挑战100天学习python链接 我决定尝试一下，每天在此记录。">
+<meta property="og:description" content="上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python链接 我决定尝试一下，每天在此记录。 day1简单介绍了下python,交互,库,安装方法。 day2介绍了下变量类型,运算符。写几个应用的1.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-14T04:06:10.000Z">
-<meta property="article:modified_time" content="2024-10-14T04:15:26.979Z">
+<meta property="article:modified_time" content="2024-10-14T16:00:55.010Z">
 <meta property="article:author" content="天凉">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -37,10 +37,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://dusk-wind.github.io/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/","path":"2024/10/14/GitHub项目/","title":"GitHub项目"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://dusk-wind.github.io/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/","path":"2024/10/14/GitHub项目/","title":"GitHub项目-python"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>GitHub项目 | 天凉の小站</title>
+<title>GitHub项目-python | 天凉の小站</title>
   
 
 
@@ -126,7 +126,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -139,6 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#day1"><span class="nav-number">1.</span> <span class="nav-text">day1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day2"><span class="nav-number">2.</span> <span class="nav-text">day2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day3-%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84-if%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">day3 分支结构:if的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day4-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84-for%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%8Cwhile%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">day4 循环结构:for的用法，while的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day5-%E6%9E%84%E9%80%A0%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91"><span class="nav-number">5.</span> <span class="nav-text">day5 构造程序逻辑</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day6-%E5%87%BD%E6%95%B0%E5%92%8C%E6%A8%A1%E5%9D%97%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">day6 函数和模块的使用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day7-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="nav-number">7.</span> <span class="nav-text">day7 字符串和常用数据结构</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -153,7 +154,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -211,12 +212,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="GitHub项目 | 天凉の小站">
+      <meta itemprop="name" content="GitHub项目-python | 天凉の小站">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          GitHub项目
+          GitHub项目-python
         </h1>
 
         <div class="post-meta-container">
@@ -226,9 +227,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2024-10-14 12:06:10 / 修改时间：12:15:26" itemprop="dateCreated datePublished" datetime="2024-10-14T12:06:10+08:00">2024-10-14</time>
+      <time title="创建时间：2024-10-14 12:06:10" itemprop="dateCreated datePublished" datetime="2024-10-14T12:06:10+08:00">2024-10-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-10-15 00:00:55" itemprop="dateModified" datetime="2024-10-15T00:00:55+08:00">2024-10-15</time>
     </span>
 
   
@@ -245,14 +252,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>145</span>
+      <span>1.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -262,8 +269,30 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习：从零开始学习人工智能，挑战100天学习python<br><a target="_blank" rel="noopener" href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
+    <div class="post-body" itemprop="articleBody"><p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a target="_blank" rel="noopener" href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
 <p>我决定尝试一下，每天在此记录。</p>
+<h5 id="day1"><a href="#day1" class="headerlink" title="day1"></a>day1</h5><p>简单介绍了下python,交互,库,安装方法。</p>
+<h5 id="day2"><a href="#day2" class="headerlink" title="day2"></a>day2</h5><p>介绍了下变量类型,运算符。写几个应用的<br>1.华氏度转摄氏度</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">f=float(input(&quot;华氏度:&quot;))</span><br><span class="line">c=(f-32)/1.8</span><br><span class="line">print(&quot;摄氏度:&#123;&#125;&quot;.format(c))</span><br></pre></td></tr></table></figure>
+<p>2.计算圆的周长面积</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">pi=3.14</span><br><span class="line">r=float(input(&quot;r:&quot;))</span><br><span class="line">print(&quot;length:&#123;&#125;&quot;.format(2*pi*r))</span><br><span class="line">print(&quot;area:&#123;&#125;&quot;.format(pi*r**2))</span><br></pre></td></tr></table></figure>
+<h5 id="day3-分支结构-if的用法"><a href="#day3-分支结构-if的用法" class="headerlink" title="day3 分支结构:if的用法"></a>day3 分支结构:if的用法</h5><p><strong>注意缩进</strong><br>if ；elif ；else</p>
+<h5 id="day4-循环结构-for的用法，while的用法"><a href="#day4-循环结构-for的用法，while的用法" class="headerlink" title="day4 循环结构:for的用法，while的用法"></a>day4 循环结构:for的用法，while的用法</h5><p><strong>range用法</strong>：<br>range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。<br>range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。<br>range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。<br>range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。</p>
+<p>break只能终止它所在的那个循环;continue用来放弃本次循环后续的代码直接让循环进入下一轮。</p>
+<h5 id="day5-构造程序逻辑"><a href="#day5-构造程序逻辑" class="headerlink" title="day5 构造程序逻辑"></a>day5 构造程序逻辑</h5><p>写个三个算法，找素数，完美数，斐波那契数列。<br>不知道是不是vscode有问题，前几次明明代码逻辑没错都不出结果。</p>
+<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><p>‘’’<br>def fac(num):<br>    “””求阶乘”””<br>    result &#x3D; 1<br>    for n in range(1, num + 1):<br>        result *&#x3D; n<br>    return result<br>‘’’</p>
+<p>‘’’<br>函数定义：<br>def 函数命(参数)：<br>    ···<br>    ···<br>    return ···<br>‘’’</p>
+<p>python函数无需重载,支持可变参数(变得是参数的数量)。</p>
+<p>‘’’<br>在参数名前面的*表示args是一个可变参数<br>def add(*args):<br>    total &#x3D; 0<br>    for val in args:<br>        total +&#x3D; val<br>    return total</p>
+<p> 在调用add函数时可以传入0个或多个参数<br>print(add())<br>print(add(1))<br>print(add(1, 2))<br>print(add(1, 2, 3))<br>print(add(1, 3, 5, 7, 9))<br>‘’’<br>可以用模块管理函数,模块就是一个python文件</p>
+<p>在vscode上实践了一下。</p>
+<p>原理就是,一个python文件是一个模块,里面有定义的函数,<br>‘’’<br>引用方法： from 模块名 import 函数名<br>‘’’</p>
+<p>函数可以嵌套，全局变量:global<br>Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索,前三者我们在上面的代码中已经看到了,<br>所谓的“内置作用域”就是Python内置的那些标识,我们之前用过的input、print、int等都属于内置作用域。</p>
+<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><p>‘’’<br>s1 &#x3D; ‘hello, world!’<br>s2 &#x3D; “hello, world!”<br>以三个双引号或单引号开头的字符串可以折行<br>s3 &#x3D; “””<br>hello,<br>world!<br>“””<br>print(s1, s2, s3, end&#x3D;’’)<br>‘’’</p>
+<p>\ 后面:二进制,八进制,十六进制<br>\n 换行 ; \t 制符<br>可以使用*运算符来重复一个字符串的内容,可以使用in和not in来判断一个字符串是否包含另外一个字符串(成员运算),<br>我们也可以用[]和[:]运算符从字符串取出某个字符或某些字符(切片运算),代码如下所示。</p>
+<p>常用输出字符串：<br>‘’’<br>print(“{}”.format(a))<br>‘’’</p>
+<p>列表，元组，集合。。。</p>
+<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧</strong></p>
 
     </div>
 
@@ -294,6 +323,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2024/10/14/%E6%9C%89%E6%84%9F/" rel="next" title="有感">
+                  有感 <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -325,14 +357,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">16k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">13 分钟</span>
+    <span title="站点阅读时长">14 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
