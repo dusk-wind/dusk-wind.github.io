@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br>[(群星Stellaris)“在正义里有回答不了的问题”]<br>(<a href="https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e">https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e</a>)</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Mincraft启动器及mod安装</title>
     <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
@@ -57,13 +51,20 @@
       </tags>
   </entry>
   <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+    <title>GitHub项目</title>
+    <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习：从零开始学习人工智能，挑战100天学习python<br><a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
+<p>我决定尝试一下，每天在此记录。</p>
 ]]></content>
       <tags>
-        <tag>Mincraft</tag>
+        <tag>学习</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br>[(群星Stellaris)“在正义里有回答不了的问题”]<br>(<a href="https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e">https://www.bilibili.com/video/BV1kw41137q5?vd_source=983f970d330f9c31e222ccfb03364c2e</a>)</p>
+]]></content>
   </entry>
   <entry>
     <title>hexo指令以及markdown使用方法</title>
@@ -195,6 +196,15 @@
       </tags>
   </entry>
   <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vscode安装python的第三方库</title>
     <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
     <content><![CDATA[<p>cmd安装pip:</p>
@@ -213,49 +223,6 @@
 ]]></content>
       <tags>
         <tag>计算机二级c语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
-      <tags>
-        <tag>古月方源/蛊真人</tag>
       </tags>
   </entry>
   <entry>
@@ -298,6 +265,34 @@
 ]]></content>
       <tags>
         <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
+]]></content>
+      <tags>
+        <tag>古月方源/蛊真人</tag>
       </tags>
   </entry>
   <entry>
@@ -388,71 +383,18 @@
       </tags>
   </entry>
   <entry>
-    <title>离散数学笔记</title>
-    <url>/2024/09/03/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>无聊写的，懒得动笔。</p>
-<p>我了个o((⊙﹏⊙))o. 老师连PPT都没发</p>
-<h2 id="常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O"><a href="#常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O" class="headerlink" title="常见的离散数学符号：联结词： ¬ ∧ ∨ → ↔推出：⇒等值：⇔△ × ≁量词：∃ ∀数学：≠ ≥ ≤集合关系∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø"></a>常见的离散数学符号：<br>联结词： ¬ ∧ ∨ → ↔<br>推出：⇒<br>等值：⇔<br>△ × ≁<br>量词：∃ ∀<br>数学：<br>≠ ≥ ≤<br>集合关系<br>∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø</h2><h3 id="第1章-命题逻辑的基本概念"><a href="#第1章-命题逻辑的基本概念" class="headerlink" title="第1章 命题逻辑的基本概念"></a>第1章 命题逻辑的基本概念</h3><h4 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h4><p>命题是非真即假的陈述句,简单命题是最小的基本单位,其构成复合命题,悖论不是命题。</p>
-<p>命题符号化，联结词也符号化。<br>¬：否定联结词</p>
-<p>∧：合取联结词.规定p∧q为真当且仅当p与q同时为真</p>
-<p>∨：析取联结词.规定p∨q为假当且仅当p与q同时为假<br>(或有两种：排斥或 相容或)</p>
-<p>→：蕴涵联结词.p→q为假当且仅当p为真q为假。p为前件，q为后件。<br>注意点：<br>1.p→q：表示q是p的必要条件。<br>2.当p为假时，p→q必然为真<br>3.p→q为真仅表示p与q的取值关系为真，与其内在联系无关。</p>
-<p>↔：等价联结词.规定p↔q为真当且仅当p与q同时为真或同时为假。</p>
-<table>
-<thead>
-<tr>
-<th align="left">p</th>
-<th align="left">q</th>
-<th align="left">¬p</th>
-<th align="left">p∧q</th>
-<th align="left">p∨q</th>
-<th align="left">p→q</th>
-<th align="left">p↔q</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-</tr>
-<tr>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1</td>
-</tr>
-</tbody></table>
-<p>ex：<br>p：北京比天津的人口多<br>q: 2+2&#x3D;4<br>r：乌鸦是白色的<br>求下列符合命题的真值<br>先算简单命题真值：p:1 q:1 r:0<br>(1) ((¬p∧q)∨(p∧¬q))→r   左0右0  A：1<br>(2) (q∨r)→(p→¬r)          左1右1  A：1<br>(3) (¬p∨r)↔(p∧¬r)        左0右1  A：0                           </p>
-<h4 id="1-2-命题公式及其赋值"><a href="#1-2-命题公式及其赋值" class="headerlink" title="1.2 命题公式及其赋值"></a>1.2 命题公式及其赋值</h4><p>命题常项真值确定，命题变项是取值1或0的变元。<br>将命题变项用联结词和圆括号按照一定逻辑顺序联结起来的符号串称作合式公式<br>(1)单个命题变项是合式公式，并称为原子命题公式<br>(2)若A为合式公式，则¬A也为合式公式<br>(3)若A,B是合式公式，则 A∧B A∨B A→B A↔B 是合式公式<br>(4)有限次地应用(1)-(3)形成的符号串是合式公式</p>
-<p>设A为任一命题公式<br>(1)若A在各种赋值下取值均为真，则称A为重言式或永真式<br>(2)若A在各种赋值下取值均为假，则称A为矛盾式或永假式<br>(3)若A不是矛盾式，则称A为可满式</p>
-]]></content>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>离散数学</tag>
+        <tag>代码问题与解决方法</tag>
       </tags>
   </entry>
   <entry>
@@ -535,6 +477,74 @@
       </tags>
   </entry>
   <entry>
+    <title>离散数学笔记</title>
+    <url>/2024/09/03/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>无聊写的，懒得动笔。</p>
+<p>我了个o((⊙﹏⊙))o. 老师连PPT都没发</p>
+<h2 id="常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O"><a href="#常见的离散数学符号：联结词：-¬-∧-∨-→-↔推出：⇒等值：⇔△-×-≁量词：∃-∀数学：≠-≥-≤集合关系∪-∩-∈-⊆-⊂-⊇-⊃-O" class="headerlink" title="常见的离散数学符号：联结词： ¬ ∧ ∨ → ↔推出：⇒等值：⇔△ × ≁量词：∃ ∀数学：≠ ≥ ≤集合关系∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø"></a>常见的离散数学符号：<br>联结词： ¬ ∧ ∨ → ↔<br>推出：⇒<br>等值：⇔<br>△ × ≁<br>量词：∃ ∀<br>数学：<br>≠ ≥ ≤<br>集合关系<br>∪ ∩ ∈ ⊆ ⊂ ⊇ ⊃ Ø</h2><h3 id="第1章-命题逻辑的基本概念"><a href="#第1章-命题逻辑的基本概念" class="headerlink" title="第1章 命题逻辑的基本概念"></a>第1章 命题逻辑的基本概念</h3><h4 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h4><p>命题是非真即假的陈述句,简单命题是最小的基本单位,其构成复合命题,悖论不是命题。</p>
+<p>命题符号化，联结词也符号化。<br>¬：否定联结词</p>
+<p>∧：合取联结词.规定p∧q为真当且仅当p与q同时为真</p>
+<p>∨：析取联结词.规定p∨q为假当且仅当p与q同时为假<br>(或有两种：排斥或 相容或)</p>
+<p>→：蕴涵联结词.p→q为假当且仅当p为真q为假。p为前件，q为后件。<br>注意点：<br>1.p→q：表示q是p的必要条件。<br>2.当p为假时，p→q必然为真<br>3.p→q为真仅表示p与q的取值关系为真，与其内在联系无关。</p>
+<p>↔：等价联结词.规定p↔q为真当且仅当p与q同时为真或同时为假。</p>
+<table>
+<thead>
+<tr>
+<th align="left">p</th>
+<th align="left">q</th>
+<th align="left">¬p</th>
+<th align="left">p∧q</th>
+<th align="left">p∨q</th>
+<th align="left">p→q</th>
+<th align="left">p↔q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+</tbody></table>
+<p>ex：<br>p：北京比天津的人口多<br>q: 2+2&#x3D;4<br>r：乌鸦是白色的<br>求下列符合命题的真值<br>先算简单命题真值：p:1 q:1 r:0<br>(1) ((¬p∧q)∨(p∧¬q))→r   左0右0  A：1<br>(2) (q∨r)→(p→¬r)          左1右1  A：1<br>(3) (¬p∨r)↔(p∧¬r)        左0右1  A：0                           </p>
+<h4 id="1-2-命题公式及其赋值"><a href="#1-2-命题公式及其赋值" class="headerlink" title="1.2 命题公式及其赋值"></a>1.2 命题公式及其赋值</h4><p>命题常项真值确定，命题变项是取值1或0的变元。<br>将命题变项用联结词和圆括号按照一定逻辑顺序联结起来的符号串称作合式公式<br>(1)单个命题变项是合式公式，并称为原子命题公式<br>(2)若A为合式公式，则¬A也为合式公式<br>(3)若A,B是合式公式，则 A∧B A∨B A→B A↔B 是合式公式<br>(4)有限次地应用(1)-(3)形成的符号串是合式公式</p>
+<p>设A为任一命题公式<br>(1)若A在各种赋值下取值均为真，则称A为重言式或永真式<br>(2)若A在各种赋值下取值均为假，则称A为矛盾式或永假式<br>(3)若A不是矛盾式，则称A为可满式</p>
+]]></content>
+      <tags>
+        <tag>离散数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于网站建设的一些想法和遇见的问题</title>
     <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
@@ -588,12 +598,12 @@
     <img src="\images\mu4.png" alt="minecraft">
 </p>
 
-<p>这里先用MyfreeMp3这个网站做个实验，该网站没有做任何加密和反爬虫措施，直接复制粘贴url链接就好</p>
+<p>这里先用MyfreeMp3这个网站做个实验,该网站没有做任何加密和反爬虫措施,直接复制粘贴url链接就好<br>结果如下,理论可行,实验成功。</p>
 <p style="text-align: center;">
     <img src="\images\mu5.png" alt="minecraft">
 </p>
-发现csdn好多爬虫代码没用了,去GitHub上找找看吧。
 
+<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
 ]]></content>
       <tags>
         <tag>网易云</tag>
