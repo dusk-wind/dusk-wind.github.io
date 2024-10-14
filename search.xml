@@ -14,19 +14,26 @@
 <h5 id="day4-循环结构-for的用法，while的用法"><a href="#day4-循环结构-for的用法，while的用法" class="headerlink" title="day4 循环结构:for的用法，while的用法"></a>day4 循环结构:for的用法，while的用法</h5><p><strong>range用法</strong>：<br>range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。<br>range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。<br>range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。<br>range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。</p>
 <p>break只能终止它所在的那个循环;continue用来放弃本次循环后续的代码直接让循环进入下一轮。</p>
 <h5 id="day5-构造程序逻辑"><a href="#day5-构造程序逻辑" class="headerlink" title="day5 构造程序逻辑"></a>day5 构造程序逻辑</h5><p>写个三个算法，找素数，完美数，斐波那契数列。<br>不知道是不是vscode有问题，前几次明明代码逻辑没错都不出结果。</p>
-<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><p>‘’’<br>def fac(num):<br>    “””求阶乘”””<br>    result &#x3D; 1<br>    for n in range(1, num + 1):<br>        result *&#x3D; n<br>    return result<br>‘’’</p>
-<p>‘’’<br>函数定义：<br>def 函数命(参数)：<br>    ···<br>    ···<br>    return ···<br>‘’’</p>
+<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def fac(num):</span><br><span class="line">    &quot;&quot;&quot;求阶乘&quot;&quot;&quot;</span><br><span class="line">    result = 1</span><br><span class="line">    for n in range(1, num + 1):</span><br><span class="line">        result *= n</span><br><span class="line">    return result</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">函数定义：</span><br><span class="line">def 函数命(参数)：</span><br><span class="line">    ···</span><br><span class="line">    ···</span><br><span class="line">    return ···</span><br></pre></td></tr></table></figure>
+
 <p>python函数无需重载,支持可变参数(变得是参数的数量)。</p>
-<p>‘’’<br>在参数名前面的*表示args是一个可变参数<br>def add(*args):<br>    total &#x3D; 0<br>    for val in args:<br>        total +&#x3D; val<br>    return total</p>
-<p> 在调用add函数时可以传入0个或多个参数<br>print(add())<br>print(add(1))<br>print(add(1, 2))<br>print(add(1, 2, 3))<br>print(add(1, 3, 5, 7, 9))<br>‘’’<br>可以用模块管理函数,模块就是一个python文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在参数名前面的*表示args是一个可变参数</span><br><span class="line">def add(*args):</span><br><span class="line">    total = 0</span><br><span class="line">    for val in args:</span><br><span class="line">        total += val</span><br><span class="line">    return total</span><br><span class="line"></span><br><span class="line"> 在调用add函数时可以传入0个或多个参数</span><br><span class="line">print(add())</span><br><span class="line">print(add(1))</span><br><span class="line">print(add(1, 2))</span><br><span class="line">print(add(1, 2, 3))</span><br><span class="line">print(add(1, 3, 5, 7, 9))</span><br></pre></td></tr></table></figure>
+<p>可以用模块管理函数,模块就是一个python文件</p>
 <p>在vscode上实践了一下。</p>
-<p>原理就是,一个python文件是一个模块,里面有定义的函数,<br>‘’’<br>引用方法： from 模块名 import 函数名<br>‘’’</p>
+<p>原理就是,一个python文件是一个模块,里面有定义的函数,</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">引用方法： from 模块名 import 函数名</span><br></pre></td></tr></table></figure>
+
 <p>函数可以嵌套，全局变量:global<br>Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索,前三者我们在上面的代码中已经看到了,<br>所谓的“内置作用域”就是Python内置的那些标识,我们之前用过的input、print、int等都属于内置作用域。</p>
-<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><p>‘’’<br>s1 &#x3D; ‘hello, world!’<br>s2 &#x3D; “hello, world!”<br>以三个双引号或单引号开头的字符串可以折行<br>s3 &#x3D; “””<br>hello,<br>world!<br>“””<br>print(s1, s2, s3, end&#x3D;’’)<br>‘’’</p>
+<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">s1 = &#x27;hello, world!&#x27;</span><br><span class="line">s2 = &quot;hello, world!&quot;</span><br><span class="line">以三个双引号或单引号开头的字符串可以折行</span><br><span class="line">s3 = &quot;&quot;&quot;</span><br><span class="line">hello, </span><br><span class="line">world!</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line">print(s1, s2, s3, end=&#x27;&#x27;)</span><br></pre></td></tr></table></figure>
+
 <p>\ 后面:二进制,八进制,十六进制<br>\n 换行 ; \t 制符<br>可以使用*运算符来重复一个字符串的内容,可以使用in和not in来判断一个字符串是否包含另外一个字符串(成员运算),<br>我们也可以用[]和[:]运算符从字符串取出某个字符或某些字符(切片运算),代码如下所示。</p>
-<p>常用输出字符串：<br>‘’’<br>print(“{}”.format(a))<br>‘’’</p>
+<p>常用输出字符串：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(&quot;&#123;&#125;&quot;.format(a))</span><br></pre></td></tr></table></figure>
+
 <p>列表，元组，集合。。。</p>
-<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧</strong></p>
+<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧 o(￣▽￣)ｄ</strong></p>
 ]]></content>
       <tags>
         <tag>学习</tag>
@@ -227,14 +234,13 @@
       </tags>
   </entry>
   <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+]]></content>
       <tags>
-        <tag>python</tag>
+        <tag>计算机二级c语言</tag>
       </tags>
   </entry>
   <entry>
@@ -295,13 +301,44 @@
       </tags>
   </entry>
   <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
 ]]></content>
       <tags>
-        <tag>计算机二级c语言</tag>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开学纪要</title>
+    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
+    <content><![CDATA[<p>开学了，大二又要学了。</p>
+<p>新学期好像没啥规划。</p>
+<p>学就是了。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -330,72 +367,6 @@
 ]]></content>
       <tags>
         <tag>古月方源/蛊真人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开学纪要</title>
-    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
-    <content><![CDATA[<p>开学了，大二又要学了。</p>
-<p>新学期好像没啥规划。</p>
-<p>学就是了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
-  </entry>
-  <entry>
-    <title>数据结构c语言课后习题</title>
-    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
-    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
-<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
-<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
-<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
-<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
-<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
-<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
-<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
-<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
-<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
-<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
-<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
-<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
-<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
-<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -479,19 +450,35 @@
       </tags>
   </entry>
   <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<p>不知道为什么,学习永远是孤独的。</p>
+<p>以前是这样,现在也是这样。</p>
+<p>或许我早该认识到。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
+    <title>数据结构c语言课后习题</title>
+    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
+    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
+<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
+<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
+<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
+<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
+<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
+<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
+<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
+<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
+<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
+<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
+<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
+<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
+<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
+<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -567,6 +554,37 @@
       </tags>
   </entry>
   <entry>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
+  </entry>
+  <entry>
     <title>网易云音乐python爬取</title>
     <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
     <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
@@ -618,17 +636,6 @@
 </p>]]></content>
       <tags>
         <tag>闲聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<p>不知道为什么,学习永远是孤独的。</p>
-<p>以前是这样,现在也是这样。</p>
-<p>或许我早该认识到。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
