@@ -27,7 +27,7 @@
 <meta property="og:description" content="上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python链接 我决定尝试一下，每天在此记录。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-14T04:06:10.000Z">
-<meta property="article:modified_time" content="2024-10-15T04:33:26.301Z">
+<meta property="article:modified_time" content="2024-10-16T08:49:06.717Z">
 <meta property="article:author" content="天凉">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#day1"><span class="nav-number">1.</span> <span class="nav-text">day1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day2"><span class="nav-number">2.</span> <span class="nav-text">day2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day3-%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84-if%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">day3 分支结构:if的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day4-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84-for%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%8Cwhile%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">day4 循环结构:for的用法，while的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day5-%E6%9E%84%E9%80%A0%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91"><span class="nav-number">5.</span> <span class="nav-text">day5 构造程序逻辑</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day6-%E5%87%BD%E6%95%B0%E5%92%8C%E6%A8%A1%E5%9D%97%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">day6 函数和模块的使用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day7-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="nav-number">7.</span> <span class="nav-text">day7 字符串和常用数据结构</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#day1"><span class="nav-number">1.</span> <span class="nav-text">day1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day2"><span class="nav-number">2.</span> <span class="nav-text">day2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day3-%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84-if%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">day3 分支结构:if的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day4-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84-for%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%8Cwhile%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">day4 循环结构:for的用法，while的用法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day5-%E6%9E%84%E9%80%A0%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91"><span class="nav-number">5.</span> <span class="nav-text">day5 构造程序逻辑</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day6-%E5%87%BD%E6%95%B0%E5%92%8C%E6%A8%A1%E5%9D%97%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">day6 函数和模块的使用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day7-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="nav-number">7.</span> <span class="nav-text">day7 字符串和常用数据结构</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day8-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="nav-number">8.</span> <span class="nav-text">day8 面向对象编程</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#day9-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BF%9B%E9%98%B6"><span class="nav-number">9.</span> <span class="nav-text">day9 面向对象进阶</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -235,7 +235,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-10-15 12:33:26" itemprop="dateModified" datetime="2024-10-15T12:33:26+08:00">2024-10-15</time>
+      <time title="修改时间：2024-10-16 16:49:06" itemprop="dateModified" datetime="2024-10-16T16:49:06+08:00">2024-10-16</time>
     </span>
 
   
@@ -252,14 +252,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>7.7k</span>
+      <span>8.8k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>7 分钟</span>
+      <span>8 分钟</span>
     </span>
 </div>
 
@@ -318,6 +318,18 @@
 
 <p>字典:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"># 创建字典的字面量语法</span><br><span class="line">scores = &#123;&#x27;骆昊&#x27;: 95, &#x27;白元芳&#x27;: 78, &#x27;狄仁杰&#x27;: 82&#125;</span><br><span class="line">print(scores)</span><br><span class="line"># 创建字典的构造器语法</span><br><span class="line">items1 = dict(one=1, two=2, three=3, four=4)</span><br><span class="line"># 通过zip函数将两个序列压成字典</span><br><span class="line">items2 = dict(zip([&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;], &#x27;123&#x27;))</span><br><span class="line"># 创建字典的推导式语法</span><br><span class="line">items3 = &#123;num: num ** 2 for num in range(1, 10)&#125;</span><br><span class="line">print(items1, items2, items3)</span><br><span class="line"># 通过键可以获取字典中对应的值</span><br><span class="line">print(scores[&#x27;骆昊&#x27;])</span><br><span class="line">print(scores[&#x27;狄仁杰&#x27;])</span><br><span class="line"># 对字典中所有键值对进行遍历</span><br><span class="line">for key in scores:</span><br><span class="line">    print(f&#x27;&#123;key&#125;: &#123;scores[key]&#125;&#x27;)</span><br><span class="line"># 更新字典中的元素</span><br><span class="line">scores[&#x27;白元芳&#x27;] = 65</span><br><span class="line">scores[&#x27;诸葛王朗&#x27;] = 71</span><br><span class="line">scores.update(冷面=67, 方启鹤=85)</span><br><span class="line">print(scores)</span><br><span class="line">if &#x27;武则天&#x27; in scores:</span><br><span class="line">    print(scores[&#x27;武则天&#x27;])</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;))</span><br><span class="line"># get方法也是通过键获取对应的值但是可以设置默认值</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;, 60))</span><br><span class="line"># 删除字典中的元素</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.pop(&#x27;骆昊&#x27;, 100))</span><br><span class="line"># 清空字典</span><br><span class="line">scores.clear()</span><br><span class="line">print(scores)</span><br></pre></td></tr></table></figure>
+<p>看着感觉挺简单,实际做慕课作业时真写不出来</p>
+<h5 id="day8-面向对象编程"><a href="#day8-面向对象编程" class="headerlink" title="day8 面向对象编程"></a>day8 面向对象编程</h5><p>用class关键字定义</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    # __init__是一个特殊方法用于在创建对象时进行初始化操作</span><br><span class="line">    # 通过这个方法我们可以为学生对象绑定name和age两个属性</span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.age = age</span><br><span class="line"></span><br><span class="line">    def study(self, course_name):</span><br><span class="line">        print(&#x27;%s正在学习%s.&#x27; % (self.name, course_name))</span><br></pre></td></tr></table></figure>
+<p>对于上述对象,我们可以描述其行为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">def def():</span><br><span class="line">    创建对象</span><br><span class="line">    stu1=Student(&#x27;艾伦&#x27;,18)</span><br><span class="line">    stu1.study(&#x27;高等数学&#x27;)</span><br><span class="line">if __name__=&quot;__main__&quot;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+
+<h5 id="day9-面向对象进阶"><a href="#day9-面向对象进阶" class="headerlink" title="day9 面向对象进阶"></a>day9 面向对象进阶</h5><p>面向对象有三大属性：继承，封装，多态</p>
+<p>python通过属性的访问器和修改器来实现封装性</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">class Person(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self._name = name</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def name(self):</span><br><span class="line">        return self._name</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def age(self):</span><br><span class="line">        return self._age</span><br><span class="line"></span><br><span class="line">    # 修改器 - setter方法</span><br><span class="line">    @age.setter</span><br><span class="line">    def age(self, age):</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    def play(self):</span><br><span class="line">        if self._age &lt;= 16:</span><br><span class="line">            print(&#x27;%s正在玩飞行棋.&#x27; % self._name)</span><br><span class="line">        else:</span><br><span class="line">            print(&#x27;%s正在玩斗地主.&#x27; % self._name)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">    person = Person(&#x27;王大锤&#x27;, 12)</span><br><span class="line">    person.play()</span><br><span class="line">    person.age = 22</span><br><span class="line">    person.play()</span><br><span class="line">    # person.name = &#x27;白元芳&#x27;  # AttributeError: can&#x27;t set attribute</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+
+<p>这边不太想学了,以后要用再来看吧,直接过<br>等我先把形策和英语作文写了，晚上再看一节</p>
+
     </div>
 
     
@@ -381,14 +393,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">21k</span>
+    <span title="站点总字数">23k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">20 分钟</span>
+    <span title="站点阅读时长">21 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
