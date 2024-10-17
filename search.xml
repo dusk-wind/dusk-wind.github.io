@@ -1,124 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GitHub项目-python</title>
-    <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
-<p>我决定尝试一下，每天在此记录。</p>
-<span id="more"></span>
-<h5 id="day1"><a href="#day1" class="headerlink" title="day1"></a>day1</h5><p>简单介绍了下python,交互,库,安装方法。</p>
-<h5 id="day2"><a href="#day2" class="headerlink" title="day2"></a>day2</h5><p>介绍了下变量类型,运算符。写几个应用的<br>1.华氏度转摄氏度</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f=float(input(&quot;华氏度:&quot;))</span><br><span class="line">c=(f-32)/1.8</span><br><span class="line">print(&quot;摄氏度:&#123;&#125;&quot;.format(c))</span><br></pre></td></tr></table></figure>
-<p>2.计算圆的周长面积</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pi=3.14</span><br><span class="line">r=float(input(&quot;r:&quot;))</span><br><span class="line">print(&quot;length:&#123;&#125;&quot;.format(2*pi*r))</span><br><span class="line">print(&quot;area:&#123;&#125;&quot;.format(pi*r**2))</span><br></pre></td></tr></table></figure>
-<h5 id="day3-分支结构-if的用法"><a href="#day3-分支结构-if的用法" class="headerlink" title="day3 分支结构:if的用法"></a>day3 分支结构:if的用法</h5><p><strong>注意缩进</strong><br>if ；elif ；else</p>
-<h5 id="day4-循环结构-for的用法，while的用法"><a href="#day4-循环结构-for的用法，while的用法" class="headerlink" title="day4 循环结构:for的用法，while的用法"></a>day4 循环结构:for的用法，while的用法</h5><p><strong>range用法</strong>：<br>range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。<br>range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。<br>range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。<br>range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。</p>
-<p>break只能终止它所在的那个循环;continue用来放弃本次循环后续的代码直接让循环进入下一轮。</p>
-<h5 id="day5-构造程序逻辑"><a href="#day5-构造程序逻辑" class="headerlink" title="day5 构造程序逻辑"></a>day5 构造程序逻辑</h5><p>写个三个算法，找素数，完美数，斐波那契数列。<br>不知道是不是vscode有问题，前几次明明代码逻辑没错都不出结果。</p>
-<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def fac(num):</span><br><span class="line">    &quot;&quot;&quot;求阶乘&quot;&quot;&quot;</span><br><span class="line">    result = 1</span><br><span class="line">    for n in range(1, num + 1):</span><br><span class="line">        result *= n</span><br><span class="line">    return result</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">函数定义：</span><br><span class="line">def 函数命(参数)：</span><br><span class="line">    ···</span><br><span class="line">    ···</span><br><span class="line">    return ···</span><br></pre></td></tr></table></figure>
-
-<p>python函数无需重载,支持可变参数(变得是参数的数量)。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在参数名前面的*表示args是一个可变参数</span><br><span class="line">def add(*args):</span><br><span class="line">    total = 0</span><br><span class="line">    for val in args:</span><br><span class="line">        total += val</span><br><span class="line">    return total</span><br><span class="line"></span><br><span class="line"> 在调用add函数时可以传入0个或多个参数</span><br><span class="line">print(add())</span><br><span class="line">print(add(1))</span><br><span class="line">print(add(1, 2))</span><br><span class="line">print(add(1, 2, 3))</span><br><span class="line">print(add(1, 3, 5, 7, 9))</span><br></pre></td></tr></table></figure>
-<p>可以用模块管理函数,模块就是一个python文件</p>
-<p>在vscode上实践了一下。</p>
-<p>原理就是,一个python文件是一个模块,里面有定义的函数,</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">引用方法： from 模块名 import 函数名</span><br></pre></td></tr></table></figure>
-
-<p>函数可以嵌套，全局变量:global<br>Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索,前三者我们在上面的代码中已经看到了,<br>所谓的“内置作用域”就是Python内置的那些标识,我们之前用过的input、print、int等都属于内置作用域。</p>
-<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">s1 = &#x27;hello, world!&#x27;</span><br><span class="line">s2 = &quot;hello, world!&quot;</span><br><span class="line">以三个双引号或单引号开头的字符串可以折行</span><br><span class="line">s3 = &quot;&quot;&quot;</span><br><span class="line">hello, </span><br><span class="line">world!</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line">print(s1, s2, s3, end=&#x27;&#x27;)</span><br></pre></td></tr></table></figure>
-
-<p>\ 后面:二进制,八进制,十六进制<br>\n 换行 ; \t 制符<br>可以使用*运算符来重复一个字符串的内容,可以使用in和not in来判断一个字符串是否包含另外一个字符串(成员运算),<br>我们也可以用[]和[:]运算符从字符串取出某个字符或某些字符(切片运算),代码如下所示。</p>
-<p>常用输出字符串：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(&quot;&#123;&#125;&quot;.format(a))</span><br><span class="line">s1 = &#x27;hello &#x27; * 3</span><br><span class="line">print(s1) # hello hello hello </span><br><span class="line">s2 = &#x27;world&#x27;</span><br><span class="line">s1 += s2</span><br><span class="line">print(s1) # hello hello hello world</span><br><span class="line">print(&#x27;ll&#x27; in s1) # True</span><br><span class="line">print(&#x27;good&#x27; in s1) # False</span><br><span class="line">str2 = &#x27;abc123456&#x27;</span><br><span class="line"># 从字符串中取出指定位置的字符(下标运算)</span><br><span class="line">print(str2[2]) # c</span><br><span class="line"># 字符串切片(从指定的开始索引到指定的结束索引)</span><br><span class="line">print(str2[2:5]) # c12</span><br><span class="line">print(str2[2:]) # c123456</span><br><span class="line">print(str2[2::2]) # c246</span><br><span class="line">print(str2[::2]) # ac246</span><br><span class="line">print(str2[::-1]) # 654321cba</span><br><span class="line">print(str2[-3:-1]) # 45</span><br></pre></td></tr></table></figure>
-<p>切片的操作是左闭右开<br>字符串处理：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">str1 = &#x27;hello, world!&#x27;</span><br><span class="line"># 通过内置函数len计算字符串的长度</span><br><span class="line">print(len(str1)) # 13</span><br><span class="line"># 获得字符串首字母大写的拷贝</span><br><span class="line">print(str1.capitalize()) # Hello, world!</span><br><span class="line"># 获得字符串每个单词首字母大写的拷贝</span><br><span class="line">print(str1.title()) # Hello, World!</span><br><span class="line"># 获得字符串变大写后的拷贝</span><br><span class="line">print(str1.upper()) # HELLO, WORLD!</span><br><span class="line"># 从字符串中查找子串所在位置</span><br><span class="line">print(str1.find(&#x27;or&#x27;)) # 8</span><br><span class="line">print(str1.find(&#x27;shit&#x27;)) # -1</span><br><span class="line"># 与find类似但找不到子串时会引发异常</span><br><span class="line"># print(str1.index(&#x27;or&#x27;))</span><br><span class="line"># print(str1.index(&#x27;shit&#x27;))</span><br><span class="line"># 检查字符串是否以指定的字符串开头</span><br><span class="line">print(str1.startswith(&#x27;He&#x27;)) # False</span><br><span class="line">print(str1.startswith(&#x27;hel&#x27;)) # True</span><br><span class="line"># 检查字符串是否以指定的字符串结尾</span><br><span class="line">print(str1.endswith(&#x27;!&#x27;)) # True</span><br><span class="line"># 将字符串以指定的宽度居中并在两侧填充指定的字符</span><br><span class="line">print(str1.center(50, &#x27;*&#x27;))</span><br><span class="line"># 将字符串以指定的宽度靠右放置左侧填充指定的字符</span><br><span class="line">print(str1.rjust(50, &#x27; &#x27;))</span><br><span class="line">str2 = &#x27;abc123456&#x27;</span><br><span class="line"># 检查字符串是否由数字构成</span><br><span class="line">print(str2.isdigit())  # False</span><br><span class="line"># 检查字符串是否以字母构成</span><br><span class="line">print(str2.isalpha())  # False</span><br><span class="line"># 检查字符串是否以数字和字母构成</span><br><span class="line">print(str2.isalnum())  # True</span><br><span class="line">str3 = &#x27;  jackfrued@126.com &#x27;</span><br><span class="line">print(str3)</span><br><span class="line"># 获得字符串修剪左右两侧空格之后的拷贝</span><br><span class="line">print(str3.strip())</span><br></pre></td></tr></table></figure>
-
-<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧 o(￣▽￣)ｄ</strong></p>
-<p>列表</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [1, 3, 5, 7, 100]</span><br><span class="line">print(list1) # [1, 3, 5, 7, 100]</span><br><span class="line"># 乘号表示列表元素的重复</span><br><span class="line">list2 = [&#x27;hello&#x27;] * 3</span><br><span class="line">print(list2) # [&#x27;hello&#x27;, &#x27;hello&#x27;, &#x27;hello&#x27;]</span><br><span class="line"># 计算列表长度(元素个数)</span><br><span class="line">print(len(list1)) # 5</span><br><span class="line"># 下标(索引)运算</span><br><span class="line">print(list1[0]) # 1</span><br><span class="line">print(list1[4]) # 100</span><br><span class="line"># print(list1[5])  # IndexError: list index out of range</span><br><span class="line">print(list1[-1]) # 100</span><br><span class="line">print(list1[-3]) # 5</span><br><span class="line">list1[2] = 300</span><br><span class="line">print(list1) # [1, 3, 300, 7, 100]</span><br><span class="line"># 通过循环用下标遍历列表元素</span><br><span class="line">for index in range(len(list1)):</span><br><span class="line">    print(list1[index])</span><br><span class="line"># 通过for循环遍历列表元素</span><br><span class="line">for elem in list1:</span><br><span class="line">    print(elem)</span><br><span class="line"># 通过enumerate函数处理列表之后再遍历可以同时获得元素索引和值</span><br><span class="line">for index, elem in enumerate(list1):</span><br><span class="line">    print(index, elem)</span><br></pre></td></tr></table></figure>
-<p>列表操作：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [1, 3, 5, 7, 100]</span><br><span class="line"># 添加元素</span><br><span class="line">list1.append(200)</span><br><span class="line">list1.insert(1, 400)</span><br><span class="line"># 合并两个列表</span><br><span class="line"># list1.extend([1000, 2000])</span><br><span class="line">list1 += [1000, 2000]</span><br><span class="line">print(list1) # [1, 400, 3, 5, 7, 100, 200, 1000, 2000]</span><br><span class="line">print(len(list1)) # 9</span><br><span class="line"># 先通过成员运算判断元素是否在列表中，如果存在就删除该元素</span><br><span class="line">if 3 in list1:</span><br><span class="line">	list1.remove(3)</span><br><span class="line">if 1234 in list1:</span><br><span class="line">    list1.remove(1234)</span><br><span class="line">print(list1) # [1, 400, 5, 7, 100, 200, 1000, 2000]</span><br><span class="line"># 从指定的位置删除元素</span><br><span class="line">list1.pop(0)</span><br><span class="line">list1.pop(len(list1) - 1)</span><br><span class="line">print(list1) # [400, 5, 7, 100, 200, 1000]</span><br><span class="line"># 清空列表元素</span><br><span class="line">list1.clear()</span><br><span class="line">print(list1) # []</span><br></pre></td></tr></table></figure>
-<p>列表切片：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fruits = [&#x27;grape&#x27;, &#x27;apple&#x27;, &#x27;strawberry&#x27;, &#x27;waxberry&#x27;]</span><br><span class="line">fruits += [&#x27;pitaya&#x27;, &#x27;pear&#x27;, &#x27;mango&#x27;]</span><br><span class="line"># 列表切片</span><br><span class="line">fruits2 = fruits[1:4]</span><br><span class="line">print(fruits2) # apple strawberry waxberry</span><br><span class="line"># 可以通过完整切片操作来复制列表</span><br><span class="line">fruits3 = fruits[:]</span><br><span class="line">print(fruits3) # [&#x27;grape&#x27;, &#x27;apple&#x27;, &#x27;strawberry&#x27;, &#x27;waxberry&#x27;, &#x27;pitaya&#x27;, &#x27;pear&#x27;, &#x27;mango&#x27;]</span><br><span class="line">fruits4 = fruits[-3:-1]</span><br><span class="line">print(fruits4) # [&#x27;pitaya&#x27;, &#x27;pear&#x27;]</span><br><span class="line"># 可以通过反向切片操作来获得倒转后的列表的拷贝</span><br><span class="line">fruits5 = fruits[::-1]</span><br><span class="line">print(fruits5) # [&#x27;mango&#x27;, &#x27;pear&#x27;, &#x27;pitaya&#x27;, &#x27;waxberry&#x27;, &#x27;strawberry&#x27;, &#x27;apple&#x27;, &#x27;grape&#x27;]</span><br></pre></td></tr></table></figure>
-<p>列表排序：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [&#x27;orange&#x27;, &#x27;apple&#x27;, &#x27;zoo&#x27;, &#x27;internationalization&#x27;, &#x27;blueberry&#x27;]</span><br><span class="line">list2 = sorted(list1)</span><br><span class="line"># sorted函数返回列表排序后的拷贝不会修改传入的列表</span><br><span class="line"># 函数的设计就应该像sorted函数一样尽可能不产生副作用</span><br><span class="line">list3 = sorted(list1, reverse=True)</span><br><span class="line"># 通过key关键字参数指定根据字符串长度进行排序而不是默认的字母表顺序</span><br><span class="line">list4 = sorted(list1, key=len)</span><br><span class="line">print(list1)</span><br><span class="line">print(list2)</span><br><span class="line">print(list3)</span><br><span class="line">print(list4)</span><br><span class="line"># 给列表对象发出排序消息直接在列表对象上进行排序</span><br><span class="line">list1.sort(reverse=True)</span><br><span class="line">print(list1)</span><br></pre></td></tr></table></figure>
-<p>生成式和生成器。。。</p>
-<p>元组:元素不能修改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 定义元组</span><br><span class="line">t = (&#x27;骆昊&#x27;, 38, True, &#x27;四川成都&#x27;)</span><br><span class="line">print(t)</span><br><span class="line"># 获取元组中的元素</span><br><span class="line">print(t[0])</span><br><span class="line">print(t[3])</span><br><span class="line"># 遍历元组中的值</span><br><span class="line">for member in t:</span><br><span class="line">    print(member)</span><br><span class="line"># 重新给元组赋值</span><br><span class="line"># t[0] = &#x27;王大锤&#x27;  # TypeError</span><br><span class="line"># 变量t重新引用了新的元组原来的元组将被垃圾回收</span><br><span class="line">t = (&#x27;王大锤&#x27;, 20, True, &#x27;云南昆明&#x27;)</span><br><span class="line">print(t)</span><br><span class="line"># 将元组转换成列表</span><br><span class="line">person = list(t)</span><br><span class="line">print(person)</span><br><span class="line"># 列表是可以修改它的元素的</span><br><span class="line">person[0] = &#x27;李小龙&#x27;</span><br><span class="line">person[1] = 25</span><br><span class="line">print(person)</span><br><span class="line"># 将列表转换成元组</span><br><span class="line">fruits_list = [&#x27;apple&#x27;, &#x27;banana&#x27;, &#x27;orange&#x27;]</span><br><span class="line">fruits_tuple = tuple(fruits_list)</span><br><span class="line">print(fruits_tuple)</span><br></pre></td></tr></table></figure>
-<p>集合:Python中的集合跟数学上的集合是一致的，不允许有重复元素，而且可以进行交集、并集、差集等运算。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 创建集合的字面量语法</span><br><span class="line">set1 = &#123;1, 2, 3, 3, 3, 2&#125;</span><br><span class="line">print(set1)</span><br><span class="line">print(&#x27;Length =&#x27;, len(set1))</span><br><span class="line"># 创建集合的构造器语法(面向对象部分会进行详细讲解)</span><br><span class="line">set2 = set(range(1, 10))</span><br><span class="line">set3 = set((1, 2, 3, 3, 2, 1))</span><br><span class="line">print(set2, set3)</span><br><span class="line"># 创建集合的推导式语法(推导式也可以用于推导集合)</span><br><span class="line">set4 = &#123;num for num in range(1, 100) if num % 3 == 0 or num % 5 == 0&#125;</span><br><span class="line">print(set4)</span><br><span class="line">向集合添加元素和从集合删除元素。</span><br><span class="line">set1.add(4)</span><br><span class="line">set1.add(5)</span><br><span class="line">set2.update([11, 12])</span><br><span class="line">set2.discard(5)</span><br><span class="line">if 4 in set2:</span><br><span class="line">    set2.remove(4)</span><br><span class="line">print(set1, set2)</span><br><span class="line">print(set3.pop())</span><br><span class="line">print(set3)</span><br><span class="line"># 集合的交集、并集、差集、对称差运算</span><br><span class="line">print(set1 &amp; set2)</span><br><span class="line"># print(set1.intersection(set2))</span><br><span class="line">print(set1 | set2)</span><br><span class="line"># print(set1.union(set2))</span><br><span class="line">print(set1 - set2)</span><br><span class="line"># print(set1.difference(set2))</span><br><span class="line">print(set1 ^ set2)</span><br><span class="line"># print(set1.symmetric_difference(set2))</span><br><span class="line"># 判断子集和超集</span><br><span class="line">print(set2 &lt;= set1)</span><br><span class="line"># print(set2.issubset(set1))</span><br><span class="line">print(set3 &lt;= set1)</span><br><span class="line"># print(set3.issubset(set1))</span><br><span class="line">print(set1 &gt;= set2)</span><br><span class="line"># print(set1.issuperset(set2))</span><br><span class="line">print(set1 &gt;= set3)</span><br><span class="line"># print(set1.issuperset(set3))</span><br></pre></td></tr></table></figure>
-
-<p>字典:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 创建字典的字面量语法</span><br><span class="line">scores = &#123;&#x27;骆昊&#x27;: 95, &#x27;白元芳&#x27;: 78, &#x27;狄仁杰&#x27;: 82&#125;</span><br><span class="line">print(scores)</span><br><span class="line"># 创建字典的构造器语法</span><br><span class="line">items1 = dict(one=1, two=2, three=3, four=4)</span><br><span class="line"># 通过zip函数将两个序列压成字典</span><br><span class="line">items2 = dict(zip([&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;], &#x27;123&#x27;))</span><br><span class="line"># 创建字典的推导式语法</span><br><span class="line">items3 = &#123;num: num ** 2 for num in range(1, 10)&#125;</span><br><span class="line">print(items1, items2, items3)</span><br><span class="line"># 通过键可以获取字典中对应的值</span><br><span class="line">print(scores[&#x27;骆昊&#x27;])</span><br><span class="line">print(scores[&#x27;狄仁杰&#x27;])</span><br><span class="line"># 对字典中所有键值对进行遍历</span><br><span class="line">for key in scores:</span><br><span class="line">    print(f&#x27;&#123;key&#125;: &#123;scores[key]&#125;&#x27;)</span><br><span class="line"># 更新字典中的元素</span><br><span class="line">scores[&#x27;白元芳&#x27;] = 65</span><br><span class="line">scores[&#x27;诸葛王朗&#x27;] = 71</span><br><span class="line">scores.update(冷面=67, 方启鹤=85)</span><br><span class="line">print(scores)</span><br><span class="line">if &#x27;武则天&#x27; in scores:</span><br><span class="line">    print(scores[&#x27;武则天&#x27;])</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;))</span><br><span class="line"># get方法也是通过键获取对应的值但是可以设置默认值</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;, 60))</span><br><span class="line"># 删除字典中的元素</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.pop(&#x27;骆昊&#x27;, 100))</span><br><span class="line"># 清空字典</span><br><span class="line">scores.clear()</span><br><span class="line">print(scores)</span><br></pre></td></tr></table></figure>
-<p>看着感觉挺简单,实际做慕课作业时真写不出来</p>
-<h5 id="day8-面向对象编程"><a href="#day8-面向对象编程" class="headerlink" title="day8 面向对象编程"></a>day8 面向对象编程</h5><p>用class关键字定义</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    # __init__是一个特殊方法用于在创建对象时进行初始化操作</span><br><span class="line">    # 通过这个方法我们可以为学生对象绑定name和age两个属性</span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.age = age</span><br><span class="line"></span><br><span class="line">    def study(self, course_name):</span><br><span class="line">        print(&#x27;%s正在学习%s.&#x27; % (self.name, course_name))</span><br></pre></td></tr></table></figure>
-<p>对于上述对象,我们可以描述其行为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def def():</span><br><span class="line">    创建对象</span><br><span class="line">    stu1=Student(&#x27;艾伦&#x27;,18)</span><br><span class="line">    stu1.study(&#x27;高等数学&#x27;)</span><br><span class="line">if __name__=&quot;__main__&quot;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-
-<h5 id="day9-面向对象进阶"><a href="#day9-面向对象进阶" class="headerlink" title="day9 面向对象进阶"></a>day9 面向对象进阶</h5><p>面向对象有三大属性：继承，封装，多态</p>
-<p>python通过属性的访问器和修改器来实现封装性</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">class Person(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self._name = name</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def name(self):</span><br><span class="line">        return self._name</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def age(self):</span><br><span class="line">        return self._age</span><br><span class="line"></span><br><span class="line">    # 修改器 - setter方法</span><br><span class="line">    @age.setter</span><br><span class="line">    def age(self, age):</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    def play(self):</span><br><span class="line">        if self._age &lt;= 16:</span><br><span class="line">            print(&#x27;%s正在玩飞行棋.&#x27; % self._name)</span><br><span class="line">        else:</span><br><span class="line">            print(&#x27;%s正在玩斗地主.&#x27; % self._name)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">    person = Person(&#x27;王大锤&#x27;, 12)</span><br><span class="line">    person.play()</span><br><span class="line">    person.age = 22</span><br><span class="line">    person.play()</span><br><span class="line">    # person.name = &#x27;白元芳&#x27;  # AttributeError: can&#x27;t set attribute</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-
-<p>这边不太想学了,以后要用再来看吧,直接过<br>等我先把形策和英语作文写了，晚上再看一节</p>
-]]></content>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo指令以及markdown使用方法</title>
     <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
@@ -188,6 +70,75 @@
 ]]></content>
       <tags>
         <tag>hexo框架博客搭建/markdown使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitHub项目-python</title>
+    <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
+<p>我决定尝试一下，每天在此记录。</p>
+<span id="more"></span>
+<h5 id="day1"><a href="#day1" class="headerlink" title="day1"></a>day1</h5><p>简单介绍了下python,交互,库,安装方法。</p>
+<h5 id="day2"><a href="#day2" class="headerlink" title="day2"></a>day2</h5><p>介绍了下变量类型,运算符。写几个应用的<br>1.华氏度转摄氏度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f=float(input(&quot;华氏度:&quot;))</span><br><span class="line">c=(f-32)/1.8</span><br><span class="line">print(&quot;摄氏度:&#123;&#125;&quot;.format(c))</span><br></pre></td></tr></table></figure>
+<p>2.计算圆的周长面积</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pi=3.14</span><br><span class="line">r=float(input(&quot;r:&quot;))</span><br><span class="line">print(&quot;length:&#123;&#125;&quot;.format(2*pi*r))</span><br><span class="line">print(&quot;area:&#123;&#125;&quot;.format(pi*r**2))</span><br></pre></td></tr></table></figure>
+<h5 id="day3-分支结构-if的用法"><a href="#day3-分支结构-if的用法" class="headerlink" title="day3 分支结构:if的用法"></a>day3 分支结构:if的用法</h5><p><strong>注意缩进</strong><br>if ；elif ；else</p>
+<h5 id="day4-循环结构-for的用法，while的用法"><a href="#day4-循环结构-for的用法，while的用法" class="headerlink" title="day4 循环结构:for的用法，while的用法"></a>day4 循环结构:for的用法，while的用法</h5><p><strong>range用法</strong>：<br>range(101)：可以用来产生0到100范围的整数，需要注意的是取不到101。<br>range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。<br>range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。<br>range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。</p>
+<p>break只能终止它所在的那个循环;continue用来放弃本次循环后续的代码直接让循环进入下一轮。</p>
+<h5 id="day5-构造程序逻辑"><a href="#day5-构造程序逻辑" class="headerlink" title="day5 构造程序逻辑"></a>day5 构造程序逻辑</h5><p>写个三个算法，找素数，完美数，斐波那契数列。<br>不知道是不是vscode有问题，前几次明明代码逻辑没错都不出结果。</p>
+<h5 id="day6-函数和模块的使用"><a href="#day6-函数和模块的使用" class="headerlink" title="day6 函数和模块的使用"></a>day6 函数和模块的使用</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def fac(num):</span><br><span class="line">    &quot;&quot;&quot;求阶乘&quot;&quot;&quot;</span><br><span class="line">    result = 1</span><br><span class="line">    for n in range(1, num + 1):</span><br><span class="line">        result *= n</span><br><span class="line">    return result</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">函数定义：</span><br><span class="line">def 函数命(参数)：</span><br><span class="line">    ···</span><br><span class="line">    ···</span><br><span class="line">    return ···</span><br></pre></td></tr></table></figure>
+
+<p>python函数无需重载,支持可变参数(变得是参数的数量)。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">在参数名前面的*表示args是一个可变参数</span><br><span class="line">def add(*args):</span><br><span class="line">    total = 0</span><br><span class="line">    for val in args:</span><br><span class="line">        total += val</span><br><span class="line">    return total</span><br><span class="line"></span><br><span class="line"> 在调用add函数时可以传入0个或多个参数</span><br><span class="line">print(add())</span><br><span class="line">print(add(1))</span><br><span class="line">print(add(1, 2))</span><br><span class="line">print(add(1, 2, 3))</span><br><span class="line">print(add(1, 3, 5, 7, 9))</span><br></pre></td></tr></table></figure>
+<p>可以用模块管理函数,模块就是一个python文件</p>
+<p>在vscode上实践了一下。</p>
+<p>原理就是,一个python文件是一个模块,里面有定义的函数,</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">引用方法： from 模块名 import 函数名</span><br></pre></td></tr></table></figure>
+
+<p>函数可以嵌套，全局变量:global<br>Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索,前三者我们在上面的代码中已经看到了,<br>所谓的“内置作用域”就是Python内置的那些标识,我们之前用过的input、print、int等都属于内置作用域。</p>
+<h5 id="day7-字符串和常用数据结构"><a href="#day7-字符串和常用数据结构" class="headerlink" title="day7 字符串和常用数据结构"></a>day7 字符串和常用数据结构</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">s1 = &#x27;hello, world!&#x27;</span><br><span class="line">s2 = &quot;hello, world!&quot;</span><br><span class="line">以三个双引号或单引号开头的字符串可以折行</span><br><span class="line">s3 = &quot;&quot;&quot;</span><br><span class="line">hello, </span><br><span class="line">world!</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line">print(s1, s2, s3, end=&#x27;&#x27;)</span><br></pre></td></tr></table></figure>
+
+<p>\ 后面:二进制,八进制,十六进制<br>\n 换行 ; \t 制符<br>可以使用*运算符来重复一个字符串的内容,可以使用in和not in来判断一个字符串是否包含另外一个字符串(成员运算),<br>我们也可以用[]和[:]运算符从字符串取出某个字符或某些字符(切片运算),代码如下所示。</p>
+<p>常用输出字符串：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(&quot;&#123;&#125;&quot;.format(a))</span><br><span class="line">s1 = &#x27;hello &#x27; * 3</span><br><span class="line">print(s1) # hello hello hello </span><br><span class="line">s2 = &#x27;world&#x27;</span><br><span class="line">s1 += s2</span><br><span class="line">print(s1) # hello hello hello world</span><br><span class="line">print(&#x27;ll&#x27; in s1) # True</span><br><span class="line">print(&#x27;good&#x27; in s1) # False</span><br><span class="line">str2 = &#x27;abc123456&#x27;</span><br><span class="line"># 从字符串中取出指定位置的字符(下标运算)</span><br><span class="line">print(str2[2]) # c</span><br><span class="line"># 字符串切片(从指定的开始索引到指定的结束索引)</span><br><span class="line">print(str2[2:5]) # c12</span><br><span class="line">print(str2[2:]) # c123456</span><br><span class="line">print(str2[2::2]) # c246</span><br><span class="line">print(str2[::2]) # ac246</span><br><span class="line">print(str2[::-1]) # 654321cba</span><br><span class="line">print(str2[-3:-1]) # 45</span><br></pre></td></tr></table></figure>
+<p>切片的操作是左闭右开<br>字符串处理：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">str1 = &#x27;hello, world!&#x27;</span><br><span class="line"># 通过内置函数len计算字符串的长度</span><br><span class="line">print(len(str1)) # 13</span><br><span class="line"># 获得字符串首字母大写的拷贝</span><br><span class="line">print(str1.capitalize()) # Hello, world!</span><br><span class="line"># 获得字符串每个单词首字母大写的拷贝</span><br><span class="line">print(str1.title()) # Hello, World!</span><br><span class="line"># 获得字符串变大写后的拷贝</span><br><span class="line">print(str1.upper()) # HELLO, WORLD!</span><br><span class="line"># 从字符串中查找子串所在位置</span><br><span class="line">print(str1.find(&#x27;or&#x27;)) # 8</span><br><span class="line">print(str1.find(&#x27;shit&#x27;)) # -1</span><br><span class="line"># 与find类似但找不到子串时会引发异常</span><br><span class="line"># print(str1.index(&#x27;or&#x27;))</span><br><span class="line"># print(str1.index(&#x27;shit&#x27;))</span><br><span class="line"># 检查字符串是否以指定的字符串开头</span><br><span class="line">print(str1.startswith(&#x27;He&#x27;)) # False</span><br><span class="line">print(str1.startswith(&#x27;hel&#x27;)) # True</span><br><span class="line"># 检查字符串是否以指定的字符串结尾</span><br><span class="line">print(str1.endswith(&#x27;!&#x27;)) # True</span><br><span class="line"># 将字符串以指定的宽度居中并在两侧填充指定的字符</span><br><span class="line">print(str1.center(50, &#x27;*&#x27;))</span><br><span class="line"># 将字符串以指定的宽度靠右放置左侧填充指定的字符</span><br><span class="line">print(str1.rjust(50, &#x27; &#x27;))</span><br><span class="line">str2 = &#x27;abc123456&#x27;</span><br><span class="line"># 检查字符串是否由数字构成</span><br><span class="line">print(str2.isdigit())  # False</span><br><span class="line"># 检查字符串是否以字母构成</span><br><span class="line">print(str2.isalpha())  # False</span><br><span class="line"># 检查字符串是否以数字和字母构成</span><br><span class="line">print(str2.isalnum())  # True</span><br><span class="line">str3 = &#x27;  jackfrued@126.com &#x27;</span><br><span class="line">print(str3)</span><br><span class="line"># 获得字符串修剪左右两侧空格之后的拷贝</span><br><span class="line">print(str3.strip())</span><br></pre></td></tr></table></figure>
+
+<p><strong>好困啊，看一集生活大爆炸就睡觉吧，明天起来跑完步继续吧 o(￣▽￣)ｄ</strong></p>
+<p>列表</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [1, 3, 5, 7, 100]</span><br><span class="line">print(list1) # [1, 3, 5, 7, 100]</span><br><span class="line"># 乘号表示列表元素的重复</span><br><span class="line">list2 = [&#x27;hello&#x27;] * 3</span><br><span class="line">print(list2) # [&#x27;hello&#x27;, &#x27;hello&#x27;, &#x27;hello&#x27;]</span><br><span class="line"># 计算列表长度(元素个数)</span><br><span class="line">print(len(list1)) # 5</span><br><span class="line"># 下标(索引)运算</span><br><span class="line">print(list1[0]) # 1</span><br><span class="line">print(list1[4]) # 100</span><br><span class="line"># print(list1[5])  # IndexError: list index out of range</span><br><span class="line">print(list1[-1]) # 100</span><br><span class="line">print(list1[-3]) # 5</span><br><span class="line">list1[2] = 300</span><br><span class="line">print(list1) # [1, 3, 300, 7, 100]</span><br><span class="line"># 通过循环用下标遍历列表元素</span><br><span class="line">for index in range(len(list1)):</span><br><span class="line">    print(list1[index])</span><br><span class="line"># 通过for循环遍历列表元素</span><br><span class="line">for elem in list1:</span><br><span class="line">    print(elem)</span><br><span class="line"># 通过enumerate函数处理列表之后再遍历可以同时获得元素索引和值</span><br><span class="line">for index, elem in enumerate(list1):</span><br><span class="line">    print(index, elem)</span><br></pre></td></tr></table></figure>
+<p>列表操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [1, 3, 5, 7, 100]</span><br><span class="line"># 添加元素</span><br><span class="line">list1.append(200)</span><br><span class="line">list1.insert(1, 400)</span><br><span class="line"># 合并两个列表</span><br><span class="line"># list1.extend([1000, 2000])</span><br><span class="line">list1 += [1000, 2000]</span><br><span class="line">print(list1) # [1, 400, 3, 5, 7, 100, 200, 1000, 2000]</span><br><span class="line">print(len(list1)) # 9</span><br><span class="line"># 先通过成员运算判断元素是否在列表中，如果存在就删除该元素</span><br><span class="line">if 3 in list1:</span><br><span class="line">	list1.remove(3)</span><br><span class="line">if 1234 in list1:</span><br><span class="line">    list1.remove(1234)</span><br><span class="line">print(list1) # [1, 400, 5, 7, 100, 200, 1000, 2000]</span><br><span class="line"># 从指定的位置删除元素</span><br><span class="line">list1.pop(0)</span><br><span class="line">list1.pop(len(list1) - 1)</span><br><span class="line">print(list1) # [400, 5, 7, 100, 200, 1000]</span><br><span class="line"># 清空列表元素</span><br><span class="line">list1.clear()</span><br><span class="line">print(list1) # []</span><br></pre></td></tr></table></figure>
+<p>列表切片：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fruits = [&#x27;grape&#x27;, &#x27;apple&#x27;, &#x27;strawberry&#x27;, &#x27;waxberry&#x27;]</span><br><span class="line">fruits += [&#x27;pitaya&#x27;, &#x27;pear&#x27;, &#x27;mango&#x27;]</span><br><span class="line"># 列表切片</span><br><span class="line">fruits2 = fruits[1:4]</span><br><span class="line">print(fruits2) # apple strawberry waxberry</span><br><span class="line"># 可以通过完整切片操作来复制列表</span><br><span class="line">fruits3 = fruits[:]</span><br><span class="line">print(fruits3) # [&#x27;grape&#x27;, &#x27;apple&#x27;, &#x27;strawberry&#x27;, &#x27;waxberry&#x27;, &#x27;pitaya&#x27;, &#x27;pear&#x27;, &#x27;mango&#x27;]</span><br><span class="line">fruits4 = fruits[-3:-1]</span><br><span class="line">print(fruits4) # [&#x27;pitaya&#x27;, &#x27;pear&#x27;]</span><br><span class="line"># 可以通过反向切片操作来获得倒转后的列表的拷贝</span><br><span class="line">fruits5 = fruits[::-1]</span><br><span class="line">print(fruits5) # [&#x27;mango&#x27;, &#x27;pear&#x27;, &#x27;pitaya&#x27;, &#x27;waxberry&#x27;, &#x27;strawberry&#x27;, &#x27;apple&#x27;, &#x27;grape&#x27;]</span><br></pre></td></tr></table></figure>
+<p>列表排序：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">list1 = [&#x27;orange&#x27;, &#x27;apple&#x27;, &#x27;zoo&#x27;, &#x27;internationalization&#x27;, &#x27;blueberry&#x27;]</span><br><span class="line">list2 = sorted(list1)</span><br><span class="line"># sorted函数返回列表排序后的拷贝不会修改传入的列表</span><br><span class="line"># 函数的设计就应该像sorted函数一样尽可能不产生副作用</span><br><span class="line">list3 = sorted(list1, reverse=True)</span><br><span class="line"># 通过key关键字参数指定根据字符串长度进行排序而不是默认的字母表顺序</span><br><span class="line">list4 = sorted(list1, key=len)</span><br><span class="line">print(list1)</span><br><span class="line">print(list2)</span><br><span class="line">print(list3)</span><br><span class="line">print(list4)</span><br><span class="line"># 给列表对象发出排序消息直接在列表对象上进行排序</span><br><span class="line">list1.sort(reverse=True)</span><br><span class="line">print(list1)</span><br></pre></td></tr></table></figure>
+<p>生成式和生成器。。。</p>
+<p>元组:元素不能修改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 定义元组</span><br><span class="line">t = (&#x27;骆昊&#x27;, 38, True, &#x27;四川成都&#x27;)</span><br><span class="line">print(t)</span><br><span class="line"># 获取元组中的元素</span><br><span class="line">print(t[0])</span><br><span class="line">print(t[3])</span><br><span class="line"># 遍历元组中的值</span><br><span class="line">for member in t:</span><br><span class="line">    print(member)</span><br><span class="line"># 重新给元组赋值</span><br><span class="line"># t[0] = &#x27;王大锤&#x27;  # TypeError</span><br><span class="line"># 变量t重新引用了新的元组原来的元组将被垃圾回收</span><br><span class="line">t = (&#x27;王大锤&#x27;, 20, True, &#x27;云南昆明&#x27;)</span><br><span class="line">print(t)</span><br><span class="line"># 将元组转换成列表</span><br><span class="line">person = list(t)</span><br><span class="line">print(person)</span><br><span class="line"># 列表是可以修改它的元素的</span><br><span class="line">person[0] = &#x27;李小龙&#x27;</span><br><span class="line">person[1] = 25</span><br><span class="line">print(person)</span><br><span class="line"># 将列表转换成元组</span><br><span class="line">fruits_list = [&#x27;apple&#x27;, &#x27;banana&#x27;, &#x27;orange&#x27;]</span><br><span class="line">fruits_tuple = tuple(fruits_list)</span><br><span class="line">print(fruits_tuple)</span><br></pre></td></tr></table></figure>
+<p>集合:Python中的集合跟数学上的集合是一致的，不允许有重复元素，而且可以进行交集、并集、差集等运算。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 创建集合的字面量语法</span><br><span class="line">set1 = &#123;1, 2, 3, 3, 3, 2&#125;</span><br><span class="line">print(set1)</span><br><span class="line">print(&#x27;Length =&#x27;, len(set1))</span><br><span class="line"># 创建集合的构造器语法(面向对象部分会进行详细讲解)</span><br><span class="line">set2 = set(range(1, 10))</span><br><span class="line">set3 = set((1, 2, 3, 3, 2, 1))</span><br><span class="line">print(set2, set3)</span><br><span class="line"># 创建集合的推导式语法(推导式也可以用于推导集合)</span><br><span class="line">set4 = &#123;num for num in range(1, 100) if num % 3 == 0 or num % 5 == 0&#125;</span><br><span class="line">print(set4)</span><br><span class="line">向集合添加元素和从集合删除元素。</span><br><span class="line">set1.add(4)</span><br><span class="line">set1.add(5)</span><br><span class="line">set2.update([11, 12])</span><br><span class="line">set2.discard(5)</span><br><span class="line">if 4 in set2:</span><br><span class="line">    set2.remove(4)</span><br><span class="line">print(set1, set2)</span><br><span class="line">print(set3.pop())</span><br><span class="line">print(set3)</span><br><span class="line"># 集合的交集、并集、差集、对称差运算</span><br><span class="line">print(set1 &amp; set2)</span><br><span class="line"># print(set1.intersection(set2))</span><br><span class="line">print(set1 | set2)</span><br><span class="line"># print(set1.union(set2))</span><br><span class="line">print(set1 - set2)</span><br><span class="line"># print(set1.difference(set2))</span><br><span class="line">print(set1 ^ set2)</span><br><span class="line"># print(set1.symmetric_difference(set2))</span><br><span class="line"># 判断子集和超集</span><br><span class="line">print(set2 &lt;= set1)</span><br><span class="line"># print(set2.issubset(set1))</span><br><span class="line">print(set3 &lt;= set1)</span><br><span class="line"># print(set3.issubset(set1))</span><br><span class="line">print(set1 &gt;= set2)</span><br><span class="line"># print(set1.issuperset(set2))</span><br><span class="line">print(set1 &gt;= set3)</span><br><span class="line"># print(set1.issuperset(set3))</span><br></pre></td></tr></table></figure>
+
+<p>字典:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 创建字典的字面量语法</span><br><span class="line">scores = &#123;&#x27;骆昊&#x27;: 95, &#x27;白元芳&#x27;: 78, &#x27;狄仁杰&#x27;: 82&#125;</span><br><span class="line">print(scores)</span><br><span class="line"># 创建字典的构造器语法</span><br><span class="line">items1 = dict(one=1, two=2, three=3, four=4)</span><br><span class="line"># 通过zip函数将两个序列压成字典</span><br><span class="line">items2 = dict(zip([&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;], &#x27;123&#x27;))</span><br><span class="line"># 创建字典的推导式语法</span><br><span class="line">items3 = &#123;num: num ** 2 for num in range(1, 10)&#125;</span><br><span class="line">print(items1, items2, items3)</span><br><span class="line"># 通过键可以获取字典中对应的值</span><br><span class="line">print(scores[&#x27;骆昊&#x27;])</span><br><span class="line">print(scores[&#x27;狄仁杰&#x27;])</span><br><span class="line"># 对字典中所有键值对进行遍历</span><br><span class="line">for key in scores:</span><br><span class="line">    print(f&#x27;&#123;key&#125;: &#123;scores[key]&#125;&#x27;)</span><br><span class="line"># 更新字典中的元素</span><br><span class="line">scores[&#x27;白元芳&#x27;] = 65</span><br><span class="line">scores[&#x27;诸葛王朗&#x27;] = 71</span><br><span class="line">scores.update(冷面=67, 方启鹤=85)</span><br><span class="line">print(scores)</span><br><span class="line">if &#x27;武则天&#x27; in scores:</span><br><span class="line">    print(scores[&#x27;武则天&#x27;])</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;))</span><br><span class="line"># get方法也是通过键获取对应的值但是可以设置默认值</span><br><span class="line">print(scores.get(&#x27;武则天&#x27;, 60))</span><br><span class="line"># 删除字典中的元素</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.popitem())</span><br><span class="line">print(scores.pop(&#x27;骆昊&#x27;, 100))</span><br><span class="line"># 清空字典</span><br><span class="line">scores.clear()</span><br><span class="line">print(scores)</span><br></pre></td></tr></table></figure>
+<p>看着感觉挺简单,实际做慕课作业时真写不出来</p>
+<h5 id="day8-面向对象编程"><a href="#day8-面向对象编程" class="headerlink" title="day8 面向对象编程"></a>day8 面向对象编程</h5><p>用class关键字定义</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    # __init__是一个特殊方法用于在创建对象时进行初始化操作</span><br><span class="line">    # 通过这个方法我们可以为学生对象绑定name和age两个属性</span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self.name = name</span><br><span class="line">        self.age = age</span><br><span class="line"></span><br><span class="line">    def study(self, course_name):</span><br><span class="line">        print(&#x27;%s正在学习%s.&#x27; % (self.name, course_name))</span><br></pre></td></tr></table></figure>
+<p>对于上述对象,我们可以描述其行为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def def():</span><br><span class="line">    创建对象</span><br><span class="line">    stu1=Student(&#x27;艾伦&#x27;,18)</span><br><span class="line">    stu1.study(&#x27;高等数学&#x27;)</span><br><span class="line">if __name__=&quot;__main__&quot;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+
+<h5 id="day9-面向对象进阶"><a href="#day9-面向对象进阶" class="headerlink" title="day9 面向对象进阶"></a>day9 面向对象进阶</h5><p>面向对象有三大属性：继承，封装，多态</p>
+<p>python通过属性的访问器和修改器来实现封装性</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">class Person(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, age):</span><br><span class="line">        self._name = name</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def name(self):</span><br><span class="line">        return self._name</span><br><span class="line"></span><br><span class="line">    # 访问器 - getter方法</span><br><span class="line">    @property</span><br><span class="line">    def age(self):</span><br><span class="line">        return self._age</span><br><span class="line"></span><br><span class="line">    # 修改器 - setter方法</span><br><span class="line">    @age.setter</span><br><span class="line">    def age(self, age):</span><br><span class="line">        self._age = age</span><br><span class="line"></span><br><span class="line">    def play(self):</span><br><span class="line">        if self._age &lt;= 16:</span><br><span class="line">            print(&#x27;%s正在玩飞行棋.&#x27; % self._name)</span><br><span class="line">        else:</span><br><span class="line">            print(&#x27;%s正在玩斗地主.&#x27; % self._name)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">    person = Person(&#x27;王大锤&#x27;, 12)</span><br><span class="line">    person.play()</span><br><span class="line">    person.age = 22</span><br><span class="line">    person.play()</span><br><span class="line">    # person.name = &#x27;白元芳&#x27;  # AttributeError: can&#x27;t set attribute</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+
+<p>这边不太想学了,以后要用再来看吧,直接过<br>等我先把形策和英语作文写了，晚上再看一节</p>
+<h5 id="day10-图形用户界面和游戏开发"><a href="#day10-图形用户界面和游戏开发" class="headerlink" title="day10 图形用户界面和游戏开发"></a>day10 图形用户界面和游戏开发</h5><p>简单讲了下面向对象编程的应用，做了个大球吃小球的游戏，不太会，感兴趣可以看看pygame官网</p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -263,14 +214,53 @@
       </tags>
   </entry>
   <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
+]]></content>
       <tags>
-        <tag>python</tag>
+        <tag>Mincraft</tag>
       </tags>
   </entry>
   <entry>
@@ -286,6 +276,36 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>代码问题与解决方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -331,30 +351,11 @@
       </tags>
   </entry>
   <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开学纪要</title>
     <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
     <content><![CDATA[<p>开学了，大二又要学了。</p>
 <p>新学期好像没啥规划。</p>
 <p>学就是了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -385,12 +386,11 @@
       </tags>
   </entry>
   <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<p>不知道为什么,学习永远是孤独的。</p>
+<p>以前是这样,现在也是这样。</p>
+<p>或许我早该认识到。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -435,42 +435,22 @@
       </tags>
   </entry>
   <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
-  </entry>
-  <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<p>不知道为什么,学习永远是孤独的。</p>
-<p>以前是这样,现在也是这样。</p>
-<p>或许我早该认识到。</p>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -542,6 +522,49 @@
 ]]></content>
       <tags>
         <tag>离散数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
+  </entry>
+  <entry>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -654,28 +677,6 @@
 ]]></content>
       <tags>
         <tag>算法与数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
-      <tags>
-        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
