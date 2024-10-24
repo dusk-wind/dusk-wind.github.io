@@ -108,12 +108,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Mincraft启动器及mod安装</title>
     <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
@@ -162,6 +156,12 @@
       <tags>
         <tag>Mincraft</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
   </entry>
   <entry>
     <title>hexo指令以及markdown使用方法</title>
@@ -245,6 +245,17 @@
       </tags>
   </entry>
   <entry>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>next主题美化</title>
     <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
@@ -302,17 +313,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二级c</title>
     <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
     <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
@@ -335,45 +335,6 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
-      <tags>
-        <tag>古月方源/蛊真人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>困</title>
-    <url>/2024/10/21/%E5%9B%B0/</url>
-    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
-<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
-<p>感兴趣的话可以试试。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -419,31 +380,58 @@
       </tags>
   </entry>
   <entry>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
+]]></content>
+      <tags>
+        <tag>古月方源/蛊真人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关闭</title>
+    <url>/2024/10/22/%E5%85%B3%E9%97%AD/</url>
+    <content><![CDATA[<p>此站关闭,仅供我一人查看。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>困</title>
+    <url>/2024/10/21/%E5%9B%B0/</url>
+    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
+<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
+<p>感兴趣的话可以试试。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>序</title>
     <url>/2024/08/01/%E5%BA%8F/</url>
     <content><![CDATA[<hr>
 <p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -455,51 +443,6 @@
     <content><![CDATA[<p>开学了，大二又要学了。</p>
 <p>新学期好像没啥规划。</p>
 <p>学就是了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构c语言课后习题</title>
-    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
-    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
-<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
-<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
-<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
-<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
-<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
-<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
-<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
-<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
-<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
-<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
-<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
-<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
-<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
-<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
-<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
-<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -525,6 +468,72 @@
 <p style="text-align: center;">
     <img src="\images\投屏3.png" alt="minecraft">
 </p>]]></content>
+  </entry>
+  <entry>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构c语言课后习题</title>
+    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
+    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
+<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
+<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
+<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
+<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
+<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
+<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
+<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
+<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
+<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
+<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
+<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
+<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
+<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
+<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
+<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
+<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
+<h5 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h5>]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
   </entry>
   <entry>
     <title>离散数学笔记</title>
@@ -592,6 +601,75 @@
 ]]></content>
       <tags>
         <tag>离散数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法与数据结构</title>
+    <url>/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
+<h5 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h5><p>a<em>N^2+b</em>N+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selectionsort(int[] arr)&#123;</span><br><span class="line">     if(arr == NULL || arr.length&lt;2 ) &#123;return ;&#125;</span><br><span class="line">     for(int i=0; i &lt; arr.length - 1;i++)&#123;</span><br><span class="line">     int minindex =i;</span><br><span class="line">     for(j=i+1;j &lt; arr.length; j++)</span><br><span class="line">     &#123;</span><br><span class="line">        minindex = arr[j] &lt; arr[minindex] ? j : minindex ;</span><br><span class="line">     &#125;</span><br><span class="line">     swap(arr,i,minindex);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+
+<p>先看时间复杂度指标,时间复杂度一致时,需实际跑代码比较优劣。</p>
+<p>额外空间复杂度O(1)</p>
+<h5 id="冒泡排序-大的数依次向右移动-O-N-2"><a href="#冒泡排序-大的数依次向右移动-O-N-2" class="headerlink" title="冒泡排序: 大的数依次向右移动 O(N^2)"></a>冒泡排序: 大的数依次向右移动 O(N^2)</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bubblesort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == NULL || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for (int e = arr.lemgth-1 ; e&gt;0 ; e-- )</span><br><span class="line">    &#123;</span><br><span class="line">        for(int i=0; i &lt; e; i++ )</span><br><span class="line">        &#123;</span><br><span class="line">            if(arr[i]&gt;arr[i+1])</span><br><span class="line">                swap(arr,i,i+1);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加"><a href="#异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加" class="headerlink" title="异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)"></a>异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</h5><ul>
+<li>0 ^ N &#x3D; N ;  N ^ N &#x3D; 0</li>
+<li>满足交换律和结合律 a^b&#x3D;b^a ; (a^b)^c &#x3D; a^(b^c)</li>
+<li>同一组数据，异或结果与顺序无关。</li>
+</ul>
+<p>Q1：在一个数组中，已知只有一种数出现奇数次，其他数出现偶数次，如何找到？<br>Q2：在一个数组中，已知只有两种数出现奇数次，其他数出现偶数次，如何找到？<br>要求时间复杂度为O(N)<br>A1: int eor&#x3D;0 ; 提取数组的所有数，进行异或：arr[0]^arr[1]^……arr[n]&#x3D;结果<br>A2: 先所有数组进行异或 eor&#x3D;a^b，接着依次取出一个数与该结果异或，得到结果。</p>
+<p> 位运算操作(二进制)：一个数取反加1，可以都到最右侧的数。</p>
+<h5 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h5><p>0-0有序-&gt;0-1有序-&gt;0-2有序…………<br>4,5,6,7,3,2,1 -&gt; O(N^2)<br>1,2,3,4,5,6,7 -&gt; 0(N)<br>时间复杂度由算法最差情况的表现决定。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">insertsort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr==null || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for(int i=1; i &lt; arr.length ; i++ )</span><br><span class="line">    &#123;</span><br><span class="line">        for (int j=i-1;j &gt;= 0 &amp;&amp; arr[j]&gt;arr[j+1]; j-- )</span><br><span class="line">        &#123; swap(arr,j,j+1); &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="二分法的详解与扩展"><a href="#二分法的详解与扩展" class="headerlink" title="二分法的详解与扩展"></a>二分法的详解与扩展</h5><ul>
+<li><ol>
+<li>在一个有序数组中，找到某个数的存在<br>  (1)遍历 O（N）<br>  (2)二分 O(log2(N))</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>在一个有序数组中，找到&gt;&#x3D;某个数最左侧的位置<br>  ex: 1 2 2 2 2 3 3 3 3 4 4 4 4 4 4 4</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>局部最小值问题<br>  在一个无序数组中，任何两个相邻的数不相等，求一个局部最小的过程 在时间复杂度上好于O(N)<br>  A：  1 3 5 7 4 9 6 3 2<br>  先看0位置和n-1位置是否存在局部最小，若不，则中间必有局部最小。<br>  接下来继续比较运用二分法。</li>
+</ol>
+</li>
+</ul>
+<h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
+<p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
+<p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
+<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
+</ul>
+<ol>
+<li>logb(a)&lt;d -&gt; O(N^d)</li>
+<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
+<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
+</ol>
+<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
+<ul>
+<li>扩展问题：小和问题和逆序对问题</li>
+</ul>
+<ol>
+<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
+</li>
+<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
+</li>
+</ol>
+<p> b</p>
+]]></content>
+      <tags>
+        <tag>算法与数据结构</tag>
       </tags>
   </entry>
   <entry>
@@ -667,75 +745,6 @@
 <h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
       <tags>
         <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法与数据结构</title>
-    <url>/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
-<h5 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h5><p>a<em>N^2+b</em>N+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selectionsort(int[] arr)&#123;</span><br><span class="line">     if(arr == NULL || arr.length&lt;2 ) &#123;return ;&#125;</span><br><span class="line">     for(int i=0; i &lt; arr.length - 1;i++)&#123;</span><br><span class="line">     int minindex =i;</span><br><span class="line">     for(j=i+1;j &lt; arr.length; j++)</span><br><span class="line">     &#123;</span><br><span class="line">        minindex = arr[j] &lt; arr[minindex] ? j : minindex ;</span><br><span class="line">     &#125;</span><br><span class="line">     swap(arr,i,minindex);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-
-<p>先看时间复杂度指标,时间复杂度一致时,需实际跑代码比较优劣。</p>
-<p>额外空间复杂度O(1)</p>
-<h5 id="冒泡排序-大的数依次向右移动-O-N-2"><a href="#冒泡排序-大的数依次向右移动-O-N-2" class="headerlink" title="冒泡排序: 大的数依次向右移动 O(N^2)"></a>冒泡排序: 大的数依次向右移动 O(N^2)</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bubblesort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == NULL || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for (int e = arr.lemgth-1 ; e&gt;0 ; e-- )</span><br><span class="line">    &#123;</span><br><span class="line">        for(int i=0; i &lt; e; i++ )</span><br><span class="line">        &#123;</span><br><span class="line">            if(arr[i]&gt;arr[i+1])</span><br><span class="line">                swap(arr,i,i+1);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加"><a href="#异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加" class="headerlink" title="异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)"></a>异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</h5><ul>
-<li>0 ^ N &#x3D; N ;  N ^ N &#x3D; 0</li>
-<li>满足交换律和结合律 a^b&#x3D;b^a ; (a^b)^c &#x3D; a^(b^c)</li>
-<li>同一组数据，异或结果与顺序无关。</li>
-</ul>
-<p>Q1：在一个数组中，已知只有一种数出现奇数次，其他数出现偶数次，如何找到？<br>Q2：在一个数组中，已知只有两种数出现奇数次，其他数出现偶数次，如何找到？<br>要求时间复杂度为O(N)<br>A1: int eor&#x3D;0 ; 提取数组的所有数，进行异或：arr[0]^arr[1]^……arr[n]&#x3D;结果<br>A2: 先所有数组进行异或 eor&#x3D;a^b，接着依次取出一个数与该结果异或，得到结果。</p>
-<p> 位运算操作(二进制)：一个数取反加1，可以都到最右侧的数。</p>
-<h5 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h5><p>0-0有序-&gt;0-1有序-&gt;0-2有序…………<br>4,5,6,7,3,2,1 -&gt; O(N^2)<br>1,2,3,4,5,6,7 -&gt; 0(N)<br>时间复杂度由算法最差情况的表现决定。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">insertsort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr==null || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for(int i=1; i &lt; arr.length ; i++ )</span><br><span class="line">    &#123;</span><br><span class="line">        for (int j=i-1;j &gt;= 0 &amp;&amp; arr[j]&gt;arr[j+1]; j-- )</span><br><span class="line">        &#123; swap(arr,j,j+1); &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="二分法的详解与扩展"><a href="#二分法的详解与扩展" class="headerlink" title="二分法的详解与扩展"></a>二分法的详解与扩展</h5><ul>
-<li><ol>
-<li>在一个有序数组中，找到某个数的存在<br>  (1)遍历 O（N）<br>  (2)二分 O(log2(N))</li>
-</ol>
-</li>
-<li><ol start="2">
-<li>在一个有序数组中，找到&gt;&#x3D;某个数最左侧的位置<br>  ex: 1 2 2 2 2 3 3 3 3 4 4 4 4 4 4 4</li>
-</ol>
-</li>
-<li><ol start="3">
-<li>局部最小值问题<br>  在一个无序数组中，任何两个相邻的数不相等，求一个局部最小的过程 在时间复杂度上好于O(N)<br>  A：  1 3 5 7 4 9 6 3 2<br>  先看0位置和n-1位置是否存在局部最小，若不，则中间必有局部最小。<br>  接下来继续比较运用二分法。</li>
-</ol>
-</li>
-</ul>
-<h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
-<p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
-<p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
-<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
-</ul>
-<ol>
-<li>logb(a)&lt;d -&gt; O(N^d)</li>
-<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
-<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
-</ol>
-<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
-<ul>
-<li>扩展问题：小和问题和逆序对问题</li>
-</ul>
-<ol>
-<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
-</li>
-<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
-</li>
-</ol>
-<p> b</p>
-]]></content>
-      <tags>
-        <tag>算法与数据结构</tag>
       </tags>
   </entry>
   <entry>
