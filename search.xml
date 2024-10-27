@@ -111,19 +111,132 @@
       </tags>
   </entry>
   <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
 ]]></content>
       <tags>
         <tag>Mincraft</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hexo指令以及markdown使用方法</title>
+    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
+<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
+<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
+<html> *这是斜体*</html>
+
+<p><em>这是斜体</em></p>
+<html> **这是粗体**</html>
+
+<p><strong>这是粗体</strong></p>
+<html> ***这是粗斜体***</html>
+
+<p><em><strong>这是粗斜体</strong></em></p>
+<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
+<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
+<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
+<p>\ 可以显示符号本身</p>
+<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
+<ul>
+<li>无序列表</li>
+</ul>
+<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
+<ol>
+<li>一级层级<ol start="2">
+<li>二级层级<ol start="3">
+<li>三级层级</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
+<p>星露谷种子售价及收益</p>
+<table>
+<thead>
+<tr>
+<th align="left">作物</th>
+<th align="left">种子价($)</th>
+<th align="left">生长时间(天)</th>
+<th align="left">普通品质售价($)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">土豆</td>
+<td align="left">50</td>
+<td align="left">6</td>
+<td align="left">80</td>
+</tr>
+<tr>
+<td align="left">郁金香</td>
+<td align="left">20</td>
+<td align="left">6</td>
+<td align="left">30</td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>hexo框架博客搭建/markdown使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
   </entry>
   <entry>
     <title>next主题美化</title>
@@ -194,56 +307,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二级c</title>
     <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
     <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
@@ -251,6 +314,30 @@
 ]]></content>
       <tags>
         <tag>计算机二级c语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>代码问题与解决方法</tag>
       </tags>
   </entry>
   <entry>
@@ -296,21 +383,6 @@
       </tags>
   </entry>
   <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>诗</title>
     <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
     <content><![CDATA[<ul>
@@ -350,16 +422,6 @@
       </tags>
   </entry>
   <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>建站成功感言</title>
     <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
     <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
@@ -374,6 +436,16 @@
     <content><![CDATA[<p>开学了，大二又要学了。</p>
 <p>新学期好像没啥规划。</p>
 <p>学就是了。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -460,6 +532,30 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用python演奏音乐</title>
+    <url>/2024/10/26/%E7%94%A8python%E6%BC%94%E5%A5%8F%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p>导入库:mido<br>music 是一个自定义函数，用于向 MIDI 轨道中添加音符的开启和关闭消息。这个函数接收三个参数：note（音符的索引），base_num（基准音高的八度偏移量），以及 base_time（音符的基础持续时间，以某种相对单位表示）。</p>
+<span id="more"></span>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import mido</span><br><span class="line">mid = mido.MidiFile()</span><br><span class="line">track = mido.MidiTrack()</span><br><span class="line">mid.tracks.append(track)</span><br><span class="line">#bpm = \frac&#123;60000000&#125;&#123;tempo&#125;</span><br><span class="line">def music(note,base_num,base_time):</span><br><span class="line">    </span><br><span class="line">    #meta_time = 60 * 60 * 10 / bpm</span><br><span class="line">    major_notes = [0, 2, 2, 1, 2, 2, 2, 1]</span><br><span class="line">    base_note = 60</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=0,channel=1))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=int(480*base_time),channel=1))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_on&#x27;, note=base_note, velocity=96, time=0))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_off&#x27;, note=base_note, velocity=96, time=480*base_time))</span><br></pre></td></tr></table></figure>
+
+<p>之后定义music函数:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def lemon_music():</span><br><span class="line">    #1</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #2</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*7))</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(2,1,3)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(1,1,1.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,2)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    </span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    #kongbai</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(7,1,2)</span><br><span class="line">    music(7,1,1)</span><br><span class="line">    music(1,2,1)</span><br><span class="line"></span><br><span class="line">    music(1,2,4)</span><br><span class="line"></span><br><span class="line">    music(1,2,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(2,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,0,2)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,2,1)</span><br><span class="line"></span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(6,1,1)</span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    #kongbai</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(3,1,3)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(2,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(4,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(4,-2,0.25)</span><br><span class="line">    music(1,-1,0.25)</span><br><span class="line">    music(4,-1,0.25)</span><br><span class="line">    music(5,-1,0.25)</span><br><span class="line">    music(1,0,0.25)</span><br><span class="line">    music(2,0,0.25)</span><br><span class="line">    music(5,0,0.25)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.25)</span><br><span class="line">    music(5,1,0.25)</span><br><span class="line">    music(1,2,0.25)</span><br><span class="line">    music(2,2,0.25)</span><br><span class="line">    music(5,2,0.25)</span><br><span class="line">    music(1,3,0.75)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,3.5)</span><br><span class="line"></span><br><span class="line">lemon_music()</span><br><span class="line">mid.save(&#x27;lemon.mid&#x27;)</span><br></pre></td></tr></table></figure>
+<p>运行lemon_music函数并生成此音乐的mid文件<br>之后写一个mid文件运行的python的程序或直接找到文件用现有的音乐播放器打开。</p>
+<p>lemon音乐演示如下:</p>
+<p>我加载网页后发现HTML5不支持midi文件播放。没办法了。</p>
+<p>这边转成MP3:</p>
+<audio controls>  
+        <source src="/music/lemon.mp3" type="audio/mpeg">  
+        您的浏览器不支持音频元素。  
+</audio>  
+
+
+]]></content>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -683,78 +779,6 @@
 </p>]]></content>
       <tags>
         <tag>闲聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo指令以及markdown使用方法</title>
-    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
-<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
-<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
-<html> *这是斜体*</html>
-
-<p><em>这是斜体</em></p>
-<html> **这是粗体**</html>
-
-<p><strong>这是粗体</strong></p>
-<html> ***这是粗斜体***</html>
-
-<p><em><strong>这是粗斜体</strong></em></p>
-<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
-<blockquote>
-<p>这是一个引用</p>
-</blockquote>
-<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
-<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
-<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
-<p>\ 可以显示符号本身</p>
-<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
-<ul>
-<li>无序列表</li>
-</ul>
-<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
-<ol>
-<li>一级层级<ol start="2">
-<li>二级层级<ol start="3">
-<li>三级层级</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
-<p>星露谷种子售价及收益</p>
-<table>
-<thead>
-<tr>
-<th align="left">作物</th>
-<th align="left">种子价($)</th>
-<th align="left">生长时间(天)</th>
-<th align="left">普通品质售价($)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">土豆</td>
-<td align="left">50</td>
-<td align="left">6</td>
-<td align="left">80</td>
-</tr>
-<tr>
-<td align="left">郁金香</td>
-<td align="left">20</td>
-<td align="left">6</td>
-<td align="left">30</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>hexo框架博客搭建/markdown使用</tag>
       </tags>
   </entry>
 </search>
