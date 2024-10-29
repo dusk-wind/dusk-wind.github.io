@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitHub项目-python</title>
     <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
@@ -161,33 +111,68 @@
       </tags>
   </entry>
   <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
 ]]></content>
       <tags>
         <tag>Mincraft</tag>
       </tags>
   </entry>
   <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
 ]]></content>
       <tags>
-        <tag>计算机二级c语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>python</tag>
+        <tag>Mincraft</tag>
       </tags>
   </entry>
   <entry>
@@ -263,63 +248,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于暑假见习的一些感想和夏日闲谈</title>
-    <url>/2024/08/22/%E5%85%B3%E4%BA%8E%E6%9A%91%E5%81%87%E8%A7%81%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%84%9F%E6%83%B3%E5%92%8C%E9%97%B2%E8%B0%88/</url>
-    <content><![CDATA[<p>我喜欢夏天的云，因为它看上去是那么的浓烈，触手可及。</p>
-<p>现在暑假已经接近尾声了，夏天的云似乎也已经消散。</p>
-<p>我知道，夏天正在消逝。</p>
-<p>就好比手中的冰淇淋，逐渐融化。</p>
-<span id="more"></span>
-
-<p>夏天就要过去，好似从小到大都是这样。</p>
-<p>翻看以前的说说，永远对夏日有着一丝依恋。</p>
-<p>或许是因为我对过去的怀念吧。</p>
-<p>我永远记得 在悠长的夏日里 </p>
-<p>柳堡镇公园的凉亭下，我们一群人围着打三国杀。</p>
-<p>清凉的空调房里，几个人坐在一起打街机，造梦西游3。</p>
-<p>亦或是，去外公家划一条小船，在荷藕塘里找莲子。</p>
-<p>这些都是什么时候的事呢? 大概十年前吧。</p>
-<p>谈回现在，这个暑假，我在柳堡镇政府里见习了一个月。</p>
-<p>做了些事情，涨了些见识。</p>
-<p>最后还有幸参加了宝应县大学生暑期结业仪式。</p>
-<p>总的来说，家乡对于我们是非常照顾的。</p>
-<p>各种各样的人才政策也逐渐出台。</p>
-<p>至少对我而言，我希望大学毕业后能够回到家乡找一份工作。</p>
-<p>我依稀记得初中看过一本书，叫《云边有个小卖部》</p>
-<p>对于刘十三这样的小镇青年来说，他想考上大学，去大城市生活。</p>
-<p>但生活却有种种的不如意，最后是故乡给了他无限的温柔。</p>
-<p>在南京生活了一年，虽然也没出去玩过几次。</p>
-<p>但我觉得大城市与家乡的区别很简单。</p>
-<p>可能就是柳堡少了蜜雪冰城吧，不能天天吃冰淇淋。</p>
-<p>至于大人们考虑的教育，医疗资源丰富，基础设施，娱乐设施完备等。宝应也是具备的。</p>
-<p>最后，还是聊聊政治吧。</p>
-<p>与其说是政治，倒不如说是对当下的一些看法。</p>
-<p>最近有什么事情呢？</p>
-<p>法官王佳佳被杀案，邯郸银行董事长被人捅伤致死，苏州马翔宇举报贪污。</p>
-<p>对于一些人来说，有些事情看多了，倒也淡然了。当然有人也压根不了解。</p>
-<p>以前我也许会锐评一番。</p>
-<p>现在嘛，我只能说，存在即合理。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>next主题美化</title>
     <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
@@ -377,61 +305,72 @@
       </tags>
   </entry>
   <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>日志</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>日志</tag>
+        <tag>代码问题与解决方法</tag>
       </tags>
   </entry>
   <entry>
-    <title>开学纪要</title>
-    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
-    <content><![CDATA[<p>开学了，大二又要学了。</p>
-<p>新学期好像没啥规划。</p>
-<p>学就是了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
+    <title>关于暑假见习的一些感想和夏日闲谈</title>
+    <url>/2024/08/22/%E5%85%B3%E4%BA%8E%E6%9A%91%E5%81%87%E8%A7%81%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%84%9F%E6%83%B3%E5%92%8C%E9%97%B2%E8%B0%88/</url>
+    <content><![CDATA[<p>我喜欢夏天的云，因为它看上去是那么的浓烈，触手可及。</p>
+<p>现在暑假已经接近尾声了，夏天的云似乎也已经消散。</p>
+<p>我知道，夏天正在消逝。</p>
+<p>就好比手中的冰淇淋，逐渐融化。</p>
+<span id="more"></span>
 
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
+<p>夏天就要过去，好似从小到大都是这样。</p>
+<p>翻看以前的说说，永远对夏日有着一丝依恋。</p>
+<p>或许是因为我对过去的怀念吧。</p>
+<p>我永远记得 在悠长的夏日里 </p>
+<p>柳堡镇公园的凉亭下，我们一群人围着打三国杀。</p>
+<p>清凉的空调房里，几个人坐在一起打街机，造梦西游3。</p>
+<p>亦或是，去外公家划一条小船，在荷藕塘里找莲子。</p>
+<p>这些都是什么时候的事呢? 大概十年前吧。</p>
+<p>谈回现在，这个暑假，我在柳堡镇政府里见习了一个月。</p>
+<p>做了些事情，涨了些见识。</p>
+<p>最后还有幸参加了宝应县大学生暑期结业仪式。</p>
+<p>总的来说，家乡对于我们是非常照顾的。</p>
+<p>各种各样的人才政策也逐渐出台。</p>
+<p>至少对我而言，我希望大学毕业后能够回到家乡找一份工作。</p>
+<p>我依稀记得初中看过一本书，叫《云边有个小卖部》</p>
+<p>对于刘十三这样的小镇青年来说，他想考上大学，去大城市生活。</p>
+<p>但生活却有种种的不如意，最后是故乡给了他无限的温柔。</p>
+<p>在南京生活了一年，虽然也没出去玩过几次。</p>
+<p>但我觉得大城市与家乡的区别很简单。</p>
+<p>可能就是柳堡少了蜜雪冰城吧，不能天天吃冰淇淋。</p>
+<p>至于大人们考虑的教育，医疗资源丰富，基础设施，娱乐设施完备等。宝应也是具备的。</p>
+<p>最后，还是聊聊政治吧。</p>
+<p>与其说是政治，倒不如说是对当下的一些看法。</p>
+<p>最近有什么事情呢？</p>
+<p>法官王佳佳被杀案，邯郸银行董事长被人捅伤致死，苏州马翔宇举报贪污。</p>
+<p>对于一些人来说，有些事情看多了，倒也淡然了。当然有人也压根不了解。</p>
+<p>以前我也许会锐评一番。</p>
+<p>现在嘛，我只能说，存在即合理。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
   </entry>
   <entry>
     <title>诗</title>
@@ -462,6 +401,78 @@
       </tags>
   </entry>
   <entry>
+    <title>困</title>
+    <url>/2024/10/21/%E5%9B%B0/</url>
+    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
+<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
+<p>感兴趣的话可以试试。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开学纪要</title>
+    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
+    <content><![CDATA[<p>开学了，大二又要学了。</p>
+<p>新学期好像没啥规划。</p>
+<p>学就是了。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
+  </entry>
+  <entry>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+]]></content>
+      <tags>
+        <tag>计算机二级c语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据结构c语言课后习题</title>
     <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
     <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
@@ -488,9 +499,16 @@
       </tags>
   </entry>
   <entry>
-    <title>数模竞赛</title>
-    <url>/2024/10/24/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
-    <content><![CDATA[]]></content>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
   </entry>
   <entry>
     <title>有感</title>
@@ -512,24 +530,174 @@
       </tags>
   </entry>
   <entry>
-    <title>困</title>
-    <url>/2024/10/21/%E5%9B%B0/</url>
-    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
-<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
-<p>感兴趣的话可以试试。</p>
+    <title>立冬</title>
+    <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
+    <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
+<p>好想放寒假。</p>
+<p>昨天晚上冲澡冲了很长时间，或许是因为很冷吧。</p>
+<p>不知道为什么突然想起了小时候。</p>
+<p>大概下午五六点吧。</p>
+<p>一个人去柳堡镇的澡堂泡澡。</p>
+<p>泡的身上暖暖的</p>
+<p>然后出来穿上厚厚的衣服。</p>
+<p>热气似乎就环绕在我周围</p>
+<p>回家后，可能会在卧室看电视</p>
+<p>逐渐入迷</p>
+<p>回过神来时天已经黑了。</p>
+<p>或者说，变成了深蓝色蔓延到远方。</p>
+<p>一天就这样过去了。</p>
+<p>无忧无虑。</p>
+<p>真怀念，过去。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
+    <title>算法与数据结构</title>
+    <url>/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
+<h5 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h5><p>a<em>N^2+b</em>N+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selectionsort(int[] arr)&#123;</span><br><span class="line">     if(arr == NULL || arr.length&lt;2 ) &#123;return ;&#125;</span><br><span class="line">     for(int i=0; i &lt; arr.length - 1;i++)&#123;</span><br><span class="line">     int minindex =i;</span><br><span class="line">     for(j=i+1;j &lt; arr.length; j++)</span><br><span class="line">     &#123;</span><br><span class="line">        minindex = arr[j] &lt; arr[minindex] ? j : minindex ;</span><br><span class="line">     &#125;</span><br><span class="line">     swap(arr,i,minindex);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+
+<p>先看时间复杂度指标,时间复杂度一致时,需实际跑代码比较优劣。</p>
+<p>额外空间复杂度O(1)</p>
+<h5 id="冒泡排序-大的数依次向右移动-O-N-2"><a href="#冒泡排序-大的数依次向右移动-O-N-2" class="headerlink" title="冒泡排序: 大的数依次向右移动 O(N^2)"></a>冒泡排序: 大的数依次向右移动 O(N^2)</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bubblesort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == NULL || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for (int e = arr.lemgth-1 ; e&gt;0 ; e-- )</span><br><span class="line">    &#123;</span><br><span class="line">        for(int i=0; i &lt; e; i++ )</span><br><span class="line">        &#123;</span><br><span class="line">            if(arr[i]&gt;arr[i+1])</span><br><span class="line">                swap(arr,i,i+1);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加"><a href="#异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加" class="headerlink" title="异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)"></a>异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</h5><ul>
+<li>0 ^ N &#x3D; N ;  N ^ N &#x3D; 0</li>
+<li>满足交换律和结合律 a^b&#x3D;b^a ; (a^b)^c &#x3D; a^(b^c)</li>
+<li>同一组数据，异或结果与顺序无关。</li>
+</ul>
+<p>Q1：在一个数组中，已知只有一种数出现奇数次，其他数出现偶数次，如何找到？<br>Q2：在一个数组中，已知只有两种数出现奇数次，其他数出现偶数次，如何找到？<br>要求时间复杂度为O(N)<br>A1: int eor&#x3D;0 ; 提取数组的所有数，进行异或：arr[0]^arr[1]^……arr[n]&#x3D;结果<br>A2: 先所有数组进行异或 eor&#x3D;a^b，接着依次取出一个数与该结果异或，得到结果。</p>
+<p> 位运算操作(二进制)：一个数取反加1，可以都到最右侧的数。</p>
+<h5 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h5><p>0-0有序-&gt;0-1有序-&gt;0-2有序…………<br>4,5,6,7,3,2,1 -&gt; O(N^2)<br>1,2,3,4,5,6,7 -&gt; 0(N)<br>时间复杂度由算法最差情况的表现决定。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">insertsort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr==null || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for(int i=1; i &lt; arr.length ; i++ )</span><br><span class="line">    &#123;</span><br><span class="line">        for (int j=i-1;j &gt;= 0 &amp;&amp; arr[j]&gt;arr[j+1]; j-- )</span><br><span class="line">        &#123; swap(arr,j,j+1); &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="二分法的详解与扩展"><a href="#二分法的详解与扩展" class="headerlink" title="二分法的详解与扩展"></a>二分法的详解与扩展</h5><ul>
+<li><ol>
+<li>在一个有序数组中，找到某个数的存在<br>  (1)遍历 O（N）<br>  (2)二分 O(log2(N))</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>在一个有序数组中，找到&gt;&#x3D;某个数最左侧的位置<br>  ex: 1 2 2 2 2 3 3 3 3 4 4 4 4 4 4 4</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>局部最小值问题<br>  在一个无序数组中，任何两个相邻的数不相等，求一个局部最小的过程 在时间复杂度上好于O(N)<br>  A：  1 3 5 7 4 9 6 3 2<br>  先看0位置和n-1位置是否存在局部最小，若不，则中间必有局部最小。<br>  接下来继续比较运用二分法。</li>
+</ol>
+</li>
+</ul>
+<h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
+<p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
+<p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
+<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
+</ul>
+<ol>
+<li>logb(a)&lt;d -&gt; O(N^d)</li>
+<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
+<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
+</ol>
+<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
+<ul>
+<li>扩展问题：小和问题和逆序对问题</li>
+</ul>
+<ol>
+<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
+</li>
+<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
+</li>
+</ol>
+<p> b</p>
 ]]></content>
+      <tags>
+        <tag>算法与数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云音乐python爬取</title>
+    <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
+    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
+<p>说说我对爬虫的理解吧。</p>
+<p>之前学过一段时间前端,基本代码都认识,所看见的前端页面里肯定有存放的音乐url(链接网址)。<br>所以我们只要找到这个网址就可以了，俗称抓包。</p>
+<span id="more"></span>
+
+<p>先看看网易云音乐页面,不难发现每个歌曲都有自己的id。</p>
+<p style="text-align: center;">
+    <img src="\images\mu1.png" alt="minecraft">
+</p>
+
+<p style="text-align: center;">
+    <img src="\images\mu2.png" alt="minecraft">
+</p>
+
+<p>这里点击外链播放器，基本就能找到音乐包了。</p>
+<p style="text-align: center;">
+    <img src="\images\mu3.png" alt="minecraft">
+</p>
+如下：
+<p style="text-align: center;">
+    <img src="\images\mu.png" alt="minecraft">
+</p>
+
+<p>这里提一下我以前经常用的网站:<br><a href="https://www.myfreemp3.com.cn/">MyfreeMp3</a></p>
+<p>现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了</p>
+<p style="text-align: center;">
+    <img src="\images\mu4.png" alt="minecraft">
+</p>
+
+<p>这里先用MyfreeMp3这个网站做个实验,该网站没有做任何加密和反爬虫措施,直接复制粘贴url链接就好<br>结果如下,理论可行,实验成功。</p>
+<p style="text-align: center;">
+    <img src="\images\mu5.png" alt="minecraft">
+</p>
+
+<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
+]]></content>
+      <tags>
+        <tag>网易云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数模竞赛</title>
+    <url>/2024/10/24/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
@@ -603,59 +771,6 @@
       </tags>
   </entry>
   <entry>
-    <title>网易云音乐python爬取</title>
-    <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
-    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
-<p>说说我对爬虫的理解吧。</p>
-<p>之前学过一段时间前端,基本代码都认识,所看见的前端页面里肯定有存放的音乐url(链接网址)。<br>所以我们只要找到这个网址就可以了，俗称抓包。</p>
-<span id="more"></span>
-
-<p>先看看网易云音乐页面,不难发现每个歌曲都有自己的id。</p>
-<p style="text-align: center;">
-    <img src="\images\mu1.png" alt="minecraft">
-</p>
-
-<p style="text-align: center;">
-    <img src="\images\mu2.png" alt="minecraft">
-</p>
-
-<p>这里点击外链播放器，基本就能找到音乐包了。</p>
-<p style="text-align: center;">
-    <img src="\images\mu3.png" alt="minecraft">
-</p>
-如下：
-<p style="text-align: center;">
-    <img src="\images\mu.png" alt="minecraft">
-</p>
-
-<p>这里提一下我以前经常用的网站:<br><a href="https://www.myfreemp3.com.cn/">MyfreeMp3</a></p>
-<p>现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了</p>
-<p style="text-align: center;">
-    <img src="\images\mu4.png" alt="minecraft">
-</p>
-
-<p>这里先用MyfreeMp3这个网站做个实验,该网站没有做任何加密和反爬虫措施,直接复制粘贴url链接就好<br>结果如下,理论可行,实验成功。</p>
-<p style="text-align: center;">
-    <img src="\images\mu5.png" alt="minecraft">
-</p>
-
-<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
-]]></content>
-      <tags>
-        <tag>网易云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>规划</title>
     <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
     <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
@@ -665,6 +780,17 @@
 ]]></content>
       <tags>
         <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>闲聊</title>
+    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
+    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
+<p style="text-align: center;">
+    <img src="\images\我的世界1.png" alt="minecraft">
+</p>]]></content>
+      <tags>
+        <tag>闲聊</tag>
       </tags>
   </entry>
   <entry>
@@ -689,108 +815,6 @@
 ]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>闲聊</title>
-    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
-    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
-<p style="text-align: center;">
-    <img src="\images\我的世界1.png" alt="minecraft">
-</p>]]></content>
-      <tags>
-        <tag>闲聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法与数据结构</title>
-    <url>/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
-<h5 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h5><p>a<em>N^2+b</em>N+c -&gt; O(N^2): 只取最高阶项，且忽略系数 （设上限）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selectionsort(int[] arr)&#123;</span><br><span class="line">     if(arr == NULL || arr.length&lt;2 ) &#123;return ;&#125;</span><br><span class="line">     for(int i=0; i &lt; arr.length - 1;i++)&#123;</span><br><span class="line">     int minindex =i;</span><br><span class="line">     for(j=i+1;j &lt; arr.length; j++)</span><br><span class="line">     &#123;</span><br><span class="line">        minindex = arr[j] &lt; arr[minindex] ? j : minindex ;</span><br><span class="line">     &#125;</span><br><span class="line">     swap(arr,i,minindex);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-
-<p>先看时间复杂度指标,时间复杂度一致时,需实际跑代码比较优劣。</p>
-<p>额外空间复杂度O(1)</p>
-<h5 id="冒泡排序-大的数依次向右移动-O-N-2"><a href="#冒泡排序-大的数依次向右移动-O-N-2" class="headerlink" title="冒泡排序: 大的数依次向右移动 O(N^2)"></a>冒泡排序: 大的数依次向右移动 O(N^2)</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bubblesort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == NULL || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for (int e = arr.lemgth-1 ; e&gt;0 ; e-- )</span><br><span class="line">    &#123;</span><br><span class="line">        for(int i=0; i &lt; e; i++ )</span><br><span class="line">        &#123;</span><br><span class="line">            if(arr[i]&gt;arr[i+1])</span><br><span class="line">                swap(arr,i,i+1);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加"><a href="#异或运算：对0-1两个数进行操作；相同为0；不同为1；-或二进制的无进位相加" class="headerlink" title="异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)"></a>异或运算：对0 1两个数进行操作；相同为0；不同为1； (或二进制的无进位相加)</h5><ul>
-<li>0 ^ N &#x3D; N ;  N ^ N &#x3D; 0</li>
-<li>满足交换律和结合律 a^b&#x3D;b^a ; (a^b)^c &#x3D; a^(b^c)</li>
-<li>同一组数据，异或结果与顺序无关。</li>
-</ul>
-<p>Q1：在一个数组中，已知只有一种数出现奇数次，其他数出现偶数次，如何找到？<br>Q2：在一个数组中，已知只有两种数出现奇数次，其他数出现偶数次，如何找到？<br>要求时间复杂度为O(N)<br>A1: int eor&#x3D;0 ; 提取数组的所有数，进行异或：arr[0]^arr[1]^……arr[n]&#x3D;结果<br>A2: 先所有数组进行异或 eor&#x3D;a^b，接着依次取出一个数与该结果异或，得到结果。</p>
-<p> 位运算操作(二进制)：一个数取反加1，可以都到最右侧的数。</p>
-<h5 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h5><p>0-0有序-&gt;0-1有序-&gt;0-2有序…………<br>4,5,6,7,3,2,1 -&gt; O(N^2)<br>1,2,3,4,5,6,7 -&gt; 0(N)<br>时间复杂度由算法最差情况的表现决定。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">insertsort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr==null || arr.length &lt; 2) &#123;return;&#125;</span><br><span class="line">    for(int i=1; i &lt; arr.length ; i++ )</span><br><span class="line">    &#123;</span><br><span class="line">        for (int j=i-1;j &gt;= 0 &amp;&amp; arr[j]&gt;arr[j+1]; j-- )</span><br><span class="line">        &#123; swap(arr,j,j+1); &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="二分法的详解与扩展"><a href="#二分法的详解与扩展" class="headerlink" title="二分法的详解与扩展"></a>二分法的详解与扩展</h5><ul>
-<li><ol>
-<li>在一个有序数组中，找到某个数的存在<br>  (1)遍历 O（N）<br>  (2)二分 O(log2(N))</li>
-</ol>
-</li>
-<li><ol start="2">
-<li>在一个有序数组中，找到&gt;&#x3D;某个数最左侧的位置<br>  ex: 1 2 2 2 2 3 3 3 3 4 4 4 4 4 4 4</li>
-</ol>
-</li>
-<li><ol start="3">
-<li>局部最小值问题<br>  在一个无序数组中，任何两个相邻的数不相等，求一个局部最小的过程 在时间复杂度上好于O(N)<br>  A：  1 3 5 7 4 9 6 3 2<br>  先看0位置和n-1位置是否存在局部最小，若不，则中间必有局部最小。<br>  接下来继续比较运用二分法。</li>
-</ol>
-</li>
-</ul>
-<h5 id="对数器"><a href="#对数器" class="headerlink" title="对数器"></a>对数器</h5><p>优秀方法(想测试的)：考虑时间复杂度，追求优解</p>
-<p>普通方法：不考虑时间复杂度，只考虑解决问题</p>
-<p>用随机样本产生器，对两种方法运行一遍，结果一样，则说明优秀方法正确。</p>
-<h5 id="剖析递归行为及其时间复杂度的估算"><a href="#剖析递归行为及其时间复杂度的估算" class="headerlink" title="剖析递归行为及其时间复杂度的估算"></a>剖析递归行为及其时间复杂度的估算</h5><p>求一个数组的最大值</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">process (int[] arr ,int L , int R)</span><br><span class="line">&#123;</span><br><span class="line">    if (L==R)</span><br><span class="line">    &#123;</span><br><span class="line">        return arr[L];</span><br><span class="line">    &#125;</span><br><span class="line">    int mid = L + ((R-L)/2); // 中点，防止内存溢出，高级：mid=L+(R-L)&gt;&gt;1 右移一位相当于除二    </span><br><span class="line">    int leftMax = process (arr,L,mid);</span><br><span class="line">    int rightMax = process (arr,mid+1,R);</span><br><span class="line">    return Math.max(leftMax , rightMax);</span><br><span class="line">&#125; </span><br><span class="line">调用：</span><br><span class="line">getMAX(int[] arr)</span><br><span class="line">&#123;return process(arr,0,arr.length-1);&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>master公式： T(N)&#x3D;a*T(N&#x2F;b)+O(N^d)<br>T(N)：母问题的数据量为N级别 T(N&#x2F;b):子问题的规模都是N&#x2F;b a:子问题的调用次数 O(N^d):除去子问题外剩下过程的时间复杂度</li>
-</ul>
-<ol>
-<li>logb(a)&lt;d -&gt; O(N^d)</li>
-<li>logb(a)&gt;d -&gt; O(N^logb(a))</li>
-<li>logb(a)&#x3D;&#x3D;d -&gt; O(N^d*logN)</li>
-</ol>
-<h5 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h5><p>中点切一半，左右各自排好序，最后组合</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void mergeSort(int[] arr)</span><br><span class="line">&#123;</span><br><span class="line">    if(arr == null || arr.length &lt; 2)</span><br><span class="line">    &#123; return ;&#125;</span><br><span class="line">    process(arr, 0 , arr.length - 1);</span><br><span class="line">&#125;</span><br><span class="line">void process(int[] arr, int L, int R)</span><br><span class="line">&#123;</span><br><span class="line">    if(L==R)&#123;return ;&#125;</span><br><span class="line">    int mid = L + ((R-L)/2);</span><br><span class="line">    process (arr,L,mid);</span><br><span class="line">    process (arr,mid+1,R);</span><br><span class="line">    merge(arr,L,mid,R);</span><br><span class="line">&#125;</span><br><span class="line">void merge(int[] arr, int L ,int M, int R)</span><br><span class="line">&#123;</span><br><span class="line">    int[] help = new int[R-L+1];</span><br><span class="line">    int i=0;int p1=L;int p2 = M+1;</span><br><span class="line">    while (p1&lt;=M &amp;&amp; p2&lt;=R)</span><br><span class="line">    &#123; help[i++]=arr[p1]&lt;=arr[p2]?arr[p1++]:arr[p2++];&#125;</span><br><span class="line">    while (p1&lt;=M) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    while (p2&lt;=R) &#123; help[i++]= arr[p2++]; &#125;</span><br><span class="line">    for(i=0;i&lt;help.length;i++) &#123; arr[L+i] = help[i]; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>时间复杂度： T(N) &#x3D; 2 * T(N&#x2F;2) + O(N) —&gt;   O(N*logN)<br>额外空间复杂度：O(N)</p>
-<ul>
-<li>扩展问题：小和问题和逆序对问题</li>
-</ul>
-<ol>
-<li><p>小和问题：在一个数组中，每一个数左边比当前数小的数累加起来，叫做这个数组的小和,求一个数组的小和<br>ex: 1 3 4 2 5  -&gt; 0 + 1 + 1 + 3 + 1 + 1 + 3 + 4 + 2 &#x3D; 16<br>另一种思想： 左边有多少个数比该数大 4<em>1+2</em>3+1<em>4+1</em>2&#x3D;16</p>
-</li>
-<li><p>逆序对问题：在一个数组中，左边的数如果比右边的数大，则这两个数构成一个逆序对,打印所有的逆序对。</p>
-</li>
-</ol>
-<p> b</p>
-]]></content>
-      <tags>
-        <tag>算法与数据结构</tag>
       </tags>
   </entry>
 </search>
