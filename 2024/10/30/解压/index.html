@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://dusk-wind.github.io/images/%E8%A7%A3%E5%8E%8B.png">
 <meta property="article:published_time" content="2024-10-30T08:45:20.000Z">
-<meta property="article:modified_time" content="2024-10-30T08:49:59.799Z">
+<meta property="article:modified_time" content="2024-10-30T08:54:19.125Z">
 <meta property="article:author" content="天凉">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
@@ -230,7 +230,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-10-30 16:45:20 / 修改时间：16:49:59" itemprop="dateCreated datePublished" datetime="2024-10-30T16:45:20+08:00">2024-10-30</time>
+      <time title="创建时间：2024-10-30 16:45:20 / 修改时间：16:54:19" itemprop="dateCreated datePublished" datetime="2024-10-30T16:45:20+08:00">2024-10-30</time>
     </span>
 
   
@@ -277,10 +277,13 @@
 <p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
 <p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
 <p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
-<p>你可以使用如下的Python代码尝试解压文件并查看其内容：<br>、、、<br>import zipfile<br>import os</p>
-<p>zip_file_path &#x3D; ‘path&#x2F;to&#x2F;your&#x2F;file.zip’<br>extract_folder &#x3D; ‘path&#x2F;to&#x2F;extract&#x2F;folder’</p>
-<p>try:<br>    with zipfile.ZipFile(zip_file_path, ‘r’) as zip_ref:<br>        zip_ref.extractall(extract_folder)<br>    print(“解压成功！”)<br>except zipfile.BadZipFile:<br>    print(“文件不是有效的zip文件！”)<br>except Exception as e:<br>    print(f”发生错误: {e}”)<br>、、、<br>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
-<p>我直接用的简易代码，注意压缩包路径:<br>、、、<br>import zipfile<br>import os<br>files&#x3D;zipfile.ZipFile(“D:\code\Math_Model-master.zip”,’r’)<br>files.extractall(os.getcwd())<br>files.close()<br>、、、</p>
+<p>你可以使用如下的Python代码尝试解压文件并查看其内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">zip_file_path = &#x27;path/to/your/file.zip&#x27;</span><br><span class="line">extract_folder = &#x27;path/to/extract/folder&#x27;</span><br><span class="line">try:</span><br><span class="line">    with zipfile.ZipFile(zip_file_path, &#x27;r&#x27;) as zip_ref:</span><br><span class="line">        zip_ref.extractall(extract_folder)</span><br><span class="line">    print(&quot;解压成功！&quot;)</span><br><span class="line">except zipfile.BadZipFile:</span><br><span class="line">    print(&quot;文件不是有效的zip文件！&quot;)</span><br><span class="line">except Exception as e:</span><br><span class="line">    print(f&quot;发生错误: &#123;e&#125;&quot;)</span><br></pre></td></tr></table></figure>
+<p>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
+<p>我直接用的简易代码，注意压缩包路径:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">files=zipfile.ZipFile(&quot;D:\code\Math_Model-master.zip&quot;,&#x27;r&#x27;)</span><br><span class="line">files.extractall(os.getcwd())  </span><br><span class="line">files.close()</span><br></pre></td></tr></table></figure>
+
+
 
     </div>
 
