@@ -150,7 +150,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-count">30</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -185,6 +185,107 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://dusk-wind.github.io/2024/10/30/%E8%A7%A3%E5%8E%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="天凉">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天凉の小站">
+      <meta itemprop="description" content="明月出天山，濸茫雲海間">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 天凉の小站">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/10/30/%E8%A7%A3%E5%8E%8B/" class="post-title-link" itemprop="url">解压</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-10-30 16:45:20 / 修改时间：16:49:59" itemprop="dateCreated datePublished" datetime="2024-10-30T16:45:20+08:00">2024-10-30</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>今天上github下载数模的资料</p>
+<p>结果发现压缩包没法打开了</p>
+<p style="text-align: center;">
+    <img src="\images\解压.png" alt="minecraft">
+</p>
+
+<p>后来找了个python代码跑了一下成功了</p>
+<p>以下是chatgpt给的解释和代码:<br>如果你下载的压缩文件夹在手动点击时显示“无效”或“无法打开”，但使用Python代码可以成功解压缩，可能有几种原因：</p>
+<p>下载不完整：手动下载可能在下载过程中出现了问题，导致文件不完整。Python能够解压缩（尽管文件不完整）可能是因为它能够处理某些格式的压缩文件的部分数据。</p>
+<p>文件格式问题：有些压缩文件可能会包含特定的格式或编码，某些解压工具可能不支持，而Python的库（例如zipfile或tarfile）能够处理这些格式，因此能够解压缩。</p>
+<p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
+<p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
+<p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
+<p>你可以使用如下的Python代码尝试解压文件并查看其内容：<br>、、、<br>import zipfile<br>import os</p>
+<p>zip_file_path &#x3D; ‘path&#x2F;to&#x2F;your&#x2F;file.zip’<br>extract_folder &#x3D; ‘path&#x2F;to&#x2F;extract&#x2F;folder’</p>
+<p>try:<br>    with zipfile.ZipFile(zip_file_path, ‘r’) as zip_ref:<br>        zip_ref.extractall(extract_folder)<br>    print(“解压成功！”)<br>except zipfile.BadZipFile:<br>    print(“文件不是有效的zip文件！”)<br>except Exception as e:<br>    print(f”发生错误: {e}”)<br>、、、<br>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
+<p>我直接用的简易代码，注意压缩包路径:<br>、、、<br>import zipfile<br>import os<br>files&#x3D;zipfile.ZipFile(“D:\code\Math_Model-master.zip”,’r’)<br>files.extractall(os.getcwd())<br>files.close()<br>、、、</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1024,112 +1125,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://dusk-wind.github.io/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="天凉">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天凉の小站">
-      <meta itemprop="description" content="明月出天山，濸茫雲海間">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 天凉の小站">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/" class="post-title-link" itemprop="url">手机投屏至电脑方法</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-10-10 13:00:53" itemprop="dateCreated datePublished" datetime="2024-10-10T13:00:53+08:00">2024-10-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-10-12 16:49:48" itemprop="dateModified" datetime="2024-10-12T16:49:48+08:00">2024-10-12</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>285</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a target="_blank" rel="noopener" href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a target="_blank" rel="noopener" href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -1154,14 +1149,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">37k</span>
+    <span title="站点总字数">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">33 分钟</span>
+    <span title="站点阅读时长">34 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
