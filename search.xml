@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>GitHub项目-python</title>
     <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
@@ -167,6 +111,138 @@
       </tags>
   </entry>
   <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+]]></content>
+      <tags>
+        <tag>计算机二级c语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next主题美化</title>
+    <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
+<span id="more"></span>
+<ol>
+<li><h3 id="音乐播放器的添加"><a href="#音乐播放器的添加" class="headerlink" title="音乐播放器的添加"></a>音乐播放器的添加</h3> 1.1我的音乐播放器是使用的是网易云音乐自动生成的外链插件。<br>打开网易云音乐，将喜欢的歌加入创建的歌单中，然后点击生成外链。</li>
+</ol>
+<p style="text-align: center;">
+    <img src="\images\网易云外链.png" alt="网易云外链">
+</p>
+
+<pre><code>1.2选择合适的插件和尺寸，并复制HTML代码。
+  我的博客网站是基于hexo框架搭建的，所以ifram插件可以使用。
+</code></pre>
+<p style="text-align: center;">
+    <img src="\images\外链插件复制.png" alt="网易云外链">
+</p>
+    1.3代码插入与修改
+    打开/themes/next/layout/_macro/sidebar.njk文件,在下面的位置插入刚才复制的HTML代码
+
+<p style="text-align: center;">
+    <img src="\images\外链代码插入.png" alt="网易云外链">
+</p>
+    在next主题的_config.yml文件中写下以下代码
+
+<pre><code> music:
+      enable: true
+      autoplay: true #自动播放
+    
+**至此，音乐播放器功能就可以使用了，下面是一些优化**
+
+1.4音乐播放器刷新网页间断问题的解决
+
+问题: 音乐播放器在博客刷新页面时会重新播放。  解决方法：引入pjax插件
+打开cmd控制台，转到next主题的根目录：cd blog/themes/next ,安装pjax模块
+安装代码：git clone https://github.com/theme-next/theme-next-pjax source/lib/pjax
+接着在next主题的_config.yml文件中启用pjax模块，就解决了。
+
+ 1.5音乐播放器的位置调整(此优化需要打开主题的自定义调整，此处不再叙述)
+ 由于&lt;iframe&gt;标签本身是一个独立的文档嵌入，无法在其内部修改属性。
+ 但我们可以通过修改&lt;iframe&gt;的外部容器(比如一个&lt;div&gt;元素)的css样式实现
+ 首先给&lt;div&gt;元素添加一个类名，修改之前插入到外链代码为：
+ 
+ 然后打开 blog/source/_data/styles.styl 写如下代码：
+ .music-player-container
+ &#123;
+    margin-top: 20px;
+ &#125;
+ 此代码中 margin-top: 20px;就修改了音乐播放器距离顶部的位置
+ 其他属性根据读者的需要自行修改，此处不再赘述。
+</code></pre>
+]]></content>
+      <tags>
+        <tag>next主题美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo指令以及markdown使用方法</title>
     <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
@@ -239,90 +315,29 @@
       </tags>
   </entry>
   <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>next主题美化</title>
-    <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
-<span id="more"></span>
-<ol>
-<li><h3 id="音乐播放器的添加"><a href="#音乐播放器的添加" class="headerlink" title="音乐播放器的添加"></a>音乐播放器的添加</h3> 1.1我的音乐播放器是使用的是网易云音乐自动生成的外链插件。<br>打开网易云音乐，将喜欢的歌加入创建的歌单中，然后点击生成外链。</li>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
 </ol>
-<p style="text-align: center;">
-    <img src="\images\网易云外链.png" alt="网易云外链">
-</p>
-
-<pre><code>1.2选择合适的插件和尺寸，并复制HTML代码。
-  我的博客网站是基于hexo框架搭建的，所以ifram插件可以使用。
-</code></pre>
-<p style="text-align: center;">
-    <img src="\images\外链插件复制.png" alt="网易云外链">
-</p>
-    1.3代码插入与修改
-    打开/themes/next/layout/_macro/sidebar.njk文件,在下面的位置插入刚才复制的HTML代码
-
-<p style="text-align: center;">
-    <img src="\images\外链代码插入.png" alt="网易云外链">
-</p>
-    在next主题的_config.yml文件中写下以下代码
-
-<pre><code> music:
-      enable: true
-      autoplay: true #自动播放
-    
-**至此，音乐播放器功能就可以使用了，下面是一些优化**
-
-1.4音乐播放器刷新网页间断问题的解决
-
-问题: 音乐播放器在博客刷新页面时会重新播放。  解决方法：引入pjax插件
-打开cmd控制台，转到next主题的根目录：cd blog/themes/next ,安装pjax模块
-安装代码：git clone https://github.com/theme-next/theme-next-pjax source/lib/pjax
-接着在next主题的_config.yml文件中启用pjax模块，就解决了。
-
- 1.5音乐播放器的位置调整(此优化需要打开主题的自定义调整，此处不再叙述)
- 由于&lt;iframe&gt;标签本身是一个独立的文档嵌入，无法在其内部修改属性。
- 但我们可以通过修改&lt;iframe&gt;的外部容器(比如一个&lt;div&gt;元素)的css样式实现
- 首先给&lt;div&gt;元素添加一个类名，修改之前插入到外链代码为：
- 
- 然后打开 blog/source/_data/styles.styl 写如下代码：
- .music-player-container
- &#123;
-    margin-top: 20px;
- &#125;
- 此代码中 margin-top: 20px;就修改了音乐播放器距离顶部的位置
- 其他属性根据读者的需要自行修改，此处不再赘述。
-</code></pre>
-]]></content>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>next主题美化</tag>
+        <tag>代码问题与解决方法</tag>
       </tags>
   </entry>
   <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+    <title>困</title>
+    <url>/2024/10/21/%E5%9B%B0/</url>
+    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
+<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
+<p>感兴趣的话可以试试。</p>
 ]]></content>
       <tags>
-        <tag>计算机二级c语言</tag>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -396,29 +411,14 @@
       </tags>
   </entry>
   <entry>
-    <title>开学纪要</title>
-    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
-    <content><![CDATA[<p>开学了，大二又要学了。</p>
-<p>新学期好像没啥规划。</p>
-<p>学就是了。</p>
-]]></content>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>代码问题与解决方法</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -430,20 +430,6 @@
       <tags>
         <tag>日志</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数模竞赛</title>
-    <url>/2024/10/24/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>手机投屏至电脑方法</title>
@@ -467,49 +453,80 @@
 </p>]]></content>
   </entry>
   <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
+    <title>数模竞赛</title>
+    <url>/2024/10/30/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
+    <content><![CDATA[<p>编程手准备:<br>1.任务:模型代码实现,算法优化,数据处理,模型求解,资料与工具准备。<br>2.编程工具选择:matlab<br>B站视频:matlab速成<br>3.日记</p>
+<h5 id="层次分析法-评价决策类题目"><a href="#层次分析法-评价决策类题目" class="headerlink" title="层次分析法:评价决策类题目"></a>层次分析法:评价决策类题目</h5><p>评价一类事物。<br>归一化处理:[a,b,c]-&gt;[a&#x2F;(a+b+c),b&#x2F;(a+b+c),c&#x2F;(a+b+c)]<br>指标权重。</p>
+]]></content>
+      <tags>
+        <tag>数模</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开学纪要</title>
+    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
+    <content><![CDATA[<p>开学了，大二又要学了。</p>
+<p>新学期好像没啥规划。</p>
+<p>学就是了。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>数据结构c语言课后习题</title>
-    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
-    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
-<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
-<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
-<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
-<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
-<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
-<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
-<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
-<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
-<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
-<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
-<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
-<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
-<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
-<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
-<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
-<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
-<h5 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h5>]]></content>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>困</title>
-    <url>/2024/10/21/%E5%9B%B0/</url>
-    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
-<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
-<p>感兴趣的话可以试试。</p>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>想法</title>
+    <url>/2024/10/31/%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="57a806015f5b59fa4ee4ac1d69965dbca12223568d415b53c5099272938f01ee">4fd4a664b4e2ea93f3dc6fbdf52959d1f7e68301109496bca954d45c11bcc61f12a6c3c11950534687a7128b1ea6509d547d1e6a8c854c35411fec6649864398d87b558d8834812daa95b327948e672a15b16fe01652203a400bd20b43fc0700d2c7438fcf32216dcc7b87286d5b853fdcb7186b9e7762e2bcb07f5040e6782712e0e4c06e022fe72c582ae246087acde6bf1fe6ae1cb48aaad413e35d17d030605db2f90e96dc4167570d8a4cc2826a65de1a2b81209a8bb0c8ae9f77d2c4b95ec2620ce3cfaf76926f611ed0c955c67d235ee98eab2e3f28a28fb7632ae95813b713e6ae9a2b2eb02f6ee155ec9e15c1eb05ce193aa4509b054db20fd1bb07d5ec7d46acba2411817b887d301f1613d6f05811bf2262c68b41d5db52ddf3cbdb139f5996386834748f8f79d35398ce</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -608,6 +625,42 @@
       </tags>
   </entry>
   <entry>
+    <title>数据结构c语言课后习题</title>
+    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
+    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
+<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
+<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
+<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
+<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
+<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
+<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
+<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
+<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
+<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
+<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
+<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
+<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
+<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
+<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
+<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
+<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
+<h5 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h5>]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>立冬</title>
     <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
     <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
@@ -626,6 +679,122 @@
 <p>一天就这样过去了。</p>
 <p>无忧无虑。</p>
 <p>真怀念，过去。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云音乐python爬取</title>
+    <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
+    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
+<p>说说我对爬虫的理解吧。</p>
+<p>之前学过一段时间前端,基本代码都认识,所看见的前端页面里肯定有存放的音乐url(链接网址)。<br>所以我们只要找到这个网址就可以了，俗称抓包。</p>
+<span id="more"></span>
+
+<p>先看看网易云音乐页面,不难发现每个歌曲都有自己的id。</p>
+<p style="text-align: center;">
+    <img src="\images\mu1.png" alt="minecraft">
+</p>
+
+<p style="text-align: center;">
+    <img src="\images\mu2.png" alt="minecraft">
+</p>
+
+<p>这里点击外链播放器，基本就能找到音乐包了。</p>
+<p style="text-align: center;">
+    <img src="\images\mu3.png" alt="minecraft">
+</p>
+如下：
+<p style="text-align: center;">
+    <img src="\images\mu.png" alt="minecraft">
+</p>
+
+<p>这里提一下我以前经常用的网站:<br><a href="https://www.myfreemp3.com.cn/">MyfreeMp3</a></p>
+<p>现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了</p>
+<p style="text-align: center;">
+    <img src="\images\mu4.png" alt="minecraft">
+</p>
+
+<p>这里先用MyfreeMp3这个网站做个实验,该网站没有做任何加密和反爬虫措施,直接复制粘贴url链接就好<br>结果如下,理论可行,实验成功。</p>
+<p style="text-align: center;">
+    <img src="\images\mu5.png" alt="minecraft">
+</p>
+
+<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
+]]></content>
+      <tags>
+        <tag>网易云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解压</title>
+    <url>/2024/10/30/%E8%A7%A3%E5%8E%8B/</url>
+    <content><![CDATA[<p>今天上github下载数模的资料</p>
+<p>结果发现压缩包没法打开了</p>
+<p style="text-align: center;">
+    <img src="\images\解压.png" alt="minecraft">
+</p>
+
+<p>后来找了个python代码跑了一下成功了</p>
+<p>以下是chatgpt给的解释和代码:<br>如果你下载的压缩文件夹在手动点击时显示“无效”或“无法打开”，但使用Python代码可以成功解压缩，可能有几种原因：</p>
+<p>下载不完整：手动下载可能在下载过程中出现了问题，导致文件不完整。Python能够解压缩（尽管文件不完整）可能是因为它能够处理某些格式的压缩文件的部分数据。</p>
+<p>文件格式问题：有些压缩文件可能会包含特定的格式或编码，某些解压工具可能不支持，而Python的库（例如zipfile或tarfile）能够处理这些格式，因此能够解压缩。</p>
+<p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
+<p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
+<p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
+<p>你可以使用如下的Python代码尝试解压文件并查看其内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">zip_file_path = &#x27;path/to/your/file.zip&#x27;</span><br><span class="line">extract_folder = &#x27;path/to/extract/folder&#x27;</span><br><span class="line">try:</span><br><span class="line">    with zipfile.ZipFile(zip_file_path, &#x27;r&#x27;) as zip_ref:</span><br><span class="line">        zip_ref.extractall(extract_folder)</span><br><span class="line">    print(&quot;解压成功！&quot;)</span><br><span class="line">except zipfile.BadZipFile:</span><br><span class="line">    print(&quot;文件不是有效的zip文件！&quot;)</span><br><span class="line">except Exception as e:</span><br><span class="line">    print(f&quot;发生错误: &#123;e&#125;&quot;)</span><br></pre></td></tr></table></figure>
+<p>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
+<p>我直接用的简易代码，注意压缩包路径:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">files=zipfile.ZipFile(&quot;D:\code\Math_Model-master.zip&quot;,&#x27;r&#x27;)</span><br><span class="line">files.extractall(os.getcwd())  </span><br><span class="line">files.close()</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>闲聊</title>
+    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
+    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
+<p style="text-align: center;">
+    <img src="\images\我的世界1.png" alt="minecraft">
+</p>]]></content>
+      <tags>
+        <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>规划</title>
+    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
+<p>web前端规划，linux操作系统，</p>
+<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
+<p>天气越来越冷了，是时候拿出我的围巾了。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -698,151 +867,6 @@
 ]]></content>
       <tags>
         <tag>算法与数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网易云音乐python爬取</title>
-    <url>/2024/10/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90python%E7%88%AC%E5%8F%96/</url>
-    <content><![CDATA[<p>今天听歌的时候想把网易云要付费的歌曲加入到歌单后，想看看网页上的播放器能不能放，<br>如果这样的话岂不是可以白嫖听音乐了?<br>结果点了后发现不能放,把vip音乐撤销后重新加载一下网页又能放了。<br>然后去csdn上找了一下,发现有个2020年的bug,但现在好像没用了。</p>
-<p>说说我对爬虫的理解吧。</p>
-<p>之前学过一段时间前端,基本代码都认识,所看见的前端页面里肯定有存放的音乐url(链接网址)。<br>所以我们只要找到这个网址就可以了，俗称抓包。</p>
-<span id="more"></span>
-
-<p>先看看网易云音乐页面,不难发现每个歌曲都有自己的id。</p>
-<p style="text-align: center;">
-    <img src="\images\mu1.png" alt="minecraft">
-</p>
-
-<p style="text-align: center;">
-    <img src="\images\mu2.png" alt="minecraft">
-</p>
-
-<p>这里点击外链播放器，基本就能找到音乐包了。</p>
-<p style="text-align: center;">
-    <img src="\images\mu3.png" alt="minecraft">
-</p>
-如下：
-<p style="text-align: center;">
-    <img src="\images\mu.png" alt="minecraft">
-</p>
-
-<p>这里提一下我以前经常用的网站:<br><a href="https://www.myfreemp3.com.cn/">MyfreeMp3</a></p>
-<p>现在看来也是爬的网易云音乐，不过好多付费歌曲已经爬不了了</p>
-<p style="text-align: center;">
-    <img src="\images\mu4.png" alt="minecraft">
-</p>
-
-<p>这里先用MyfreeMp3这个网站做个实验,该网站没有做任何加密和反爬虫措施,直接复制粘贴url链接就好<br>结果如下,理论可行,实验成功。</p>
-<p style="text-align: center;">
-    <img src="\images\mu5.png" alt="minecraft">
-</p>
-
-<p>发现csdn好多爬虫代码没用了,去GitHub上找找看吧。</p>
-]]></content>
-      <tags>
-        <tag>网易云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>规划</title>
-    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
-<p>web前端规划，linux操作系统，</p>
-<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
-<p>天气越来越冷了，是时候拿出我的围巾了。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解压</title>
-    <url>/2024/10/30/%E8%A7%A3%E5%8E%8B/</url>
-    <content><![CDATA[<p>今天上github下载数模的资料</p>
-<p>结果发现压缩包没法打开了</p>
-<p style="text-align: center;">
-    <img src="\images\解压.png" alt="minecraft">
-</p>
-
-<p>后来找了个python代码跑了一下成功了</p>
-<p>以下是chatgpt给的解释和代码:<br>如果你下载的压缩文件夹在手动点击时显示“无效”或“无法打开”，但使用Python代码可以成功解压缩，可能有几种原因：</p>
-<p>下载不完整：手动下载可能在下载过程中出现了问题，导致文件不完整。Python能够解压缩（尽管文件不完整）可能是因为它能够处理某些格式的压缩文件的部分数据。</p>
-<p>文件格式问题：有些压缩文件可能会包含特定的格式或编码，某些解压工具可能不支持，而Python的库（例如zipfile或tarfile）能够处理这些格式，因此能够解压缩。</p>
-<p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
-<p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
-<p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
-<p>你可以使用如下的Python代码尝试解压文件并查看其内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">zip_file_path = &#x27;path/to/your/file.zip&#x27;</span><br><span class="line">extract_folder = &#x27;path/to/extract/folder&#x27;</span><br><span class="line">try:</span><br><span class="line">    with zipfile.ZipFile(zip_file_path, &#x27;r&#x27;) as zip_ref:</span><br><span class="line">        zip_ref.extractall(extract_folder)</span><br><span class="line">    print(&quot;解压成功！&quot;)</span><br><span class="line">except zipfile.BadZipFile:</span><br><span class="line">    print(&quot;文件不是有效的zip文件！&quot;)</span><br><span class="line">except Exception as e:</span><br><span class="line">    print(f&quot;发生错误: &#123;e&#125;&quot;)</span><br></pre></td></tr></table></figure>
-<p>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
-<p>我直接用的简易代码，注意压缩包路径:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">files=zipfile.ZipFile(&quot;D:\code\Math_Model-master.zip&quot;,&#x27;r&#x27;)</span><br><span class="line">files.extractall(os.getcwd())  </span><br><span class="line">files.close()</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>闲聊</title>
-    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
-    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
-<p style="text-align: center;">
-    <img src="\images\我的世界1.png" alt="minecraft">
-</p>]]></content>
-      <tags>
-        <tag>闲聊</tag>
       </tags>
   </entry>
 </search>
