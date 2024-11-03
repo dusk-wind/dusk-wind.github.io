@@ -111,12 +111,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Mincraft启动器及mod安装</title>
     <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
@@ -167,79 +161,18 @@
       </tags>
   </entry>
   <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+    <title>PyQt5</title>
+    <url>/2024/11/03/PyQt5/</url>
+    <content><![CDATA[<p>学python看到了可以做图形用户界面</p>
+<p>一开始用的tkinter，有点丑，然后找了tkt，总感觉找不到合适的。</p>
+<p>而且也不会，后来下了QT Creator,感觉不是短期可以学会的。</p>
+<p>后来上B站找了一个非常好看的UI库</p>
+<p>页面用QT designer设计，后端用python写,目前已经用pycharm配置好了虚拟环境，初始操作也会了</p>
+<p>后面慢慢学吧。</p>
+<p>wqw，差点把数模忘了，每天尽力看一点吧。</p>
 ]]></content>
       <tags>
-        <tag>计算机二级c语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>next主题美化</title>
-    <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
-<span id="more"></span>
-<ol>
-<li><h3 id="音乐播放器的添加"><a href="#音乐播放器的添加" class="headerlink" title="音乐播放器的添加"></a>音乐播放器的添加</h3> 1.1我的音乐播放器是使用的是网易云音乐自动生成的外链插件。<br>打开网易云音乐，将喜欢的歌加入创建的歌单中，然后点击生成外链。</li>
-</ol>
-<p style="text-align: center;">
-    <img src="\images\网易云外链.png" alt="网易云外链">
-</p>
-
-<pre><code>1.2选择合适的插件和尺寸，并复制HTML代码。
-  我的博客网站是基于hexo框架搭建的，所以ifram插件可以使用。
-</code></pre>
-<p style="text-align: center;">
-    <img src="\images\外链插件复制.png" alt="网易云外链">
-</p>
-    1.3代码插入与修改
-    打开/themes/next/layout/_macro/sidebar.njk文件,在下面的位置插入刚才复制的HTML代码
-
-<p style="text-align: center;">
-    <img src="\images\外链代码插入.png" alt="网易云外链">
-</p>
-    在next主题的_config.yml文件中写下以下代码
-
-<pre><code> music:
-      enable: true
-      autoplay: true #自动播放
-    
-**至此，音乐播放器功能就可以使用了，下面是一些优化**
-
-1.4音乐播放器刷新网页间断问题的解决
-
-问题: 音乐播放器在博客刷新页面时会重新播放。  解决方法：引入pjax插件
-打开cmd控制台，转到next主题的根目录：cd blog/themes/next ,安装pjax模块
-安装代码：git clone https://github.com/theme-next/theme-next-pjax source/lib/pjax
-接着在next主题的_config.yml文件中启用pjax模块，就解决了。
-
- 1.5音乐播放器的位置调整(此优化需要打开主题的自定义调整，此处不再叙述)
- 由于&lt;iframe&gt;标签本身是一个独立的文档嵌入，无法在其内部修改属性。
- 但我们可以通过修改&lt;iframe&gt;的外部容器(比如一个&lt;div&gt;元素)的css样式实现
- 首先给&lt;div&gt;元素添加一个类名，修改之前插入到外链代码为：
- 
- 然后打开 blog/source/_data/styles.styl 写如下代码：
- .music-player-container
- &#123;
-    margin-top: 20px;
- &#125;
- 此代码中 margin-top: 20px;就修改了音乐播放器距离顶部的位置
- 其他属性根据读者的需要自行修改，此处不再赘述。
-</code></pre>
-]]></content>
-      <tags>
-        <tag>next主题美化</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -315,6 +248,77 @@
       </tags>
   </entry>
   <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GUI</title>
+    <url>/2024/11/02/GUI/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>next主题美化</title>
+    <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
+<span id="more"></span>
+<ol>
+<li><h3 id="音乐播放器的添加"><a href="#音乐播放器的添加" class="headerlink" title="音乐播放器的添加"></a>音乐播放器的添加</h3> 1.1我的音乐播放器是使用的是网易云音乐自动生成的外链插件。<br>打开网易云音乐，将喜欢的歌加入创建的歌单中，然后点击生成外链。</li>
+</ol>
+<p style="text-align: center;">
+    <img src="\images\网易云外链.png" alt="网易云外链">
+</p>
+
+<pre><code>1.2选择合适的插件和尺寸，并复制HTML代码。
+  我的博客网站是基于hexo框架搭建的，所以ifram插件可以使用。
+</code></pre>
+<p style="text-align: center;">
+    <img src="\images\外链插件复制.png" alt="网易云外链">
+</p>
+    1.3代码插入与修改
+    打开/themes/next/layout/_macro/sidebar.njk文件,在下面的位置插入刚才复制的HTML代码
+
+<p style="text-align: center;">
+    <img src="\images\外链代码插入.png" alt="网易云外链">
+</p>
+    在next主题的_config.yml文件中写下以下代码
+
+<pre><code> music:
+      enable: true
+      autoplay: true #自动播放
+    
+**至此，音乐播放器功能就可以使用了，下面是一些优化**
+
+1.4音乐播放器刷新网页间断问题的解决
+
+问题: 音乐播放器在博客刷新页面时会重新播放。  解决方法：引入pjax插件
+打开cmd控制台，转到next主题的根目录：cd blog/themes/next ,安装pjax模块
+安装代码：git clone https://github.com/theme-next/theme-next-pjax source/lib/pjax
+接着在next主题的_config.yml文件中启用pjax模块，就解决了。
+
+ 1.5音乐播放器的位置调整(此优化需要打开主题的自定义调整，此处不再叙述)
+ 由于&lt;iframe&gt;标签本身是一个独立的文档嵌入，无法在其内部修改属性。
+ 但我们可以通过修改&lt;iframe&gt;的外部容器(比如一个&lt;div&gt;元素)的css样式实现
+ 首先给&lt;div&gt;元素添加一个类名，修改之前插入到外链代码为：
+ 
+ 然后打开 blog/source/_data/styles.styl 写如下代码：
+ .music-player-container
+ &#123;
+    margin-top: 20px;
+ &#125;
+ 此代码中 margin-top: 20px;就修改了音乐播放器距离顶部的位置
+ 其他属性根据读者的需要自行修改，此处不再赘述。
+</code></pre>
+]]></content>
+      <tags>
+        <tag>next主题美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>代码问题与解决方法</title>
     <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
@@ -330,14 +334,19 @@
       </tags>
   </entry>
   <entry>
-    <title>困</title>
-    <url>/2024/10/21/%E5%9B%B0/</url>
-    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
-<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
-<p>感兴趣的话可以试试。</p>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
 ]]></content>
       <tags>
-        <tag>日志</tag>
+        <tag>计算机二级c语言</tag>
       </tags>
   </entry>
   <entry>
@@ -383,91 +392,11 @@
       </tags>
   </entry>
   <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
-      <tags>
-        <tag>古月方源/蛊真人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
-  </entry>
-  <entry>
-    <title>数模竞赛</title>
-    <url>/2024/10/30/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
-    <content><![CDATA[<p>编程手准备:<br>1.任务:模型代码实现,算法优化,数据处理,模型求解,资料与工具准备。<br>2.编程工具选择:matlab<br>B站视频:matlab速成<br>3.日记</p>
-<h5 id="层次分析法-评价决策类题目"><a href="#层次分析法-评价决策类题目" class="headerlink" title="层次分析法:评价决策类题目"></a>层次分析法:评价决策类题目</h5><p>评价一类事物。<br>归一化处理:[a,b,c]-&gt;[a&#x2F;(a+b+c),b&#x2F;(a+b+c),c&#x2F;(a+b+c)]<br>指标权重。</p>
-]]></content>
-      <tags>
-        <tag>数模</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开学纪要</title>
-    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
-    <content><![CDATA[<p>开学了，大二又要学了。</p>
-<p>新学期好像没啥规划。</p>
-<p>学就是了。</p>
+    <title>困</title>
+    <url>/2024/10/21/%E5%9B%B0/</url>
+    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
+<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
+<p>感兴趣的话可以试试。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -483,20 +412,12 @@
       </tags>
   </entry>
   <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>开学纪要</title>
+    <url>/2024/09/03/%E5%BC%80%E5%AD%A6%E7%BA%AA%E8%A6%81/</url>
+    <content><![CDATA[<p>开学了，大二又要学了。</p>
+<p>新学期好像没啥规划。</p>
+<p>学就是了。</p>
+]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
@@ -521,39 +442,90 @@
       </tags>
   </entry>
   <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
-]]></content>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
+  </entry>
+  <entry>
+    <title>数据结构c语言课后习题</title>
+    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
+    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
+<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
+<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
+<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
+<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
+<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
+<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
+<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
+<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
+<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
+<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
+<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
+<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
+<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
+<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
+<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
+<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
+<h5 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h5>]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>用python演奏音乐</title>
-    <url>/2024/10/26/%E7%94%A8python%E6%BC%94%E5%A5%8F%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<p>导入库:mido<br>music 是一个自定义函数，用于向 MIDI 轨道中添加音符的开启和关闭消息。这个函数接收三个参数：note（音符的索引），base_num（基准音高的八度偏移量），以及 base_time（音符的基础持续时间，以某种相对单位表示）。</p>
-<span id="more"></span>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import mido</span><br><span class="line">mid = mido.MidiFile()</span><br><span class="line">track = mido.MidiTrack()</span><br><span class="line">mid.tracks.append(track)</span><br><span class="line">#bpm = \frac&#123;60000000&#125;&#123;tempo&#125;</span><br><span class="line">def music(note,base_num,base_time):</span><br><span class="line">    </span><br><span class="line">    #meta_time = 60 * 60 * 10 / bpm</span><br><span class="line">    major_notes = [0, 2, 2, 1, 2, 2, 2, 1]</span><br><span class="line">    base_note = 60</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=0,channel=1))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=int(480*base_time),channel=1))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_on&#x27;, note=base_note, velocity=96, time=0))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_off&#x27;, note=base_note, velocity=96, time=480*base_time))</span><br></pre></td></tr></table></figure>
-
-<p>之后定义music函数:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def lemon_music():</span><br><span class="line">    #1</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #2</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*7))</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(2,1,3)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(1,1,1.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,2)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    </span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    #kongbai</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(7,1,2)</span><br><span class="line">    music(7,1,1)</span><br><span class="line">    music(1,2,1)</span><br><span class="line"></span><br><span class="line">    music(1,2,4)</span><br><span class="line"></span><br><span class="line">    music(1,2,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(2,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,0,2)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,2,1)</span><br><span class="line"></span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(6,1,1)</span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    #kongbai</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(3,1,3)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(2,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(4,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(4,-2,0.25)</span><br><span class="line">    music(1,-1,0.25)</span><br><span class="line">    music(4,-1,0.25)</span><br><span class="line">    music(5,-1,0.25)</span><br><span class="line">    music(1,0,0.25)</span><br><span class="line">    music(2,0,0.25)</span><br><span class="line">    music(5,0,0.25)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.25)</span><br><span class="line">    music(5,1,0.25)</span><br><span class="line">    music(1,2,0.25)</span><br><span class="line">    music(2,2,0.25)</span><br><span class="line">    music(5,2,0.25)</span><br><span class="line">    music(1,3,0.75)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,3.5)</span><br><span class="line"></span><br><span class="line">lemon_music()</span><br><span class="line">mid.save(&#x27;lemon.mid&#x27;)</span><br></pre></td></tr></table></figure>
-<p>运行lemon_music函数并生成此音乐的mid文件<br>之后写一个mid文件运行的python的程序或直接找到文件用现有的音乐播放器打开。</p>
-<p>lemon音乐演示如下:</p>
-<p>我加载网页后发现HTML5不支持midi文件播放。没办法了。</p>
-<p>这边转成MP3:</p>
-<audio controls>  
-        <source src="/music/lemon.mp3" type="audio/mpeg">  
-        您的浏览器不支持音频元素。  
-</audio>  
-
-
+    <title>数模竞赛</title>
+    <url>/2024/10/30/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
+    <content><![CDATA[<p>编程手准备:<br>1.任务:模型代码实现,算法优化,数据处理,模型求解,资料与工具准备。<br>2.编程工具选择:matlab<br>B站视频:matlab速成<br>3.日记</p>
+<h5 id="层次分析法-评价决策类题目"><a href="#层次分析法-评价决策类题目" class="headerlink" title="层次分析法:评价决策类题目"></a>层次分析法:评价决策类题目</h5><p>评价一类事物。<br>归一化处理:[a,b,c]-&gt;[a&#x2F;(a+b+c),b&#x2F;(a+b+c),c&#x2F;(a+b+c)]<br>指标权重。</p>
 ]]></content>
       <tags>
+        <tag>数模</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -619,33 +591,130 @@
 <p>ex：<br>p：北京比天津的人口多<br>q: 2+2&#x3D;4<br>r：乌鸦是白色的<br>求下列符合命题的真值<br>先算简单命题真值：p:1 q:1 r:0<br>(1) ((¬p∧q)∨(p∧¬q))→r   左0右0  A：1<br>(2) (q∨r)→(p→¬r)          左1右1  A：1<br>(3) (¬p∨r)↔(p∧¬r)        左0右1  A：0                           </p>
 <h4 id="1-2-命题公式及其赋值"><a href="#1-2-命题公式及其赋值" class="headerlink" title="1.2 命题公式及其赋值"></a>1.2 命题公式及其赋值</h4><p>命题常项真值确定，命题变项是取值1或0的变元。<br>将命题变项用联结词和圆括号按照一定逻辑顺序联结起来的符号串称作合式公式<br>(1)单个命题变项是合式公式，并称为原子命题公式<br>(2)若A为合式公式，则¬A也为合式公式<br>(3)若A,B是合式公式，则 A∧B A∨B A→B A↔B 是合式公式<br>(4)有限次地应用(1)-(3)形成的符号串是合式公式</p>
 <p>设A为任一命题公式<br>(1)若A在各种赋值下取值均为真，则称A为重言式或永真式<br>(2)若A在各种赋值下取值均为假，则称A为矛盾式或永假式<br>(3)若A不是矛盾式，则称A为可满式</p>
+<hr>
+<h2 id="好久不更新了，本来也随便写写。并集：A与B的并集，记作：A∪B，它同时包含集合A或者集合B里面的元素：A∪B-x-xEA-xEB-交集：A与B的交集，记作：A∩B，他包含A与B里面的公共元素：A∩B-x-xEA-xEB-如果两个集合不相交，他们的交集是空集。A∪B-A-B-A∩B补集：有两种：绝对补与相对补。相对补：也叫做差集，记作A-B-意思是A集合里面减去包含在B里面的A元素-，即：A-B-A-A∩BA-B-x-xEA-x-E-B-绝对补：全集是E，有一个集合是A，那么A的补集是：A。A-E-A所以有性质：-A-A-E-空集-空集-E-A∩A-空集-A∪-A-E-A-∩-B-A-∪-B-（A-∪-B）-A-∩-B对称差：A与B对称差包括属于A的部分加上属于B的部分减去属于A与B的公共部分。我们记作A-BA-B-A-B-∪-B-A-A-B-A∩B所以我们可以得到以下公式：A-B-B-A-A-K-A-A-A-K-A-B-A∩B-∪-B∩A-A-B-C-A-B-C"><a href="#好久不更新了，本来也随便写写。并集：A与B的并集，记作：A∪B，它同时包含集合A或者集合B里面的元素：A∪B-x-xEA-xEB-交集：A与B的交集，记作：A∩B，他包含A与B里面的公共元素：A∩B-x-xEA-xEB-如果两个集合不相交，他们的交集是空集。A∪B-A-B-A∩B补集：有两种：绝对补与相对补。相对补：也叫做差集，记作A-B-意思是A集合里面减去包含在B里面的A元素-，即：A-B-A-A∩BA-B-x-xEA-x-E-B-绝对补：全集是E，有一个集合是A，那么A的补集是：A。A-E-A所以有性质：-A-A-E-空集-空集-E-A∩A-空集-A∪-A-E-A-∩-B-A-∪-B-（A-∪-B）-A-∩-B对称差：A与B对称差包括属于A的部分加上属于B的部分减去属于A与B的公共部分。我们记作A-BA-B-A-B-∪-B-A-A-B-A∩B所以我们可以得到以下公式：A-B-B-A-A-K-A-A-A-K-A-B-A∩B-∪-B∩A-A-B-C-A-B-C" class="headerlink" title="好久不更新了，本来也随便写写。并集：A与B的并集，记作：A∪B，它同时包含集合A或者集合B里面的元素：A∪B&#x3D;{x|xEA | xEB}交集：A与B的交集，记作：A∩B，他包含A与B里面的公共元素：A∩B &#x3D; {x| xEA &amp; xEB}如果两个集合不相交，他们的交集是空集。A∪B &#x3D; A + B - A∩B补集：有两种：绝对补与相对补。相对补：也叫做差集，记作A - B(意思是A集合里面减去包含在B里面的A元素)，即：A-B &#x3D; A - A∩BA - B &#x3D; {x| xEA &amp; x !E B}绝对补：全集是E，有一个集合是A，那么A的补集是：A。A &#x3D; E-A所以有性质：(A) &#x3D; A E &#x3D; 空集 ~空集 &#x3D; E A∩A &#x3D; 空集 A∪~A &#x3D; E~(A ∩ B) &#x3D; ~A ∪ ~B ~（A ∪ B）&#x3D; ~A ∩ ~B对称差：A与B对称差包括属于A的部分加上属于B的部分减去属于A与B的公共部分。我们记作A@BA@B &#x3D; (A-B) ∪ (B-A) &#x3D;&#x3D; A + B - A∩B所以我们可以得到以下公式：A@B&#x3D;B@A A@K&#x3D;A A@A&#x3D;K A@B&#x3D;(A∩B)∪(B∩A) (A@B)@C&#x3D;A@(B@C)"></a>好久不更新了，本来也随便写写。<br>并集：A与B的并集，记作：A∪B，它同时包含集合A或者集合B里面的元素：A∪B&#x3D;{x|xEA | xEB}<br>交集：A与B的交集，记作：A∩B，他包含A与B里面的公共元素：A∩B &#x3D; {x| xEA &amp; xEB}<br>如果两个集合不相交，他们的交集是空集。<br>A∪B &#x3D; A + B - A∩B<br>补集：有两种：绝对补与相对补。<br>相对补：也叫做差集，记作A - B(意思是A集合里面减去包含在B里面的A元素)，即：A-B &#x3D; A - A∩B<br>A - B &#x3D; {x| xEA &amp; x !E B}<br>绝对补：全集是E，有一个集合是A，那么A的补集是：A。A &#x3D; E-A<br>所以有性质：(A) &#x3D; A <del>E &#x3D; 空集 ~空集 &#x3D; E A∩</del>A &#x3D; 空集 A∪~A &#x3D; E<br>~(A ∩ B) &#x3D; ~A ∪ ~B ~（A ∪ B）&#x3D; ~A ∩ ~B<br>对称差：A与B对称差包括属于A的部分加上属于B的部分减去属于A与B的公共部分。<br>我们记作A@B<br>A@B &#x3D; (A-B) ∪ (B-A) &#x3D;&#x3D; A + B - A∩B<br>所以我们可以得到以下公式：A@B&#x3D;B@A A@K&#x3D;A A@A&#x3D;K A@B&#x3D;(A∩B)∪(B∩A) (A@B)@C&#x3D;A@(B@C)</h2><p>一、 真子集</p>
+<p>真子集 :</p>
+<p>描述 : A , B A , BA,B 两个集合 , 如果 A AA 集合 是 B BB 集合的子集 , 并且 A &#x3D;̸ B A \not&#x3D; BA<br><br>​<br> &#x3D;B , 则称 A AA 是 B BB 的真子集 , B BB 真包含 A AA ;</p>
+<p>记作 : A ⊂ B A \subset BA⊂B</p>
+<p>符号化表示 : A ⊂ B A \subset BA⊂B ⇔ \Leftrightarrow⇔ A ⊆ B ∧ A &#x3D;̸ B A \subseteq B \land A \not&#x3D; BA⊆B∧A<br><br>​<br> &#x3D;B</p>
+<p>非真子集 :</p>
+<p>描述 : A AA 集合 不是 B BB 集合的真子集 ;</p>
+<p>记作 : A ⊄ B A \not\subset BA<br><br>​<br> ⊂B</p>
+<p>符号化表示 : A ⊄ B A \not\subset BA<br><br>​<br> ⊂B ⇔ \Leftrightarrow⇔ ∃ x ( x ∈ A ∧ x ∉ B ) ∧ A &#x3D;̸ B \exist x ( x \in A \land x \not\in B ) \land A \not&#x3D; B∃x(x∈A∧x<br><br>​<br> ∈B)∧A<br><br>​<br> &#x3D;B</p>
+<p>( 存在元素 x xx 是集合 A AA 的元素 , 不是集合 B BB 的元素 , 并且 A , B A , BA,B 不相等 , 则 A AA 不是 B BB 的真子集 )</p>
+<p>真包含关系 性质 :</p>
+<p>反自反性 : A ⊄ A A \not\subset AA<br><br>​<br> ⊂A</p>
+<p>反对称性 : 如果 A ⊂ B A \subset BA⊂B , 那么 B ⊄ A B \not\subset AB<br><br>​<br> ⊂A</p>
+<p>传递性 : 如果 A ⊂ B A \subset BA⊂B , 并且 B ⊂ C B \subset CB⊂C , 那么 A ⊂ C A \subset CA⊂C</p>
+<p>二、 空集</p>
+<p>空集描述 : 没有任何元素的集合 , 称为空集合 , 简称为 空集 ;</p>
+<p>记作 : ∅ \varnothing∅</p>
+<p>空集示例 : A &#x3D; { x ∣ x 2 + 1 &#x3D; 0 ∧ x ∈ R } A &#x3D; { x | x^2 + 1 &#x3D; 0 \land x \in R }A&#x3D;{x∣x<br>2<br> +1&#x3D;0∧x∈R}</p>
+<p>R RR 是实数集合 , 上述 x xx 明显无解 , 集合也为空集 ;</p>
+<p>空集定理 : 空集是一切集合的子集 ;</p>
+<p>空集推论 : 空集是唯一的 ;</p>
+<p>三、 全集</p>
+<p>全集 : 限定所讨论的集合 , 都是某个集合的子集 , 则称该集合为全集 , 记作 E EE ;</p>
+<p>全集不唯一 : 全集只是相对于讨论问题的范畴 , 不唯一 , 不能讨论范畴之外的情况 ;</p>
+<p>全集示例 : 讨论 [0, 1] 区间上的实数性质 , 取全集为 [0, 1] 上的所有实数 ;</p>
+<p>( 讨论其它区间的数 , 也可以取其它的区间作为全集 )</p>
+<p>四、 幂集</p>
+<p>幂集描述 : A AA 是一个集合 , A AA 集合的全体子集组成的集合 称为 A AA 的幂集 ;</p>
+<p>记作 : P ( A ) P(A)P(A)</p>
+<p>符号化表述 : P ( A ) &#x3D; { x ∣ x ⊆ A } P(A) &#x3D; { x | x \subseteq A }P(A)&#x3D;{x∣x⊆A}</p>
+<p>五、 集合元素个数</p>
+<p>集合元素个数 :</p>
+<p>0 00 元集 : ∅ \varnothing∅</p>
+<p>1 11 元集 : 含有 1 11 个元素的集合 , 又称为 单元集 ;</p>
+<p>2 22 元集 : 含有 2 22 个元素的集合 ;</p>
+<p>n nn 元集 : 含有 n nn 个元素的集合 ; ( n ≥ 1 n \geq 1n≥1 )</p>
+<p>有穷集 : ∣ A ∣ |A|∣A∣ 表示集合 A AA 中的元素个数 , 如果 A AA 集合中的元素个数是 有限数 时 , 那么称该 A AA 集合为有穷集 , 或 有限集 ;</p>
+<p>幂集个数定理 : 集合 A AA 中的 元素个数 ∣ A ∣ &#x3D; n |A| &#x3D; n∣A∣&#x3D;n , 则 A AA 的 幂集个数 ∣ P ( A ) ∣ &#x3D; 2 n |P(A)| &#x3D; 2^n∣P(A)∣&#x3D;2 n</p>
+<p>六、 求幂集步骤</p>
+<p>求幂集步骤 : 求 集合 A AA 的幂集 , 需要按照顺序求 A AA 集合中 由低到高元的所有子集 , 再将这些子集组成集合 ;</p>
+<p>低到高元的所有子集 : 0 00 元集 , 1 11 元集 , 2 22 元集 , ⋯ \cdots⋯ , n nn 元集 ;</p>
+<p>集合 A &#x3D; { a , b , c } A &#x3D; { a, b , c }A&#x3D;{a,b,c}</p>
+<p>0 00 元集 : ∅ \varnothing∅</p>
+<p>1 11 元集 : { a } { a }{a} , { b } { b }{b} , { c } { c }{c}</p>
+<p>2 22 元集 : { a , b } { a, b }{a,b} , { a , c } { a, c }{a,c} , { b , c } { b, c }{b,c}</p>
+<p>3 33 元集 : { a , b , c } { a, b, c }{a,b,c}</p>
+<p>集合 A AA 的幂集是 :</p>
+<p>P ( A ) &#x3D; { ∅ , { a } , { b } , { c } , { a , b } , { a , c } , { b , c } , { a , b , c } } P(A) &#x3D; { \varnothing , { a } , { b } , { c } , { a, b } , { a, c } , { b, c } , { a, b, c } }P(A)&#x3D;{∅,{a},{b},{c},{a,b},{a,c},{b,c},{a,b,c}}</p>
 ]]></content>
       <tags>
         <tag>离散数学</tag>
       </tags>
   </entry>
   <entry>
-    <title>数据结构c语言课后习题</title>
-    <url>/2024/10/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84c%E8%AF%AD%E8%A8%80%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98/</url>
-    <content><![CDATA[<h6 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h6><p>一.基础题<br>1.健壮的算法不会因为非法的输入数据而出现莫名其妙的状态<br>2.从逻辑结构上可以把数据结构分为线性结构和非线性结构<br>3.数据采用链式存储，存储单元的地址不一定连续<br>4.算法的时间复杂度取决于问题规模<br>5.下列程序段的时间复杂度</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for (i=0;i&lt;n;i++)             n</span><br><span class="line">    for (j=0;j&lt;n;j++)         n</span><br><span class="line">        x=x+1;                n^2 -&gt; O(n^2)</span><br></pre></td></tr></table></figure>
-<p>二.扩展题<br>1.简述下列概念:数据、数据元素、数据项。<br>数据是计算机加工处理的对象；数据元素是数据的基本单位，在计算机程序中通常作为一个整体进行考虑和处理；数据项是组成数据元素的、不可分割的最小单位。</p>
-<p>2.什么是数据结构?<br>数据结构是按某种逻辑关系组织起来的数据元素的集合，使用计算机语言描述并按一定的存储方式存储在计算机中，并在其上定义了一组运算。</p>
-<p>3.简述逻辑结构的四种基本关系<br>集合结构、线性结构、树形结构和图形结构。在集合结构中，元素之间没有关系；线性结构中，元素之间存在一对一的关系；树形结构中，元素之间存在一对多的关系，其中最多只有一个元素没有前驱元素；图形结构，元素之间存在多对多的关系。<br>4.常见的存储结构有哪些?<br>顺序结构、链式结构、索引存储和散列存储</p>
-<p>5.算法有哪些特征?<br>一个算法是对特定问题的求解步骤的一种描述，是指令的有限序列，其特征包括:<br>输入:算法有零个或多个输入<br>输出:算法至少产生一个输出<br>确定性:算法的每一条指令都有确切的定义，没有二义性。<br>可行性:可以通过已经实现的基本运算执行有限次来实现<br>有穷性:算法必须总能在执行有限步之后终止</p>
-<p>6.算法和程序的区别和联系时什么?<br>联系：程序是计算机指令的有序集合；是算法用某种程序设计语言的表述，是算法在计算机上的具体实现<br>区别：在语言描述上不同，程序必须是用规定的程序设计语言来写，而算法的描述形式包括自然语言、伪代码、流程图和程序语言等;算法所描述的步骤一定是有限的，而程序可以无限地执行下去，比如一个死循环可以称为程序，但不能称为算法。</p>
-<p>7.简述衡量算法优劣的基本标准<br>正确性:算法的执行结果应当满足功能需求，无语法错误，无逻辑错误<br>简明性:思路清晰、层次分明、易读易懂，有利于调试维护<br>健壮性:当输入不合法数据时，应能做适当处理，不至于引起严重后果<br>效率:有效使用存储空间和有高的时间效率<br>最优性:解决同一个问题可能有多种算法，应进行比较，选择最佳算法<br>可使用性:用户友好性</p>
-<h6 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h6><p>一.基础题<br>1.如果线性表最常用的操作是读取第i个元素的值,则采用顺序表存储方式最节省时间<br>2.对于线性表而言，除第一个元素和最后一个元素外，其余每一个元素都有且仅有一个直接前驱和直接后驱<br>3.已知顺序表中每个元素占2个存储单位,第一个元素a0在内存中的存储地址是100,则表中元素a5在内存中的存储地址为110<br>4.线性表采用链式存储结构所具有的特点为插入和删除操作不必移动元素<br>5.带表头结点的单链表中,first指向表头结点,当first-&gt;link &#x3D;&#x3D; NULL 时，带表头结点的单链表为空。<br>6.设双向循环链表中结点包括数据域data、左指针域llink和右指针域rlink,若在指针p所指向的结点之后插入指针s所指向的结点,则执行如下操作<br>s-&gt;llink&#x3D;p;s-&gt;rlink&#x3D;p-&gt;rlink;p-&gt;rlink-&gt;link&#x3D;s;p-&gt;rlink&#x3D;s;<br>7.线性表若采用链式存储结构，要求内存中可用存储单元的地址连续或不连续都可以。<br>8.在单链表中增加表头结点的目的是方便插入和删除运算的实现<br>9.若某线性表中最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则采用顺序表存储方式最节省时间。<br>10.循环列表的主要优点是从表中的任意结点出发都能扫描到整个链表</p>
-<h6 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h6><p>一.基础题<br>1.栈和队列的主要区别是限定插入和删除的位置不同。</p>
-<p>2.设A,B,C三个元素依次进栈(进栈后可立即出栈)，请写出所有可能的出栈序列。<br>五种:ABC,ACB,BAC,BCA,CBA</p>
-<p>3.阐述栈和队列的特点，并说明他们的作用。<br>堆栈是先进后出，队列为先进先出。逻辑结构均为线性结构。存储结构既有顺序存储也有链式存储。</p>
-<p>4.循环队列的元素存放在数组Q中,M是数组Q的最大长度,队尾指针rear指向队尾元素在Q中的下标值,队头指针front指向对头元素在Q中的下标值-1。写出队列为空和为满的条件。<br>队列为空:front &#x3D; rear 队列为满：(rear+1)%M &#x3D;&#x3D; front</p>
-<p>5.利用栈计算下列表达式，指出栈中最多有几个元素，并给出对应的中缀表达式，<br>(1)5 3 2 * 3 + 3 &#x2F; +<br>   ((3+(2<em>3))&#x2F;3)+5&#x3D;8<br>   最多三个元素<br>(2)4 2 4 1 * 1 3 * - ^ 2 1 * &#x2F; +<br>   2^((4</em>1)-(1<em>3))&#x2F;(2</em>1)+4&#x3D;5<br>   最多五个元素</p>
-<p>6.写出下列表达式的后缀形式<br>(1) (a+b)&#x2F;(c+d)            a b + c d + &#x2F;<br>(2) b^2-4<em>a</em>c              b 2 ^ 4 a * c * -<br>(3) a<em>c-b&#x2F;c^2              a c * b c 2 ^ &#x2F; -<br>(4) (a+b)<em>c+d&#x2F;(e+f)        a b + c * d e f + &#x2F; +<br>(5) (a+b)</em>(c</em>d+e)-a*c      a b + c d * e + * a c * -</p>
-<p>7.什么是递归，递归算法？比较递归和非递归算法的优缺点。<br>递归算法是算法过程中存在调用自身的结构，递归算法的优点是程序非常简洁和清晰，且易于分析。但它的缺点是费时间费空间。非递归算法则与之相反。</p>
-<p><strong>第四章不知道为什么字符串那部分我没印象，估计老师没讲，课后习题里也没有，跳了</strong></p>
-<h5 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h5><p>1.二维数组A[4][3]中数组元素以行优先顺序存储,已知loc(A[0][0])&#x3D;100,一个数组元素占四个单位存储空间，则数组元素A[3][2]的存储地址为:140 &#x3D; 100 + (4*2+2)*4<br>2.三维数组A[5][4][3]中数组元素以行优先顺序存储,已知loc(A[0][0][0])&#x3D;100,一个数组元素占4个单位存储空间,则数组元素A[2][2][2]的存储地址为:200<br>3.对10阶对称矩阵A中上三角元素以行优先顺序存储,已知loc(a00)&#x3D;100,一个矩阵元素占2个单位存储空间，则矩阵元素a76的存储地址为:192<br>4.对稀疏矩阵进行压缩存储的目的是节省存储空间<br>5.数组不同于线性表,不便于像线性表一样进行数据元素的插入与删除运算</p>
-<h5 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h5>]]></content>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用python演奏音乐</title>
+    <url>/2024/10/26/%E7%94%A8python%E6%BC%94%E5%A5%8F%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p>导入库:mido<br>music 是一个自定义函数，用于向 MIDI 轨道中添加音符的开启和关闭消息。这个函数接收三个参数：note（音符的索引），base_num（基准音高的八度偏移量），以及 base_time（音符的基础持续时间，以某种相对单位表示）。</p>
+<span id="more"></span>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import mido</span><br><span class="line">mid = mido.MidiFile()</span><br><span class="line">track = mido.MidiTrack()</span><br><span class="line">mid.tracks.append(track)</span><br><span class="line">#bpm = \frac&#123;60000000&#125;&#123;tempo&#125;</span><br><span class="line">def music(note,base_num,base_time):</span><br><span class="line">    </span><br><span class="line">    #meta_time = 60 * 60 * 10 / bpm</span><br><span class="line">    major_notes = [0, 2, 2, 1, 2, 2, 2, 1]</span><br><span class="line">    base_note = 60</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=0,channel=1))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=base_note+base_num*12 + sum(major_notes[0:note]), velocity=96, time=int(480*base_time),channel=1))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_on&#x27;, note=base_note, velocity=96, time=0))</span><br><span class="line">    #track.append(mido.Message(&#x27;note_off&#x27;, note=base_note, velocity=96, time=480*base_time))</span><br></pre></td></tr></table></figure>
+
+<p>之后定义music函数:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">def lemon_music():</span><br><span class="line">    #1</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #2</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*7))</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(2,1,3)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,2)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,0,0.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(3,0,1.5)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(1,0,1.5)</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(3,0,3)</span><br><span class="line">    #</span><br><span class="line">    music(2,0,0.5)</span><br><span class="line">    music(3,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(4,0,2)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line">    #</span><br><span class="line">    music(6,0,1.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    #</span><br><span class="line"></span><br><span class="line">    music(2,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(5,0,2)</span><br><span class="line">    #</span><br><span class="line">    music(4,0,1.5)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(5,0,0.5)</span><br><span class="line">    music(4,0,0.5)</span><br><span class="line">    </span><br><span class="line">    music(3,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line"></span><br><span class="line">    #</span><br><span class="line">    music(7,0,2)</span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    #加空白</span><br><span class="line">    track.append(mido.Message(&#x27;note_on&#x27;, note=0, velocity=0, time=0))</span><br><span class="line">    track.append(mido.Message(&#x27;note_off&#x27;, note=0, velocity=0, time=480*1))</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(1,1,1)#\</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(4,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #Kongbai</span><br><span class="line">    #</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(1,1,1.75)</span><br><span class="line">    music(4,0,0.25)</span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,2)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line">    </span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    #kongbai</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,4)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,2)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(7,0,2)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(7,0,0.5)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,1,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(7,1,2)</span><br><span class="line">    music(7,1,1)</span><br><span class="line">    music(1,2,1)</span><br><span class="line"></span><br><span class="line">    music(1,2,4)</span><br><span class="line"></span><br><span class="line">    music(1,2,2)</span><br><span class="line">    music(5,1,2)</span><br><span class="line"></span><br><span class="line">    music(4,1,2)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    music(2,1,2)</span><br><span class="line"></span><br><span class="line">    music(6,0,2)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(3,2,1)</span><br><span class="line"></span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(5,2,1)</span><br><span class="line">    music(6,1,1)</span><br><span class="line">    music(4,2,4)</span><br><span class="line">    music(4,1,1)</span><br><span class="line">    #kongbai</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#/</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)#\</span><br><span class="line"></span><br><span class="line">    music(5,1,0.125)</span><br><span class="line">    music(6,1,0.375)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line"></span><br><span class="line">    music(5,1,0.5)</span><br><span class="line">    music(1,2,1.5)</span><br><span class="line"></span><br><span class="line">    music(7,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(3,1,0.5)</span><br><span class="line">    music(5,1,1)</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line"></span><br><span class="line">    music(2,1,2)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line">    #</span><br><span class="line">    music(2,1,0.5)</span><br><span class="line">    music(1,1,1.5)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,1,0.75)</span><br><span class="line">    music(3,1,1.25)#\</span><br><span class="line">    music(3,1,0.125)</span><br><span class="line">    music(2,1,0.875)#\</span><br><span class="line">    music(7,0,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    #</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)#\</span><br><span class="line">    music(5,0,1)</span><br><span class="line"></span><br><span class="line">    music(6,0,0.75)</span><br><span class="line">    music(2,1,1.25)</span><br><span class="line">    music(7,0,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,3)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(7,0,0.25)</span><br><span class="line"></span><br><span class="line">    music(6,0,1)</span><br><span class="line">    music(7,0,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(4,0,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line"></span><br><span class="line">    music(4,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line">    music(1,1,0.75)</span><br><span class="line">    music(5,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(3,1,3)</span><br><span class="line">    music(3,1,0.75)</span><br><span class="line">    music(2,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(2,1,1)</span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(4,1,1)</span><br><span class="line"></span><br><span class="line">    music(3,1,1)</span><br><span class="line">    music(1,1,1)</span><br><span class="line">    music(5,0,1)</span><br><span class="line">    music(3,0,1)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(3,1,1.25)</span><br><span class="line">    music(2,1,0.75)</span><br><span class="line">    music(1,1,1.25)</span><br><span class="line"></span><br><span class="line">    music(1,1,2)</span><br><span class="line">    music(4,-2,0.25)</span><br><span class="line">    music(1,-1,0.25)</span><br><span class="line">    music(4,-1,0.25)</span><br><span class="line">    music(5,-1,0.25)</span><br><span class="line">    music(1,0,0.25)</span><br><span class="line">    music(2,0,0.25)</span><br><span class="line">    music(5,0,0.25)</span><br><span class="line">    music(1,1,0.25)</span><br><span class="line"></span><br><span class="line">    music(2,1,0.25)</span><br><span class="line">    music(5,1,0.25)</span><br><span class="line">    music(1,2,0.25)</span><br><span class="line">    music(2,2,0.25)</span><br><span class="line">    music(5,2,0.25)</span><br><span class="line">    music(1,3,0.75)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,1.5)</span><br><span class="line">    music(1,1,0.5)</span><br><span class="line">    music(5,1,3.5)</span><br><span class="line"></span><br><span class="line">lemon_music()</span><br><span class="line">mid.save(&#x27;lemon.mid&#x27;)</span><br></pre></td></tr></table></figure>
+<p>运行lemon_music函数并生成此音乐的mid文件<br>之后写一个mid文件运行的python的程序或直接找到文件用现有的音乐播放器打开。</p>
+<p>lemon音乐演示如下:</p>
+<p>我加载网页后发现HTML5不支持midi文件播放。没办法了。</p>
+<p>这边转成MP3:</p>
+<audio controls>  
+        <source src="/music/lemon.mp3" type="audio/mpeg">  
+        您的浏览器不支持音频元素。  
+</audio>  
+
+
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
+]]></content>
+      <tags>
+        <tag>古月方源/蛊真人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
@@ -655,30 +724,6 @@
     <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
     <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
 <p>希望评上三等奖学金。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>立冬</title>
-    <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
-    <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
-<p>好想放寒假。</p>
-<p>昨天晚上冲澡冲了很长时间，或许是因为很冷吧。</p>
-<p>不知道为什么突然想起了小时候。</p>
-<p>大概下午五六点吧。</p>
-<p>一个人去柳堡镇的澡堂泡澡。</p>
-<p>泡的身上暖暖的</p>
-<p>然后出来穿上厚厚的衣服。</p>
-<p>热气似乎就环绕在我周围</p>
-<p>回家后，可能会在卧室看电视</p>
-<p>逐渐入迷</p>
-<p>回过神来时天已经黑了。</p>
-<p>或者说，变成了深蓝色蔓延到远方。</p>
-<p>一天就这样过去了。</p>
-<p>无忧无虑。</p>
-<p>真怀念，过去。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -728,73 +773,24 @@
       </tags>
   </entry>
   <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解压</title>
-    <url>/2024/10/30/%E8%A7%A3%E5%8E%8B/</url>
-    <content><![CDATA[<p>今天上github下载数模的资料</p>
-<p>结果发现压缩包没法打开了</p>
-<p style="text-align: center;">
-    <img src="\images\解压.png" alt="minecraft">
-</p>
-
-<p>后来找了个python代码跑了一下成功了</p>
-<p>以下是chatgpt给的解释和代码:<br>如果你下载的压缩文件夹在手动点击时显示“无效”或“无法打开”，但使用Python代码可以成功解压缩，可能有几种原因：</p>
-<p>下载不完整：手动下载可能在下载过程中出现了问题，导致文件不完整。Python能够解压缩（尽管文件不完整）可能是因为它能够处理某些格式的压缩文件的部分数据。</p>
-<p>文件格式问题：有些压缩文件可能会包含特定的格式或编码，某些解压工具可能不支持，而Python的库（例如zipfile或tarfile）能够处理这些格式，因此能够解压缩。</p>
-<p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
-<p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
-<p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
-<p>你可以使用如下的Python代码尝试解压文件并查看其内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">zip_file_path = &#x27;path/to/your/file.zip&#x27;</span><br><span class="line">extract_folder = &#x27;path/to/extract/folder&#x27;</span><br><span class="line">try:</span><br><span class="line">    with zipfile.ZipFile(zip_file_path, &#x27;r&#x27;) as zip_ref:</span><br><span class="line">        zip_ref.extractall(extract_folder)</span><br><span class="line">    print(&quot;解压成功！&quot;)</span><br><span class="line">except zipfile.BadZipFile:</span><br><span class="line">    print(&quot;文件不是有效的zip文件！&quot;)</span><br><span class="line">except Exception as e:</span><br><span class="line">    print(f&quot;发生错误: &#123;e&#125;&quot;)</span><br></pre></td></tr></table></figure>
-<p>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
-<p>我直接用的简易代码，注意压缩包路径:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">files=zipfile.ZipFile(&quot;D:\code\Math_Model-master.zip&quot;,&#x27;r&#x27;)</span><br><span class="line">files.extractall(os.getcwd())  </span><br><span class="line">files.close()</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>闲聊</title>
-    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
-    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
-<p style="text-align: center;">
-    <img src="\images\我的世界1.png" alt="minecraft">
-</p>]]></content>
-      <tags>
-        <tag>闲聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>规划</title>
-    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
-<p>web前端规划，linux操作系统，</p>
-<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
-<p>天气越来越冷了，是时候拿出我的围巾了。</p>
+    <title>立冬</title>
+    <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
+    <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
+<p>好想放寒假。</p>
+<p>昨天晚上冲澡冲了很长时间，或许是因为很冷吧。</p>
+<p>不知道为什么突然想起了小时候。</p>
+<p>大概下午五六点吧。</p>
+<p>一个人去柳堡镇的澡堂泡澡。</p>
+<p>泡的身上暖暖的</p>
+<p>然后出来穿上厚厚的衣服。</p>
+<p>热气似乎就环绕在我周围</p>
+<p>回家后，可能会在卧室看电视</p>
+<p>逐渐入迷</p>
+<p>回过神来时天已经黑了。</p>
+<p>或者说，变成了深蓝色蔓延到远方。</p>
+<p>一天就这样过去了。</p>
+<p>无忧无虑。</p>
+<p>真怀念，过去。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -867,6 +863,79 @@
 ]]></content>
       <tags>
         <tag>算法与数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>闲聊</title>
+    <url>/2024/08/12/%E9%97%B2%E8%81%8A/</url>
+    <content><![CDATA[<p>三天没写blog了，本来放暑假也比较闲，也不想学习。最近在玩我的世界，搭建筑。记录一下。<br><strong>天空，即为极限！</strong></p>
+<p style="text-align: center;">
+    <img src="\images\我的世界1.png" alt="minecraft">
+</p>]]></content>
+      <tags>
+        <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>规划</title>
+    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
+<p>web前端规划，linux操作系统，</p>
+<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
+<p>天气越来越冷了，是时候拿出我的围巾了。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解压</title>
+    <url>/2024/10/30/%E8%A7%A3%E5%8E%8B/</url>
+    <content><![CDATA[<p>今天上github下载数模的资料</p>
+<p>结果发现压缩包没法打开了</p>
+<p style="text-align: center;">
+    <img src="\images\解压.png" alt="minecraft">
+</p>
+
+<p>后来找了个python代码跑了一下成功了</p>
+<p>以下是chatgpt给的解释和代码:<br>如果你下载的压缩文件夹在手动点击时显示“无效”或“无法打开”，但使用Python代码可以成功解压缩，可能有几种原因：</p>
+<p>下载不完整：手动下载可能在下载过程中出现了问题，导致文件不完整。Python能够解压缩（尽管文件不完整）可能是因为它能够处理某些格式的压缩文件的部分数据。</p>
+<p>文件格式问题：有些压缩文件可能会包含特定的格式或编码，某些解压工具可能不支持，而Python的库（例如zipfile或tarfile）能够处理这些格式，因此能够解压缩。</p>
+<p>文件损坏：下载的压缩包可能已经损坏，手动解压缩工具无法识别这种格式或结构，但Python可能在某种程度上能够提取某些数据。</p>
+<p>使用的解压工具不同：你的手动解压工具和Python所使用的解压库可能不同，Python的某些库可能更加宽容，能接收对于文件的某些错误。</p>
+<p>文件扩展名错误：有时文件可能被更改了扩展名，比如.zip文件误用为.rar文件，但如果用Python的适当库去处理，可以识别并解压。</p>
+<p>你可以使用如下的Python代码尝试解压文件并查看其内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">zip_file_path = &#x27;path/to/your/file.zip&#x27;</span><br><span class="line">extract_folder = &#x27;path/to/extract/folder&#x27;</span><br><span class="line">try:</span><br><span class="line">    with zipfile.ZipFile(zip_file_path, &#x27;r&#x27;) as zip_ref:</span><br><span class="line">        zip_ref.extractall(extract_folder)</span><br><span class="line">    print(&quot;解压成功！&quot;)</span><br><span class="line">except zipfile.BadZipFile:</span><br><span class="line">    print(&quot;文件不是有效的zip文件！&quot;)</span><br><span class="line">except Exception as e:</span><br><span class="line">    print(f&quot;发生错误: &#123;e&#125;&quot;)</span><br></pre></td></tr></table></figure>
+<p>你可以根据您的实际情况调整zip_file_path和extract_folder的路径。这个代码会帮你检查文件是否为有效的Zip文件，并试图解压缩</p>
+<p>我直接用的简易代码，注意压缩包路径:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import zipfile</span><br><span class="line">import os</span><br><span class="line">files=zipfile.ZipFile(&quot;D:\code\Math_Model-master.zip&quot;,&#x27;r&#x27;)</span><br><span class="line">files.extractall(os.getcwd())  </span><br><span class="line">files.close()</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
