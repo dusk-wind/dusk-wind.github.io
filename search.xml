@@ -1,215 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GUI项目介绍</title>
-    <url>/2024/11/10/GUI%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<p>用pyqt5做了一个简单的GUI</p>
-<p style="text-align: center;">
-    <img src="\images\login.png" alt="minecraft">
-</p>
-
-<p style="text-align: center;">
-    <img src="\images\home.png" alt="minecraft">
-</p>
-
-<p style="text-align: center;">
-    <img src="\images\learn.png" alt="minecraft">
-</p>
-
-<p style="text-align: center;">
-    <img src="\images\gamebox.png" alt="minecraft">
-</p>
-
-
-<p style="text-align: center;">
-    <img src="\images\setting.png" alt="minecraft">
-</p>
-
-<p>GUI实现的基本功能：<br>1.输入账号密码，登录界面跳转到用户界面并关闭登录界面。账号密码设在本地，没有用数据库，懒得学了。<br>2.窗口的最小化和关闭，主页面按钮跳转到不同的界面<br>3.子页面按钮点击可弹出对应的网页链接，也实现了打开本地文件的功能，如gamebox页面点击按钮可打开我本地的exe文件启动gamebox</p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo指令以及markdown使用方法</title>
-    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
-<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
-<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
-<html> *这是斜体*</html>
-
-<p><em>这是斜体</em></p>
-<html> **这是粗体**</html>
-
-<p><strong>这是粗体</strong></p>
-<html> ***这是粗斜体***</html>
-
-<p><em><strong>这是粗斜体</strong></em></p>
-<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
-<blockquote>
-<p>这是一个引用</p>
-</blockquote>
-<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
-<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
-<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
-<p>\ 可以显示符号本身</p>
-<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
-<ul>
-<li>无序列表</li>
-</ul>
-<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
-<ol>
-<li>一级层级<ol start="2">
-<li>二级层级<ol start="3">
-<li>三级层级</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
-<p>星露谷种子售价及收益</p>
-<table>
-<thead>
-<tr>
-<th align="left">作物</th>
-<th align="left">种子价($)</th>
-<th align="left">生长时间(天)</th>
-<th align="left">普通品质售价($)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">土豆</td>
-<td align="left">50</td>
-<td align="left">6</td>
-<td align="left">80</td>
-</tr>
-<tr>
-<td align="left">郁金香</td>
-<td align="left">20</td>
-<td align="left">6</td>
-<td align="left">30</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>hexo框架博客搭建/markdown使用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PyQt5</title>
-    <url>/2024/11/03/PyQt5/</url>
-    <content><![CDATA[<p>学python看到了可以做图形用户界面</p>
-<p>一开始用的tkinter，有点丑，然后找了tkt，总感觉找不到合适的。</p>
-<p>而且也不会，后来下了QT Creator,感觉不是短期可以学会的。</p>
-<p>后来上B站找了一个非常好看的UI库</p>
-<p>页面用QT designer设计，后端用python写,目前已经用pycharm配置好了虚拟环境，初始操作也会了</p>
-<p>后面慢慢学吧。</p>
-<p>wqw，差点把数模忘了，每天尽力看一点吧。</p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>光影iterationT 3.0.0</title>
-    <url>/2024/10/07/iterationT3-0-0/</url>
-    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mincraft启动器及mod安装</title>
-    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
-<span id="more"></span>
-<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
-<ul>
-<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
-<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
-<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
-</ul>
-<ol>
-<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
-</li>
-<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
-</li>
-</ol>
-<ul>
-<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
-<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
-</ul>
-<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
-<p>以下是一些介绍：</p>
-<p>运行界面：</p>
-<p style="text-align: center;">
-    <img src="\images\pcl2启动.png" alt="pcl2">
-</p>
-
-<ul>
-<li><p>下载方面：</p>
-<ul>
-<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
-<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
-</ul>
-</li>
-<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
-</li>
-</ul>
-<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
-<hr>
-<ol start="3">
-<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
-</ol>
-<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
-<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
-]]></content>
-      <tags>
-        <tag>Mincraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vscode安装python的第三方库</title>
-    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
-    <content><![CDATA[<p>cmd安装pip:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
-<p>vscode控制台安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Stellaris</title>
-    <url>/2024/10/12/Stellaris/</url>
-    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>代码问题与解决方法</title>
-    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
-<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
-</ol>
-<p>功能函数如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
-<p>以下是一个统一的逆置标准：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>代码问题与解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitHub项目-python</title>
     <url>/2024/10/14/GitHub%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<p>上次的网易云爬虫实践失败了，原理是懂的，但其实网易云的爬取遇到的问题还是没法解决。<br>这不是简简单单下载代码读读跑一下就行的。其实也反映了我python方面的基础知识不足。<br>于是在Github上找到一个项目学习:从零开始学习人工智能,挑战100天学习python<a href="https://github.com/Microstrong0305/Python2AI">链接</a></p>
@@ -320,6 +111,214 @@
       </tags>
   </entry>
   <entry>
+    <title>Mincraft启动器及mod安装</title>
+    <url>/2024/08/03/Mincraft%E5%90%AF%E5%8A%A8%E5%99%A8%E5%8F%8Amod%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>关于我的世界启动器有很多。我记得我小时候玩的最欢乐的一段时间必备我的世界三件套：我的世界盒子，我的世界联机平台，我的世界游戏本体。<br>后来随着越来越多的人意识到版权的重要性，加之网易代理国内版的我的世界，这些都没了。</p>
+<span id="more"></span>
+<h4 id="Minecraft启动器"><a href="#Minecraft启动器" class="headerlink" title="Minecraft启动器"></a>Minecraft启动器</h4><p>Minecraft启动器是一个用于启动和管理Minecraft游戏的应用程序。以下是几种常见的Minecraft启动器：</p>
+<ul>
+<li>官方启动器（Official Launcher）：官方启动器由Mojang Studios提供，可从Minecraft官方网站下载。它支持Java版Minecraft，并提供登录、版本管理和模组支持等功能。</li>
+<li>Minecraft启动器（Minecraft Launcher）：这是基岩版Minecraft的官方启动器，可从各平台的应用商店（如Windows Store、App Store和Google Play）下载。它允许玩家登录并启动基岩版Minecraft，也可以管理下载的内容和游戏设置。</li>
+<li>第三方启动器：除了官方启动器外，还有一些第三方启动器可供选择，如HMCL、PCL2等。这些启动器提供了额外的功能和自定义选项，例如模组管理和不同版本的支持。<br>(<del>以上这些来自网络介绍</del>)<br>下面是我个人的体验：</li>
+</ul>
+<ol>
+<li><p>网易版：有硬性远程联机需求的话只能玩这个了。  我的评价是把国内我的世界弄得乌烟瘴气的。</p>
+</li>
+<li><p>PCL2启动器：这是我非常推荐的。<br>介绍：PCL2 是 Plain Craft Launcher 2 的简称，是由 龙腾猫跃 开发的一款我的世界启动器。</p>
+</li>
+</ol>
+<ul>
+<li>优点：很方便，它集成了众多游戏版本、Mod、整合包的相关内容。</li>
+<li>缺点：没法远程连接(具体开服务器我也不会&lt;(。_。)&gt;)。只能实现局域网连接，但我在宿舍里试过，像校园网那种大型局域网也不是很稳定。开个人热点也一样。<br>  一般只适合同学或朋友家里连同一个路由器才比较稳定。</li>
+</ul>
+<p>这是下载链接：<a href="https://mod.3dmgame.com/mod/194985">PCL2启动器下载</a><br>爱发电没了，这是3DM官网下载的，可放心食用。</p>
+<p>以下是一些介绍：</p>
+<p>运行界面：</p>
+<p style="text-align: center;">
+    <img src="\images\pcl2启动.png" alt="pcl2">
+</p>
+
+<ul>
+<li><p>下载方面：</p>
+<ul>
+<li>光影插件：OptiFine OptiFine又名高清修复，它可以安装光影，使用高清材质，并且大幅提高游戏性能(古董机建议别下)</li>
+<li>mod插件：常用的有两种：Forge和Fabric ，他们是mod加载器，下载mod前记得看下对应的mod插件</li>
+</ul>
+</li>
+<li><p>设置方面：建议隔离所有版本<br>原因：在PCL2启动器装MC游戏的时候，往往都有不同的版本来切换运行，但是这里有个问题就是一些游戏MOD不想跟别的版本通用，因为很容易导致MOD冲突，游戏崩溃。</p>
+</li>
+</ul>
+<p>补充：我一般都玩的离线版，正式版没买也没登过，第三方服务器登录页不了解。</p>
+<hr>
+<ol start="3">
+<li>HMCL启动器：以前玩过，感觉不如pcl2</li>
+</ol>
+<p>这是下载链接：<a href="https://ci.huangyuhui.net/job/HMCL-stable/">HMCL启动器下载</a></p>
+<p>注：改启动器需要安装JAVA才可使用,自己可以根据自己的电脑操作位数下载相应的版本  <a href="https://www.java.com/zh-CN/">JAVA官网</a></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GUI项目介绍</title>
+    <url>/2024/11/10/GUI%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>用pyqt5做了一个简单的GUI</p>
+<p style="text-align: center;">
+    <img src="\images\login.png" alt="minecraft">
+</p>
+
+<p style="text-align: center;">
+    <img src="\images\home.png" alt="minecraft">
+</p>
+
+<p style="text-align: center;">
+    <img src="\images\learn.png" alt="minecraft">
+</p>
+
+<p style="text-align: center;">
+    <img src="\images\gamebox.png" alt="minecraft">
+</p>
+
+
+<p style="text-align: center;">
+    <img src="\images\setting.png" alt="minecraft">
+</p>
+
+<p>GUI实现的基本功能：<br>1.输入账号密码，登录界面跳转到用户界面并关闭登录界面。账号密码设在本地，没有用数据库，懒得学了。<br>2.窗口的最小化和关闭，主页面按钮跳转到不同的界面<br>3.子页面按钮点击可弹出对应的网页链接，也实现了打开本地文件的功能，如gamebox页面点击按钮可打开我本地的exe文件启动gamebox</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo指令以及markdown使用方法</title>
+    <url>/2024/08/01/hexo%E6%8C%87%E4%BB%A4%E4%BB%A5%E5%8F%8Amarkdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="hexo常用指令"><a href="#hexo常用指令" class="headerlink" title="hexo常用指令"></a>hexo常用指令</h2><h3 id="维护运行网站时忘记了可以看看"><a href="#维护运行网站时忘记了可以看看" class="headerlink" title="维护运行网站时忘记了可以看看"></a>维护运行网站时忘记了可以看看</h3><span id="more"></span>
+<p>hexo g&#x2F;hexo generate:在hexo站点根目录下生成public文件<br>hexo clean:将生成的public文件删除<br>hexo s&#x2F;hexo server:启动hexo服务，生成网站的默认地址为：<a href="http://localhost:4000/">http://localhost:4000/</a><br>hexo d&#x2F;hexo deploy: 部署站点，在本地生成.deploy_git文件夹并将编译后的文件上传至Github<br>hexo n &lt;文章标题&gt;：在D:&#x2F;blog&#x2F;source&#x2F;_posts里生成一篇markdown文章<br>hexo n page tags:生成标签页<br>hexo n page categories：生成分类页</p>
+<h2 id="markdown基本用法"><a href="#markdown基本用法" class="headerlink" title="markdown基本用法"></a>markdown基本用法</h2><h3 id="1-标题大小"><a href="#1-标题大小" class="headerlink" title="1.标题大小"></a>1.标题大小</h3><p>用#标记，随#的个数递增，一级标题最大，六级标题最小<br>#:一级标题<br>##:二级标题<br>###:三级标题<br>效果展示:</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="2-字体样式"><a href="#2-字体样式" class="headerlink" title="2.字体样式"></a>2.字体样式</h3><p>可用星号或下划线，由个数决定：单：斜体 双：粗体 三：粗斜体<br>接下来用*做示范</p>
+<html> *这是斜体*</html>
+
+<p><em>这是斜体</em></p>
+<html> **这是粗体**</html>
+
+<p><strong>这是粗体</strong></p>
+<html> ***这是粗斜体***</html>
+
+<p><em><strong>这是粗斜体</strong></em></p>
+<h3 id="3-格式命令"><a href="#3-格式命令" class="headerlink" title="3.格式命令"></a>3.格式命令</h3><p>&lt;br&#x2F;&gt;:换行<br>“&gt;“:引用  </p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<p>插入链接:<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a><br>例：<a href="https://www.njupt.edu.cn/">NJUPT官网</a></p>
+<p>插入图片：<br><img src="/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述(选填)"></p>
+<h2 id="分割线：-或"><a href="#分割线：-或" class="headerlink" title="分割线：*** 或- - -"></a>分割线：*** 或- - -</h2><p>删除线：在要删除的文字前后加上两个~~<br><del>这是被删除的文字</del></p>
+<p>\ 可以显示符号本身</p>
+<h3 id="4-列表与表格"><a href="#4-列表与表格" class="headerlink" title="4.列表与表格"></a>4.列表与表格</h3><p>无序列表：使用* + -,再加一个空格作为列表的标记</p>
+<ul>
+<li>无序列表</li>
+</ul>
+<p>有序列表：使用数字加上.，再加上一个空格作为标记</p>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<p>控制层级：在想控制的列表的列表符号前使用Tab键</p>
+<ol>
+<li>一级层级<ol start="2">
+<li>二级层级<ol start="3">
+<li>三级层级</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>表格使用|来分割单元格，使用-来分割表头和其他行<br>:-  表示将表格及单元格内容左对齐<br>-： 表示将表格及单元格内容右对齐<br>:-: 表示将表格及单元格内容居中</p>
+<p>星露谷种子售价及收益</p>
+<table>
+<thead>
+<tr>
+<th align="left">作物</th>
+<th align="left">种子价($)</th>
+<th align="left">生长时间(天)</th>
+<th align="left">普通品质售价($)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">土豆</td>
+<td align="left">50</td>
+<td align="left">6</td>
+<td align="left">80</td>
+</tr>
+<tr>
+<td align="left">郁金香</td>
+<td align="left">20</td>
+<td align="left">6</td>
+<td align="left">30</td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>hexo框架博客搭建/markdown使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>光影iterationT 3.0.0</title>
+    <url>/2024/10/07/iterationT3-0-0/</url>
+    <content><![CDATA[<p>光影:iterationT 3.0.0<br>建筑:Maigusang 建筑接力作品<br><video controls><br>  <source src="\videos\i watch the moon.mp4" type="video/mp4"><br>  您的浏览器不支持 HTML5 视频标签。<br></video></p>
+]]></content>
+      <tags>
+        <tag>Mincraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Stellaris</title>
+    <url>/2024/10/12/Stellaris/</url>
+    <content><![CDATA[<p>群星CG推荐:<br><a href="https://www.bilibili.com/video/BV1kw41137q5vd_source=983f970d330f9c31e222ccfb03364c2e">群星Stellaris:“在正义里有回答不了的问题”</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>PyQt5</title>
+    <url>/2024/11/03/PyQt5/</url>
+    <content><![CDATA[<p>学python看到了可以做图形用户界面</p>
+<p>一开始用的tkinter，有点丑，然后找了tkt，总感觉找不到合适的。</p>
+<p>而且也不会，后来下了QT Creator,感觉不是短期可以学会的。</p>
+<p>后来上B站找了一个非常好看的UI库</p>
+<p>页面用QT designer设计，后端用python写,目前已经用pycharm配置好了虚拟环境，初始操作也会了</p>
+<p>后面慢慢学吧。</p>
+<p>wqw，差点把数模忘了，每天尽力看一点吧。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>代码问题与解决方法</title>
+    <url>/2024/08/06/%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h6 id="写代码报错改bug真的痛苦╥﹏╥"><a href="#写代码报错改bug真的痛苦╥﹏╥" class="headerlink" title="写代码报错改bug真的痛苦╥﹏╥"></a>写代码报错改bug真的痛苦╥﹏╥</h6><ol>
+<li>数据结构书p28页：编写程序实现顺序表的逆置</li>
+</ol>
+<p>功能函数如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L)         </span><br><span class="line">&#123;</span><br><span class="line">    int temp;int i;</span><br><span class="line">    if(L-&gt;n%2==0)</span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;L-&gt;n/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else </span><br><span class="line">    &#123;</span><br><span class="line">        for(i=0;i&lt;(L-&gt;n-1)/2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            temp=L-&gt;element[i];</span><br><span class="line">            L-&gt;element[i]=L-&gt;element[L-&gt;n-i];</span><br><span class="line">            L-&gt;element[L-&gt;n-i]=temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>想半天页没看出来哪里错了，一运行程序就开始死循环。然后问了文心一言。当顺序表元素个数为偶数时，程序运行没问题。当为奇数时，中间的元素 (L-&gt;n)&#x2F;2 作为中心点，在逆置后保留原位。但只循环到 (L-&gt;n-1)&#x2F;2 ，意味着最后一个元素没有交换。这是他的解释，后来我发现其实是我索引出错了，数组索引是从0开始的。中间的数无论是否交换都不变。</p>
+<p>以下是一个统一的逆置标准：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void Vert(SeqList *L) </span><br><span class="line">&#123;</span><br><span class="line">    int temp;</span><br><span class="line">    int i;</span><br><span class="line">    for (i = 0; i &lt; L-&gt;n / 2; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        temp = L-&gt;element[i];</span><br><span class="line">        L-&gt;element[i] = L-&gt;element[L-&gt;n - 1 - i];</span><br><span class="line">        L-&gt;element[L-&gt;n - 1 - i] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>代码问题与解决方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二级c</title>
+    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
+    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
+<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
+]]></content>
+      <tags>
+        <tag>计算机二级c语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>next主题美化</title>
     <url>/2024/08/03/next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>以下是本人对于next主题美化和魔改的一些经验</p>
@@ -377,50 +376,14 @@
       </tags>
   </entry>
   <entry>
-    <title>诗</title>
-    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<ul>
-<li>大爱仙尊&#x2F;炼天魔尊</li>
-</ul>
-<div style="display:flex; align-items:center;">
-    <div style="margin-right:100px;">
-        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
-    </div>
-    <div>
-        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
-        <p>荡魂山处石人泪，定仙游走魔向北。</p>
-        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
-        <p>宿命天成命中败，仙尊悔而我不悔。</p>
-        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
-        <p>一路寒风身如絮，命海沉浮客独行。</p>
-        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
-        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
-    </div>
-</div>
-
-
-]]></content>
+    <title>vscode安装python的第三方库</title>
+    <url>/2024/09/24/vscode%E5%AE%89%E8%A3%85python%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</url>
+    <content><![CDATA[<p>cmd安装pip:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python -m ensurepip --default-pip</span><br></pre></td></tr></table></figure>
+<p>vscode控制台安装库:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install 库名</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>古月方源/蛊真人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二级c</title>
-    <url>/2024/09/05/%E4%BA%8C%E7%BA%A7c/</url>
-    <content><![CDATA[<h6 id="2024-3"><a href="#2024-3" class="headerlink" title="2024.3"></a><strong>2024.3</strong></h6><p>1.矩阵是线性结构，数组是长度固定的线性表，对线性表可以增删查改，线性表里的各元素的数据类型相同<br>2.在快速排序法里，每经过依次数据交换或移动后能消除多个逆序<br>3.线性表的长度为n。在最坏的情况下，比较次数为n-1的算法为寻找最大项<br>4.二叉树<br>5.软件是逻辑实体，具有抽象性<br>6.软件系统总体构图的作用是描述软件系统结构的图形工具<br>7.下面不属于结构化程序设计风格的是程序的执行效率<br>8.将数据库的结构划分多个层次，是为了提高数据库的物理独立性和逻辑独立性<br>9.定义学生选修课程关系模式SC(S#,Sn,C#,Cn,G)（其属性分别为学号、姓名、课程号、课程名、成绩）该关系的范式最高达到1NF<br>10.c语言程序里不正确的是整数和实数都能被准确无误地表示出来（实数不能，整数可以）<br>11.一个c语言程序由函数组成<br>12.关键字<br>13.c语言常量表示可以在数字后加上e或E表示10的幂，e或E后面必须为整数且为整数<br>14.用户标识符：第一个字符为字母或下划线，标识符区分大小写，后面可以为字母，数字，下划线<br>15.c语言中，整数可以以十进制，八进制，十六进制的形式输出<br>16.long型数值的格式符为%ld<br>17.格式符：十进制 %d 八进制 %o 十六进制 %x<br>18.赋值语句：变量&#x3D;表达式<br>19.带参宏指令：#define sub(a,b) a-b<br>20.所有的字符常量都可以作为整型量来处理<br>21.func((exp1,exp2),(exp3,exp4,exp5));调用了2个实参，里面有五个形参<br>22.int (*ptr)()含义：ptr是指向函数的指针,该函数返回一个int型数据。<br>23.字符数组初始化：单引号括起来的字符常量值存放一个字符，用字符数组存放字符串<br>24.若str1小于str2，则返回负整数，即小于0的数。若str1和str2相等，则返回0。若str1大于str2，则返回正整数，即大于0的数。<br>25.联合体不能在定义的时候初始化，内存长度等于最长的，其地址和各成员地址相同<br>26.文件由数据流形式组成，可按数据的形式分为二进制文件和文本文件</p>
-<h5 id="2023-9"><a href="#2023-9" class="headerlink" title="2023.9"></a><strong>2023.9</strong></h5><p>1.线性表的链式存储结构所需要的存储空间一般要多于顺序存储结构<br>2.在栈中，栈底指针不变，栈中元素随栈顶指针的变化而动态变化<br>3.软件测试的目的是发现程序中的错误<br>4.软件危机表现 软件开发生产率低,软件质量难以控制,软件成本不断提高<br>5.软件生命周期是指软件产品从提出、实现、使用维护到停止使用退役的过程<br>6.层次型、网状型和关系型数据库划分原则是数据之间的联系方式<br>7.数据库设计中反映用户对数据规定的模式是外模式<br>8.在C语言中，程序的模块化是运用函数实现的<br>9.简朴程序设计的环节和顺序的说法:一方面拟定数据结构，然后拟定算法，再编码，并上机调试，最后整理文档</p>
-]]></content>
-      <tags>
-        <tag>计算机二级c语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站成功感言</title>
-    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
-    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -466,35 +429,43 @@
       </tags>
   </entry>
   <entry>
-    <title>序</title>
-    <url>/2024/08/01/%E5%BA%8F/</url>
-    <content><![CDATA[<hr>
-<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+    <title>困</title>
+    <url>/2024/10/21/%E5%9B%B0/</url>
+    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
+<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
+<p>感兴趣的话可以试试。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>手机投屏至电脑方法</title>
-    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
-    <content><![CDATA[<p>方法一：</p>
-<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
-<p>方法二：</p>
-<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
-<p style="text-align: center;">
-    <img src="\images\投屏1.png" alt="minecraft">
-</p>
-<p style="text-align: center;">
-    <img src="\images\投屏2.png" alt="minecraft">
-</p>
-
-<p>点击：启动无线显示应用以投影到此电脑</p>
-<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
-<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
-<p style="text-align: center;">
-    <img src="\images\投屏3.png" alt="minecraft">
-</p>]]></content>
+    <title>建站成功感言</title>
+    <url>/2024/07/31/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%E6%84%9F%E8%A8%80/</url>
+    <content><![CDATA[<p>看了半天b站终于搭建好了，纪念一下！<br>接下来就是上传到github里，做些美化装饰了。<br><strong>以后这里就是的我的博客小站了，希望常来光顾呀 ヾ(๑╹ヮ╹๑)ﾉ”</strong></p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>想法</title>
+    <url>/2024/10/31/%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="57a806015f5b59fa4ee4ac1d69965dbca12223568d415b53c5099272938f01ee">4fd4a664b4e2ea93f3dc6fbdf52959d1f7e68301109496bca954d45c11bcc61f12a6c3c11950534687a7128b1ea6509d547d1e6a8c854c35411fec6649864398d87b558d8834812daa95b327948e672a15b16fe01652203a400bd20b43fc0700d2c7438fcf32216dcc7b87286d5b853fdcb7186b9e7762e2bcb07f5040e6782712e0e4c06e022fe72c582ae246087acde6bf1fe6ae1cb48aaad413e35d17d030605db2f90e96dc4167570d8a4cc2826a65de1a2b81209a8bb0c8ae9f77d2c4b95ec2620ce3cfaf76926f611ed0c955c67d235ee98eab2e3f28a28fb7632ae95813b713e6ae9a2b2eb02f6ee155ec9e15c1eb05ce193aa4509b054db20fd1bb07d5ec7d46acba2411817b887d301f1613d6f05811bf2262c68b41d5db52ddf3cbdb139f5996386834748f8f79d35398ce</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>数据结构c语言课后习题</title>
@@ -534,21 +505,61 @@
       </tags>
   </entry>
   <entry>
-    <title>困</title>
-    <url>/2024/10/21/%E5%9B%B0/</url>
-    <content><![CDATA[<p>今天下午8,9节上机课,从一点睡到三点,本来打算早点起来写python实验报告的。<br>上周日连通两宵打游戏,确实有点疯了。<br>最近事情挺多的,普通话考试,体测,物理期中考试复习······<br>这周就不学python了,看会数据结构和大物吧。</p>
-<p>今晚行政课上GitHub找了个<a href="https://hzx0910.github.io/yavt.fengtao.xyz/">政治倾向测试</a>。</p>
-<p>感兴趣的话可以试试。</p>
+    <title>诗</title>
+    <url>/2024/08/04/%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90-%E5%A4%A7%E7%88%B1%E4%BB%99%E5%B0%8A%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<ul>
+<li>大爱仙尊&#x2F;炼天魔尊</li>
+</ul>
+<div style="display:flex; align-items:center;">
+    <div style="margin-right:100px;">
+        <img class="image " src="\images\gy2.jpg" alt="gy" style="width:400px; height:auto;">
+    </div>
+    <div>
+        <p>落魄谷中寒风吹，春秋蝉鸣少年归。</p>
+        <p>荡魂山处石人泪，定仙游走魔向北。</p>
+        <p>逆流河上万仙退，爱情不敌坚持泪。</p>
+        <p>宿命天成命中败，仙尊悔而我不悔。</p>
+        <p>早岁已知世事艰，仍许飞鸿荡云间。</p>
+        <p>一路寒风身如絮，命海沉浮客独行。</p>
+        <p>千磨万击心铸铁，殚精竭虑铸一剑。</p>
+        <p>今朝剑指叠云处，炼蛊炼人还炼天！</p>
+    </div>
+</div>
+
+
 ]]></content>
       <tags>
-        <tag>日志</tag>
+        <tag>古月方源/蛊真人</tag>
       </tags>
   </entry>
   <entry>
-    <title>数模竞赛</title>
-    <url>/2024/10/30/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
+    <title>手机投屏至电脑方法</title>
+    <url>/2024/10/10/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E8%87%B3%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<p>方法一：</p>
+<p>机型:小米13(系统:hyperos)<br>软件：<a href="https://hyperos.mi.com/continuity">小米电脑管家</a><br>电脑操作系统:windows11<br><a href="https://wwyj.lanzouw.com/i9CNh1gc8igh">辅助插件</a>    密码:1111<br>由于电脑不是米家的，该插件用于模拟米家电脑，该方法我失败了，如果是米家全套配置可以试试。</p>
+<p>方法二：</p>
+<p>电脑操作系统:windows11<br>软件:windows11自带的投屏软件<br>电脑端：打开系统-&gt;找到投影到此电脑-&gt;下载插件：无线显示器</p>
+<p style="text-align: center;">
+    <img src="\images\投屏1.png" alt="minecraft">
+</p>
+<p style="text-align: center;">
+    <img src="\images\投屏2.png" alt="minecraft">
+</p>
+
+<p>点击：启动无线显示应用以投影到此电脑</p>
+<p>手机端：设置-&gt;更多连接-&gt;投屏</p>
+<p>投屏后如何缩小：<br>1.使用任务管理器快捷键:ctrl+alt+del 回到桌面<br>2.点击投屏缩小图标并将鼠标多次在上边界移动会有缩小指标下拉</p>
+<p style="text-align: center;">
+    <img src="\images\投屏3.png" alt="minecraft">
+</p>]]></content>
+  </entry>
+  <entry>
+    <title>数模竞赛(日更)</title>
+    <url>/2024/11/11/%E6%95%B0%E6%A8%A1%E7%AB%9E%E8%B5%9B/</url>
     <content><![CDATA[<p>编程手准备:<br>1.任务:模型代码实现,算法优化,数据处理,模型求解,资料与工具准备。<br>2.编程工具选择:matlab<br>B站视频:matlab速成<br>3.日记</p>
-<h5 id="层次分析法-评价决策类题目"><a href="#层次分析法-评价决策类题目" class="headerlink" title="层次分析法:评价决策类题目"></a>层次分析法:评价决策类题目</h5><p>评价一类事物。<br>归一化处理:[a,b,c]-&gt;[a&#x2F;(a+b+c),b&#x2F;(a+b+c),c&#x2F;(a+b+c)]<br>指标权重。</p>
+<h5 id="评价决策类-层次分析法模型"><a href="#评价决策类-层次分析法模型" class="headerlink" title="评价决策类:层次分析法模型"></a>评价决策类:层次分析法模型</h5><p>评价一类事物。<br>归一化处理:<br>1.指标数组[a b c] [a,b,c]-&gt;[a&#x2F;(a+b+c),b&#x2F;(a+b+c),c&#x2F;(a++c)]<br>2.指标权重:指标A B C 且权重和为1</p>
+<p>模型原理：<br>首先将问题条理化，层次化。<br>分层：<br>最高层：只有一个元素，问题的预定目标或理想结果<br>中间层：实现目标涉及的环节<br>最底层：实现目标的各种措施与决策方案<br>基本步骤：<br>1.建立递阶层次结构模型<br>2.构造出各层次中所有的判断矩阵<br>·对指标的重要性进行两两比较，构造判断矩阵<br>·矩阵中a(ij):第i个指标相对于第j个指标的重要程度<br>3.一致性检验<br>两两比较可能会出现矛盾结果，导致最后的结果可能会出现矛盾，故需要一致性检验<br>·a(ij)&#x3D;i&#x2F;j&#x3D;a(ik)<em>a(kj)&#x3D;i&#x2F;k</em>k&#x2F;j</p>
+<p>4.求权重后进行评价</p>
 ]]></content>
       <tags>
         <tag>数模</tag>
@@ -561,6 +572,41 @@
 ]]></content>
       <tags>
         <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最近在干啥</title>
+    <url>/2024/11/27/%E6%9C%80%E8%BF%91%E5%9C%A8%E5%B9%B2%E5%95%A5/</url>
+    <content><![CDATA[<p>好久没更新了,最近打数模,嗯比较忙。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>序</title>
+    <url>/2024/08/01/%E5%BA%8F/</url>
+    <content><![CDATA[<hr>
+<p>建立博客对于每个人而言，都有不一样的意义。在建立此博客前，我上网翻了很多人的博客，<br>大部分都是已经断更的，有的人已经工作，或许忘记了他们的博客，有的和我一样，还是学<br>生，或许一时兴起建立博客后就不再继续更新了。当然，我也看见了一些人的博客创作的非<br>常优秀，无论是css样式和其他功能的实现，还是每篇文章的技术解析。对我而言，我其实<br>想把这个博客当做记录我生活的一个工具。我或许会写一些游戏的攻略，记录一下大学生活<br>的美好瞬间，也可能像其他人一样，写一些电脑技术的学习或问题的解决的办法。当然，目<br>前来说，我无论是是思想上还是技术上都不怎么成熟，希望我能坚持学习下去，因为我觉得<br>这些都很有趣，以后或许等我工作了，这未尝不是一种宝藏。(<del>赛博记事本了属于是</del>)<br>而对于正在浏览本站的你来说，也可以四处逛逛，看看有什么有趣或有用的东西。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有感</title>
+    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -607,53 +653,12 @@
       </tags>
   </entry>
   <entry>
-    <title>综测杂谈</title>
-    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
-    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
-<p>希望评上三等奖学金。</p>
-]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>想法</title>
-    <url>/2024/10/31/%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="57a806015f5b59fa4ee4ac1d69965dbca12223568d415b53c5099272938f01ee">4fd4a664b4e2ea93f3dc6fbdf52959d1f7e68301109496bca954d45c11bcc61f12a6c3c11950534687a7128b1ea6509d547d1e6a8c854c35411fec6649864398d87b558d8834812daa95b327948e672a15b16fe01652203a400bd20b43fc0700d2c7438fcf32216dcc7b87286d5b853fdcb7186b9e7762e2bcb07f5040e6782712e0e4c06e022fe72c582ae246087acde6bf1fe6ae1cb48aaad413e35d17d030605db2f90e96dc4167570d8a4cc2826a65de1a2b81209a8bb0c8ae9f77d2c4b95ec2620ce3cfaf76926f611ed0c955c67d235ee98eab2e3f28a28fb7632ae95813b713e6ae9a2b2eb02f6ee155ec9e15c1eb05ce193aa4509b054db20fd1bb07d5ec7d46acba2411817b887d301f1613d6f05811bf2262c68b41d5db52ddf3cbdb139f5996386834748f8f79d35398ce</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>立冬</title>
-    <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
-    <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
-<p>好想放寒假。</p>
-<p>昨天晚上冲澡冲了很长时间，或许是因为很冷吧。</p>
-<p>不知道为什么突然想起了小时候。</p>
-<p>大概下午五六点吧。</p>
-<p>一个人去柳堡镇的澡堂泡澡。</p>
-<p>泡的身上暖暖的</p>
-<p>然后出来穿上厚厚的衣服。</p>
-<p>热气似乎就环绕在我周围</p>
-<p>回家后，可能会在卧室看电视</p>
-<p>逐渐入迷</p>
-<p>回过神来时天已经黑了。</p>
-<p>或者说，变成了深蓝色蔓延到远方。</p>
-<p>一天就这样过去了。</p>
-<p>无忧无虑。</p>
-<p>真怀念，过去。</p>
+    <title>无题</title>
+    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
+    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
+<p>学校发了月饼，中秋节快到了。</p>
+<p>回去吗？</p>
+<p>感觉空荡荡的。</p>
 ]]></content>
       <tags>
         <tag>日志</tag>
@@ -820,6 +825,16 @@
       </tags>
   </entry>
   <entry>
+    <title>综测杂谈</title>
+    <url>/2024/09/24/%E7%BB%BC%E6%B5%8B%E6%9D%82%E8%B0%88/</url>
+    <content><![CDATA[<p>综测83.17，专业排39&#x2F;169</p>
+<p>希望评上三等奖学金。</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>算法与数据结构</title>
     <url>/2024/08/05/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
     <content><![CDATA[<h5 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h5><p>数组结构：常数复杂度:+ - * &#x2F; 位运算（与数据量无关）<br>链表结构：遍历-&gt;O(n)</p>
@@ -889,32 +904,25 @@
       </tags>
   </entry>
   <entry>
-    <title>无题</title>
-    <url>/2024/09/11/%E6%97%A0%E9%A2%98/</url>
-    <content><![CDATA[<p>开学一周，双周课挺少的。</p>
-<p>学校发了月饼，中秋节快到了。</p>
-<p>回去吗？</p>
-<p>感觉空荡荡的。</p>
+    <title>立冬</title>
+    <url>/2024/10/29/%E7%AB%8B%E5%86%AC/</url>
+    <content><![CDATA[<p>后台是万圣节，8天后就是立冬了。</p>
+<p>好想放寒假。</p>
+<p>昨天晚上冲澡冲了很长时间，或许是因为很冷吧。</p>
+<p>不知道为什么突然想起了小时候。</p>
+<p>大概下午五六点吧。</p>
+<p>一个人去柳堡镇的澡堂泡澡。</p>
+<p>泡的身上暖暖的</p>
+<p>然后出来穿上厚厚的衣服。</p>
+<p>热气似乎就环绕在我周围</p>
+<p>回家后，可能会在卧室看电视</p>
+<p>逐渐入迷</p>
+<p>回过神来时天已经黑了。</p>
+<p>或者说，变成了深蓝色蔓延到远方。</p>
+<p>一天就这样过去了。</p>
+<p>无忧无虑。</p>
+<p>真怀念，过去。</p>
 ]]></content>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有感</title>
-    <url>/2024/10/14/%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="543cc8ca36ccf018e782e31d068233f827f4db075afb604730db94262233dbff">4fd4a664b4e2ea93f3dc6fbdf52959d1a0da98192a65b74a6ab59801871092a7a7c0726860edf6583be35564db038af1d6540043f8266c1939d602d4b0effba2e131b6b03bd8a95ff6f9680bfeb3f1311653a78f0345dbba73ec9d46e32b7fb145e4802fd2a2d6843dc14abbd61cfa371a9fd28f0a53c394b9c60e415578aeaebf774a91ceaf8c124309881699e1faf1376db8271bf792504a763914c8b3ddc5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
@@ -931,23 +939,13 @@
       </tags>
   </entry>
   <entry>
-    <title>关于网站建设的一些想法和遇见的问题</title>
-    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
-<p>未来我想实现以下的功能：</p>
-<ol>
-<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
-<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
-<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
-</ol>
-<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
-<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
-<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
-<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
-<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
-</ol>
-<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
-<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
+    <title>规划</title>
+    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
+<p>web前端规划，linux操作系统，</p>
+<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
+<p>天气越来越冷了，是时候拿出我的围巾了。</p>
+]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
@@ -981,13 +979,23 @@
       </tags>
   </entry>
   <entry>
-    <title>规划</title>
-    <url>/2024/10/29/%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>那个python-100days的项目后面就不讲python</p>
-<p>web前端规划，linux操作系统，</p>
-<p>最近事情挺多。还要准备数模竞赛。先告一段落吧。</p>
-<p>天气越来越冷了，是时候拿出我的围巾了。</p>
-]]></content>
+    <title>关于网站建设的一些想法和遇见的问题</title>
+    <url>/2024/08/02/%E7%BE%8E%E5%8C%96%E6%80%9D%E8%B7%AF%E5%92%8C%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h4><p>无数次推翻和重来，下载很多主题包，一个个修改内置参数，乱七八糟的css，js文件看的我头都大了，<br>接下来看能不能设置背景图吧，总感觉有些单调，一些其他功能比如钟表，音乐播放器后续在摸索吧。<br>〒_〒毕竟建站也不容易，与其说这是个技术博客，我更想把自己的一些想法或无聊琐事写下来，<br>或许用来写回忆录也不错。</p>
+<p>未来我想实现以下的功能：</p>
+<ol>
+<li>给我的网页加一个音乐播放器，抄抄代码改改数据，应该不难。</li>
+<li>网页背景与轮播图的实现，有点难，完全没思路，可能还要自己改参数手写代码。</li>
+<li>网页时钟，算是装饰吧，可有可无，看后面规划吧。</li>
+</ol>
+<h4 id="关于待解决网页的访问问题"><a href="#关于待解决网页的访问问题" class="headerlink" title="关于待解决网页的访问问题"></a>关于待解决网页的访问问题</h4><ol>
+<li>是hexo本地部署到github后部分css样式不显示，甚至不加载。<br>我不知道怎么办，以后解决了一定记录下来。</li>
+<li>pc端和移动端看见的网页样式不一样！∑(O_O；) 简直令人费解，明明hexo clean &amp;&amp; g &amp;&amp; d了，理论上来自一个代码仓库怎么可能不一样呢???</li>
+<li>由于Github是国外的，国内有点地方访问不了，加载速度也很慢。考虑到部署到gitee上，结果那个gitee pages功能到现在都没修好，我的评价是gitee就是个垃圾</li>
+<li>目前只是静态网页，一切都已经预加载好了，未来考虑一下买个域名和服务器，学一下后端看看怎么回事吧。不过现在我连冰淇淋都很少买了，还得暑假打工挣点。</li>
+</ol>
+<p>另外：<br>感觉markdown用熟了是真的好！(◍•ᴗ•◍)♡♬</p>
+<h2 id="好的，目前就更新到这边吧。"><a href="#好的，目前就更新到这边吧。" class="headerlink" title="好的，目前就更新到这边吧。"></a>好的，目前就更新到这边吧。</h2>]]></content>
       <tags>
         <tag>日志</tag>
       </tags>
